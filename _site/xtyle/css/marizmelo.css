@@ -1,0 +1,35 @@
+@import "xtyle.css";
+
+a{
+  text-decoration: underline;
+  color: black;
+}
+
+a.btn, a.btn:active{
+  font-weight: bold;
+  text-decoration: none;
+  border: 3px solid black;
+  background: none;
+}
+a.btn:hover{
+  background: black;
+  color: white;
+}
+
+#marizlogo{
+  padding: 10px; background: black; left: -40px; top: -45px;
+}
+#marizlogo div{
+  width: 160px; height: 160px; border: 4px solid white;
+}
+#marizlogo h1{
+  color: white; padding: 22px 31px; font-size: 800%
+}
+
+#marizimage{
+  margin-bottom: 40px;
+}
+
+aside blockquote{
+  margin-top: 30px;
+}
