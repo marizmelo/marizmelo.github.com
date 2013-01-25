@@ -1,7 +1,18 @@
 @import "xtyle.css";
 
+section{
+  margin-top: 0;
+  border-right: none;  
+}
+
+blockquote{
+  border-left: none;
+  padding-left: 0;
+}
+
 a{
   text-decoration: underline;
+  font-weight: bold;
   color: black;
 }
 
@@ -31,5 +42,9 @@ a.btn:hover{
 }
 
 aside blockquote{
+  margin-top: 30px;
+}
+
+aside ul{
   margin-top: 30px;
 }
