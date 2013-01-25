@@ -1,6 +1,5 @@
 /*  MARIZMELO.com JavaScript file */
 define(["jquery"], function($){
-  console.log("marizmelo.js loaded");
 
   // FIRST TIME OPENING PAGE
   $('aside img').load(function(){
