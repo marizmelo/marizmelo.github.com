@@ -3,6 +3,7 @@
 section{
   margin-top: 0;
   border-right: none;  
+  padding: 30px 40px;
 }
 
 blockquote{
@@ -15,16 +16,19 @@ a{
   font-weight: bold;
   color: black;
 }
-
 a.btn, a.btn:active{
   font-weight: bold;
   text-decoration: none;
-  border: 3px solid black;
+  border: 3px solid #e8e8e8;
   background: none;
 }
 a.btn:hover{
-  background: black;
+  background: #0088cc;
+  border-color: #0088cc;
   color: white;
+}
+h1 a{
+  text-decoration: none !important;
 }
 
 #marizlogo{

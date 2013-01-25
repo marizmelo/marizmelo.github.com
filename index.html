@@ -1,73 +1,14 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <title>marizmelo.com</title>
-  <meta charset="utf-8">
-  <meta name="robots" content="all">
-  <meta name="citation_author" content="Author Name">
-  <meta name="description" content="Project Description">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
-  <!-- <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png"> -->
-  <!-- <link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad-precomposed.png"> -->
-  <!-- <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4-precomposed.png"> -->
-  <!-- <link rel="alternate" type="application/rss+xml" title="" href=""> -->
-  <link href="xtyle/img/favicon.ico" rel="icon" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="xtyle/css/marizmelo.css">
-  <script data-main="xtyle/js/main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.1/require.min.js"></script>
-  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-</head>
-<body>
-  <div class="layout-fixed layout-center">
-
-    <aside class="position-fixed border-right" style="top: 0; padding: 50px; padding-top: 60px; height: 100%; width: 180px;">
-
-      <div id="marizlogo" class="position-absolute border-radius-circle user-select-none">
-        <div class = "border-radius-circle">
-          <h1>M</h1>
-        </div>
-      </div>
-      <img id="marizimage" src="http://en.gravatar.com/userimage/35928919/86e0258aa458394c81e4e36cd6fe69f5.jpg?size=170" alt="" class="border-radius-circle user-select-none">
-
-      <h1>Mariz Melo</h1>
-      <h6>Designer & Developer</h6>
-
-      <blockquote>
-        <p>"Stay hungry, stay foolish."</p>
-        <cite>&#8211; Steve Jobs</cite>
-      </blockquote>
-
-      <ul class="reset">
-        <li><a href="http://xchema.com" class="btn border-radius2x">xchema</a></li>
-        <li><a href="http://twitter.com/marizmelo" class="btn border-radius2x">@marizmelo</a></li>
-        <li><a href="http://facebook.com/facemarizmelo" class="btn border-radius2x">facemarizmelo</a></li>
-      </ul>
-
-    </aside>
-
-    <div class="content" style="margin-left: 280px;">
-      
-      <article class="position-relative">
-        
-        <header class="clear-both">
-          <h1 class="nomargin-bottom float-left" style="margin-right: 100px; padding: 30px 40px;">Hello World!</h1>
-          <span class="float-right" style="padding: 35px">Jan 24, 2013</span>
-        </header>
-
-        <section style="padding: 30px 40px">
-          <p>Hello, my name is <strong>Mariz Melo</strong>. I am from Brazil. Currently living in San Jose - California and working in Mountain View. I am trying to get <strong>xchema</strong> up and running for next summer. The name is the same as my previous start up company which I opened in Brazil together with my dear friends <strong>Ricardo Amaral</strong> and <strong>Marcelo Vasconcelos</strong>.</p>
-        
-          <p>This blog is my attempt to keep a diary about projects, knowledge base (I keep forgetting things), and a bookmark for useful discoveries around the web.</p>
-        
-          <p>This blog is powered by <a href="http://jekyllrb.com">Jekyll</a> (on github pages) and <a href="http://xtyle.xchema.com">xtyle</a> (design framework made by <a href="http://xchema.com">xchema</a>).</p>
-        </div>
-
-      </section>
-
-    </div><!-- .content -->
-
-  </div><!-- .layout-fixed -->
-</body>
-</html>
+---
+layout : default
+---
+{% for post in site.posts %}
+<article>
+  <header class="clear-both" style="padding: 30px 40px;">
+    <h1 class="nomargin-bottom"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <span>{{ post.date | date: "%d %B %Y" }}</span>
+  </header>
+  <section class="nomargin">
+    {{ post.content }}
+  </section>
+</article>
+{% endfor %}
