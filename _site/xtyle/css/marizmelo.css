@@ -1,5 +1,9 @@
 @import "xtyle.css";
 
+.content{
+  margin-left: 280px;
+}
+
 article header{
   padding: 30px 40px;
 }
@@ -55,3 +59,8 @@ aside blockquote{
 aside ul{
   margin-top: 30px;
 }
+
+@media screen and (max-width: 540px) {
+  .content{
+    margin-left: 0;
+  }

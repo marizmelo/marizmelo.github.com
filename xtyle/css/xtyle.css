@@ -2662,6 +2662,11 @@ div.resize {
 }
 
 @media screen and (max-width: 540px) {
+
+  aside{ display: none; }
+
+  
+
   html.responsive body {
     font-size: 80%;
   }
