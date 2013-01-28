@@ -92,7 +92,7 @@
 <pre><code>&lt;script data-main=&quot;scripts/main.js&quot; src=&quot;scripts/require.js&quot;&gt;&lt;/script&gt;</code></pre>
 
 <p>You may have noticed the <strong>data-main</strong> attribute on the example above. That defines the location of your configuration file (main.js in this example) and automatically set the <strong>baseUrl</strong>, in this case <strong>scripts/</strong>.</p>
-<alert class='info margin-top margin-bottom'><i class='icon-info'> </i> The <strong>baseUrl</strong> can be changed on the configuration file.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> On the config file by default all dependencies shouldn't contain the trailing ".js" suffix.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> RequireJS load scripts asynchronously and out of order for speed.</alert>
+<alert class='info margin-top margin-bottom'><i class='icon-info'> </i> The <strong>baseUrl</strong> can be changed on the configuration file.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> Dependencies shouldn't contain the trailing ".js" suffix on the config file.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> RequireJS load scripts asynchronously and out of order for speed.</alert>
 <p>Assuming all my scripts are inside the <code>scripts</code> folder, let&#8217;s load some files using RequireJS. The <strong>JQuery</strong> library will be loaded <strong>first</strong> followed by two plugins called <strong>slidejs</strong> and <strong>galleryjs</strong>.</p>
 
 <p>In you <code>main.js</code> write:</p>

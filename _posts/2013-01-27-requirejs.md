@@ -27,7 +27,7 @@ You may have noticed the **data-main** attribute on the example above. That defi
 
 <alert class="info margin-top margin-bottom"><i class="icon-info"> </i> The <strong>baseUrl</strong> can be changed on the configuration file.</alert>
 
-<alert class="warning margin-top margin-bottom"><i class="icon-attention"> </i> On the config file by default all dependencies shouldn't contain the trailing ".js" suffix.</alert>
+<alert class="warning margin-top margin-bottom"><i class="icon-attention"> </i> Dependencies shouldn't contain the trailing ".js" suffix on the config file.</alert>
 
 <alert class="warning margin-top margin-bottom"><i class="icon-attention"> </i> RequireJS load scripts asynchronously and out of order for speed.</alert>
 
