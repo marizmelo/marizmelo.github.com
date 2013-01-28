@@ -11,7 +11,7 @@ There are two common ways to load JavaScript on HTML pages.
 
 The first technique has a serious problem, the browser will wait for all scripts to load before showing content to users.
 
-In the second (better) case the page will be presented to your users before loading any script. This is **unobtrusive**, the JavaScript is not in the way between users and content delivery. Do you want anyone wait for your website to load?
+In the second (better) case the page will be presented to your users before loading any script. This is **unobtrusive**, the JavaScript is not in the way between users and content delivery. Do you want anyone waiting for your website to load?
 
 So what is the problem with the second technique? Well, the first problem is that using <code>script</code> tag your scripts will load **sequentially** increasing the total time for users to see your website.
 
