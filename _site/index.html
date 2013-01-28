@@ -65,13 +65,71 @@
       
 <article>
   <header class="clear-both position-relative">
+    <h1 class="nomargin-bottom"><a href="/2013/01/27/requirejs.html">Boosting your JavaScript loading time with RequireJS</a></h1>
+    <span>27 January 2013</span>
+  </header>
+  <section class="nomargin">
+    <p>There are two commons ways to load JavaScript on HTML pages.</p>
+
+<ol>
+<li>Scripts on the <code>head</code> tag element</li>
+
+<li>Scripts on the bottom of your <code>html</code> page (right before <code>/body</code>) <br /><br /></li>
+</ol>
+
+<p>The first technique has a serious problem, the browser will wait for all scripts to load before show any content to users.</p>
+
+<p>In the second case (better) the page will be presented to your users before load any script. This is <strong>unobtrusive</strong>, the JavaScript is not in the way between users and content delivery. You don&#8217;t want anyone waiting for your website to show, do you?</p>
+
+<p>So what is the problem with the second technique? Well, the first problem is that using <code>script</code> your scripts will load <strong>sequentially</strong> increasing the total time for users to see your website.</p>
+
+<p>A better approach is to load your scripts in <strong>parallel</strong>, but there is one caveat. Scripts most of the time have dependencies and is complicate to manage them loading scripts in parallel. You could come up with your own system to manage dependencies or you could use <strong>Asynchronous Module Definitio (AMD)</strong>.</p>
+
+<p>Using AMD you can load your scripts in parallel while managing their dependencies. So let&#8217;s take a look how to use <strong>Require JS</strong> a popular AMD solution (see the end of this article for other options).</p>
+
+<p>First, let&#8217;s insert RequireJS on the <code>head</code> of our HTML file:</p>
+
+<pre><code>&lt;script data-main=&quot;scripts/main.js&quot; src=&quot;scripts/require.js&quot;&gt;&lt;/script&gt;</code></pre>
+
+<p>You may have noticed the <strong>data-main</strong> attribute on the example above. That defines the location of your configuration (main.js in this example) file and automatically set the <strong>baseUrl</strong>, in this case <strong>scripts/</strong>.</p>
+<alert class='info margin-top margin-bottom'><i class='icon-info'> </i> The <strong>baseUrl</strong> can be changed on the configuration file.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> On the config file by default all dependencies shouldn't contain the trailing ".js" suffix.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> RequireJS load scripts asynchronously and out of order for speed.</alert>
+<p>Assuming all my scripts are inside the <code>scripts</code> folder let&#8217;s load some files using RequireJS. The <strong>JQuery</strong> library will be loaded <strong>first</strong> followed by two plugins called <strong>slidejs</strong> and <strong>galleryjs</strong>.</p>
+
+<p>In you <code>main.js</code> write:</p>
+
+<pre><code>//loading jquery as dependency
+require([&quot;jquery&quot;], function($){
+  // JQuery is ready for use
+  //calling slidejs plugin
+  require([&quot;slidejs&quot;, &quot;galleryjs&quot;], function(){
+    $(&quot;#slideshow&quot;).slidejs();
+    $(&quot;#gallery&quot;).galleryjs();
+  });
+});</code></pre>
+
+<p>Because RequireJS load scripts out of order we have to make sure JQuery is loaded before we load our plugins. The plugins are loaded in <strong>parallel</strong>.</p>
+
+<p>RequireJS is powerful and here I just touch the surface of its real power. Make sure you check the <a href='http://requirejs.org/'>RequireJS website</a> for a complete overview.</p>
+
+<p>Alternative to RequireJS:</p>
+
+<ul>
+<li><a href='http://labjs.com/'>LABjs</a></li>
+
+<li><a href='http://headjs.com/'>HEADjs</a></li>
+</ul>
+  </section>
+</article>
+
+<article>
+  <header class="clear-both position-relative">
     <h1 class="nomargin-bottom"><a href="/2013/01/24/hello.html">Hello World!</a></h1>
     <span>24 January 2013</span>
   </header>
   <section class="nomargin">
     <p>Hello, my name is <strong>Mariz Melo</strong>. I am from Brazil. Currently living in San Jose - California and working in Mountain View. I am trying to get <strong>xchema</strong> up and running for next summer. The name is the same as my previous start up company which I opened in Brazil together with my dear friends <strong>Ricardo Amaral</strong> and <strong>Marcelo Vasconcelos</strong>.</p>
 
-<p>This blog is an attempt to keep a diary about projects, knowledge base (I keep forgetting things), and a bookmark for useful discoveries around the web.</p>
+<p>This blog is an attempt to keep a diary about projects, knowledge base, and a bookmark for useful discoveries around the web.</p>
 
 <p>Tools used to make this blog:</p>
 
