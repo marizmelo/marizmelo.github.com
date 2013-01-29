@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html class="responsive">
+<head>
+  <title> RequireJS - i18n (internationalization) | marizmelo.com</title>
+  <meta charset="utf-8">
+  <meta name="robots" content="all">
+  <meta name="citation_author" content="Mariz Melo">
+  <meta name="description" content="Personal website of Mariz Melo built with xtyle web framework.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+  <!-- <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad-precomposed.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4-precomposed.png"> -->
+  <!-- <link rel="alternate" type="application/rss+xml" title="" href=""> -->
+  <link href="/xtyle/img/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/xtyle/css/marizmelo.css">
+  <script data-main="/xtyle/js/main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.1/require.min.js"></script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!-- GOOGLE ANALYTICS -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37987984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <!-- GOOGLE ANALYTICS : END -->
+</head>
+<body>
+  
+  <div class="layout-fixed layout-center">
+
+    <aside class="position-fixed border-right" style="top: 0; padding: 50px; height: 100%; width: 180px;">
+
+      <div id="marizlogo" class="position-absolute border-radius-circle user-select-none">
+        <div class = "border-radius-circle">
+          <h1>M</h1>
+        </div>
+      </div>
+      <img id="marizimage" src="http://en.gravatar.com/userimage/35928919/86e0258aa458394c81e4e36cd6fe69f5.jpg?size=170" alt="" class="border-radius-circle user-select-none">
+
+      <h1>Mariz Melo</h1>
+      <h6>Designer & Developer</h6>
+
+      <blockquote>
+        <p>"Stay hungry, stay foolish."</p>
+        <cite>&#8211; Steve Jobs</cite>
+      </blockquote>
+
+      <ul class="reset">
+        <li><a href="http://xchema.com" class="btn border-radius2x">xchema</a></li>
+        <li><a href="http://github.com/marizmelo" class="btn border-radius2x">GitHub</a></li>
+      </ul>
+
+    </aside>
+
+    <div class="content">
+      
+      <article>
+  <header class="clear-both position-relative">
+    <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
+    <h1 class="nomargin-bottom">RequireJS - i18n (internationalization)</h1>
+    <span>28 January 2013</span>
+  </header>
+  <section class="nomargin">
+    <p>We talk about how to include RequireJS for your project last time. Today I will show you how you can prepare your application for multi-language. RequireJS provide a useful set of plug-ins, see complete list <a href='https://github.com/jrburke/requirejs/wiki/Plugins'>here</a>.</p>
+
+<p>The plug-in which we are going to use today is called <a href='http://requirejs.org/docs/api.html#i18n'>i18n</a> and its used for <a href='http://en.wikipedia.org/wiki/Internationalization_and_localization'>internationalization</a> of content based on you browser main language. <a href='https://raw.github.com/requirejs/i18n/latest/i18n.js'>Download the plugin here</a> and place the file on your script directory define on your <strong>data-main</strong> attribute (on your script tag).</p>
+
+<p>I will be using the same example found on RequireJS official website, with some changes.</p>
+
+<ol>
+<li>
+<p>Create an <code>index.html</code> file with RequireJS on your <code>HEAD</code> tag element:</p>
+
+<pre><code> &lt;!DOCTYPE HTML&gt;
+ &lt;html&gt;
+ &lt;head&gt;
+   &lt;title&gt;Hello World&lt;/title&gt;
+   &lt;script data-main=&quot;scripts/main.js&quot; src=&quot;scripts/require.js&quot;&gt;
+ &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+   &lt;header&gt;&lt;/header&gt;
+ &lt;/body&gt;
+ &lt;/html&gt;</code></pre>
+</li>
+
+<li>
+<p>Place the <code>i18n.js</code> file into the <strong>scripts</strong> directory (if you hadn&#8217;t yet).</p>
+</li>
+
+<li>
+<p>Create a directory called <code>nls</code> inside of your <strong>scripts</strong> folder.</p>
+</li>
+
+<li>
+<p>Create another folder called <code>pt-br</code> (Brazilian Portuguese language) inside of <strong>scripts/nls</strong>.</p>
+</li>
+
+<li>
+<p>Create a new file called <code>languages.js</code> and place it inside of the <strong>scripts/nls</strong> directory. Here is the content of this file:</p>
+
+<pre><code> define({
+   &quot;root&quot; : {
+   &quot;header&quot; : &quot;I speak English&quot;
+   },
+   &quot;pt-br&quot; : true // The system will accept Brazilian Portuguese
+ });</code></pre>
+</li>
+
+<li>
+<p>Create a file with the same name (languages.js) inside of <strong>scripts/nls/pt-br</strong>. Here is the content for this new file:</p>
+
+<pre><code> define({
+   &quot;header&quot; : &quot;Eu falo Portugues do Brasil&quot;
+ });</code></pre>
+</li>
+
+<li>
+<p>Download JQuery and place into your <strong>scripts</strong> folder</p>
+</li>
+
+<li>
+<p>Define your <code>main.js</code> in your <strong>scripts</strong> folder with the following content:</p>
+
+<pre><code> define([&#39;jquery&#39;, &quot;i18n!nls/speak&quot;], function($, speak) {
+   $(&quot;header h1&quot;).html(speak.header);
+ });</code></pre>
+</li>
+</ol>
+
+<p>If you load this project on your browser you should see <strong>&#8220;I speak English&#8221;</strong>.</p>
+
+<p>Now what?</p>
+
+<p>Well <strong>i18n</strong> is smart and will change the language automatically for you if your browser accepts Brazilian Portuguese. You can set manually the language which you want to use (good to test if everything is working properly).</p>
+
+<p>Open <code>main.js</code> and include the following code on TOP of the file:</p>
+
+<pre><code>require.config({
+  locale: &quot;pt-br&quot;
+});
+...</code></pre>
+
+<p>Reload your browser (clean cache is better) and you should see the message <strong>&#8220;Eu falo Portugues do Brasil&#8221;</strong>.</p>
+  </section>
+</article>
+
+    </div><!-- .content -->
+  </div><!-- .layout-fixed -->
+
+</body>
+</html>
