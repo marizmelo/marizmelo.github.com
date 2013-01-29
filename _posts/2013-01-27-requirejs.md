@@ -2,6 +2,7 @@
 layout: article
 title: "Boosting your JavaScript loading time with RequireJS"
 date: 2013-01-27 22:23:00
+tags: [ 'requirejs', 'jquery' ]
 ---
 There are two common ways to load JavaScript on HTML pages. 
 
@@ -53,3 +54,5 @@ Alternatives to RequireJS:
 
 * [LABjs](http://labjs.com/)
 * [HEADjs](http://headjs.com/)
+
+<br>

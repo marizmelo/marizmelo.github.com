@@ -9,6 +9,13 @@ layout : default
   </header>
   <section class="nomargin">
     {{ post.content }}
+
+    <ul class="inline margin-top">
+    {% for tag in post.tags %}
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> {{ tag }}</alert></li>
+    {% endfor %}
+    </ul>
+    <br>
   </section>
 </article>
 {% endfor %}

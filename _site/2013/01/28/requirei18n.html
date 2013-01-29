@@ -69,11 +69,9 @@
     <span>28 January 2013</span>
   </header>
   <section class="nomargin">
-    <p>Last time we talk about RequireJS and how it can be load JavaScript files faster. But there is much more that this little library can do. Today I will show you how to make your applications available in multi-languages. RequireJS provide an useful set of plug-ins, see complete list <a href='https://github.com/jrburke/requirejs/wiki/Plugins'>here</a>.</p>
+    <p>Last time we talked about RequireJS and how it can load JavaScript files faster and in parallel. But there is much more that this little library can do. Today I will show you how to make your applications available in multiple languages. RequireJS provides an useful set of plug-ins (see complete list <a href='https://github.com/jrburke/requirejs/wiki/Plugins'>here</a>) that can help with different tasks.</p>
 
-<p>The plug-in which we are going to use today is called <a href='http://requirejs.org/docs/api.html#i18n'>i18n</a> and its used for <a href='http://en.wikipedia.org/wiki/Internationalization_and_localization'>internationalization</a> of content based on you browser main language. <a href='https://raw.github.com/requirejs/i18n/latest/i18n.js'>Download the plugin here</a> and place the file on your script directory define on your <strong>data-main</strong> attribute (on your script tag).</p>
-
-<p>I will be using the same example found on RequireJS official website, with some changes.</p>
+<p>The plug-in which we are going to use today is called <a href='http://requirejs.org/docs/api.html#i18n'>i18n</a> and its used for <a href='http://en.wikipedia.org/wiki/Internationalization_and_localization'>internationalization</a> of content based on you browser main language. <a href='https://raw.github.com/requirejs/i18n/latest/i18n.js'>Download the plugin here</a> and place the file on your script directory defined on your <strong>data-main</strong> attribute (on your script tag).</p>
 
 <ol>
 <li>
@@ -93,11 +91,7 @@
 </li>
 
 <li>
-<p>Place the <code>i18n.js</code> file into the <strong>scripts</strong> directory (if you hadn&#8217;t yet).</p>
-</li>
-
-<li>
-<p>Create a directory called <code>nls</code> inside of your <strong>scripts</strong> folder.</p>
+<p>Place the <code>i18n.js</code> file into the <strong>scripts</strong> folder.</p>
 </li>
 
 <li>
@@ -105,7 +99,7 @@
 </li>
 
 <li>
-<p>Create a new file called <code>speak.js</code> and place it inside of the <strong>scripts/nls</strong> directory. Here is the content of this file:</p>
+<p>Create a new file called <code>speak.js</code> inside of the <strong>scripts/nls</strong> directory. <h6>scripts/nls/speak.js</h6></p>
 
 <pre><code> define({
    &quot;root&quot; : {
@@ -116,7 +110,11 @@
 </li>
 
 <li>
-<p>Create a file with the same name (speak.js) inside of <strong>scripts/nls/pt-br</strong>. Here is the content for this new file:</p>
+<p>Create a directory called <code>nls</code> inside of your <strong>scripts</strong> folder.</p>
+</li>
+
+<li>
+<p>Create another file with the name <code>speak.js</code> inside of <strong>scripts/nls/pt-br</strong>. <h6>scripts/nls/pt-br/speak.js</h6></p>
 
 <pre><code> define({
    &quot;header&quot; : &quot;Eu falo Portugues do Brasil&quot;
@@ -124,11 +122,11 @@
 </li>
 
 <li>
-<p>Download JQuery and place into your <strong>scripts</strong> folder</p>
+<p>Download <a href='http://jquery.com'>JQuery</a> and place it inside your <strong>scripts</strong> folder</p>
 </li>
 
 <li>
-<p>Define your <code>main.js</code> in your <strong>scripts</strong> folder with the following content:</p>
+<p>Define your <code>main.js</code> in your <strong>scripts</strong> folder with the following content: <h6>scripts/jquery.js</h6></p>
 
 <pre><code> define([&#39;jquery&#39;, &quot;i18n!nls/speak&quot;], function($, speak) {
    $(&quot;header h1&quot;).html(speak.header);
@@ -149,9 +147,20 @@
 });
 ...</code></pre>
 
-<p>Reload your browser (cleaning if necessary) and you should see the message <strong>&#8220;Eu falo Portugues do Brasil&#8221;</strong>.</p>
+<p>Reload your browser (cleaning cache if necessary) and you should see the message <strong>&#8220;Eu falo Portugues do Brasil&#8221;</strong>.</p>
 
 <p>Get the source files: <a href='https://compilr.com/jmarizsf/requirejs-i18n'>https://compilr.com/jmarizsf/requirejs-i18n</a>.</p>
+    
+    <ul class="inline margin-top">
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> requirejs</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> i18n</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> internationalization</alert></li>
+    
+    </ul>
+    <br>
   </section>
 </article>
 
