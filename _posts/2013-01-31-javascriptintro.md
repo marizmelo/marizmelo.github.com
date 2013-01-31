@@ -38,7 +38,7 @@ There is a notable bug while multiplying decimals in JavaScript. You need to mul
 
 
 #####Null vs Undefined
-Another major point of confusion on JavaScript. A variable is **undefined** means the variable was declared but do not contain any value. A variable is **null** means the variable was declared and had its value set to null.
+Another major point of confusion on JavaScript. A **undefined** variable it means that the variable was declared but do not contain any value. A variable is **null** when the variable it was declared and had its value set to null.
 
     var myvar;
     > undefined
