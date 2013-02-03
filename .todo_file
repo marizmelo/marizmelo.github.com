@@ -1,4 +1,6 @@
-+ fix for i18n article
++ article - function expressions goo.gl/Y6PVP
++ article - functions
 + add comment component disquss
-+ make responsive
-+ make dynamic pages with jekyll
+- fix for i18n article
+- make responsive
+- make dynamic pages with jekyll
