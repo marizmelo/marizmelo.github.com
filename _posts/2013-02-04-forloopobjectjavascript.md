@@ -11,13 +11,13 @@ Let's create an Object called **Person** in JavaScript.
     var Person = { name : "Anonymous", age : null };
 
     // Functions way
-
     function Person() {
       this.name = "Anonymous";
       this.age = null;
     }
 
-<alert class="margin-bottom"><i class="icon-attention"> </i> Both ways are valid</alert>
+
+<alert class="margin-bottom"><i class="icon-attention"> </i> Both ways are correct and valid</alert>
 
 Let's create one **instance** of our object Person. In this case I will create an instance called **Mariz** (my name).
 
