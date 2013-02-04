@@ -17,7 +17,7 @@ Let's create an Object called **Person** in JavaScript.
       this.age = null;
     }
 
-<alert><i class="icon-attention"> </i> Both ways are valid</alert>
+<alert class="margin-bottom"><i class="icon-attention"> </i> Both ways are valid</alert>
 
 Let's create one **instance** of our object Person. In this case I will create an instance called **Mariz** (my name).
 
