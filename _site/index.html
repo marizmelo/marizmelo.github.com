@@ -65,6 +65,62 @@
       
 <article>
   <header class="clear-both position-relative">
+    <h1 class="nomargin-bottom"><a href="/2013/02/03/forloopobjectjavascript.html">JavaScript OOP - Objects attributes and values</a></h1>
+    <span>03 February 2013</span>
+    <br><br>
+    <ul class="inline margin-top">
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
+    
+    </ul>
+  </header>
+  <section class="nomargin">
+    <p>Let&#8217;s create an Object called <strong>Person</strong> in JavaScript.</p>
+
+<pre><code>// Object Literals way
+var Person = { name : &quot;Anonymous&quot;, age : null };
+
+// Functions way
+
+function Person() {
+  this.name = &quot;Anonymous&quot;;
+  this.age = null;
+}</code></pre>
+<alert><i class='icon-attention'> </i> Both ways are valid</alert>
+<p>Let&#8217;s create one <strong>instance</strong> of our object Person. In this case I will create an instance called <strong>Mariz</strong> (my name).</p>
+
+<pre><code>// Object Literals way
+var Mariz = Person;
+
+// Functions way
+
+var Mariz = new Person();</code></pre>
+
+<p>Adding values to our new object instance:</p>
+
+<pre><code>// Object Literals and Functions
+Mariz.name = &quot;Mariz Melo&quot;;
+Mariz.age = 31;</code></pre>
+
+<p>Now here is how you loop over all attributes and return their values:</p>
+
+<pre><code>for( prop in Mariz ) {
+  console.log( prop + &quot; : &quot; + Mariz[ prop ] );
+}
+
+// Output
+&gt; name : Mariz Melo
+&gt; age : 31</code></pre>
+
+<p>That&#8217;s a wrap.</p>
+    <br>
+  </section>
+</article>
+
+<article>
+  <header class="clear-both position-relative">
     <h1 class="nomargin-bottom"><a href="/2013/01/30/javascriptintro.html">JavaScript Basics - Primitive Types</a></h1>
     <span>30 January 2013</span>
     <br><br>
