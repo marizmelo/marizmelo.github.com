@@ -27,7 +27,7 @@ Recently I tried to attach some CSS classes as function names in JavaScript and 
         alert("display none don't work");
     }
 
-Of course I could use something like **replace** and change "-" into "_", but I wanted to keep consistency across the system, so I come up with the following solution:
+Of course I could use something like **replace** and convert "-" into "_", but I wanted to keep consistency across the system, so I come up with the following solution:
 
     // valid
     var css = {
