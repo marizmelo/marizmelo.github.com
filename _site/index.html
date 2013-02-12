@@ -65,6 +65,108 @@
       
 <article>
   <header class="clear-both position-relative">
+    <h1 class="nomargin-bottom"><a href="/2013/02/11/checkproperty.html">JavaScript - check your properties</a></h1>
+    <span>11 February 2013</span>
+    <br><br>
+    <ul class="inline margin-top">
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
+    
+    </ul>
+  </header>
+  <section class="nomargin">
+    <p>Sometimes you need to check if an Object has certain property. JavaScript provide two different methods for this. Let&#8217;s start by creating a new Object called <strong>Person</strong>.</p>
+
+<pre><code>var Person = {
+  name : &quot;Mariz&quot;,
+  age : 31
+}</code></pre>
+
+<p>Now let&#8217;s take a look on that methods which I mentioned before.</p>
+
+<p><strong>hasOwnProperty</strong></p>
+
+<pre><code>console.log( Person.hasOwnProperty (&quot;name&quot;) );
+&gt; true</code></pre>
+
+<p><strong>in</strong></p>
+
+<pre><code>console.log( &quot;name&quot; in Person );
+&gt; true</code></pre>
+
+<p>You can also list all properties of your Objects using the method <strong>keys</strong>.</p>
+
+<pre><code>console.log( Object.keys (Person) );
+&gt; [ &quot;name&quot;, &quot;age&quot; ]</code></pre>
+
+<p>That is it, simple and easy.</p>
+    <br>
+  </section>
+</article>
+
+<article>
+  <header class="clear-both position-relative">
+    <h1 class="nomargin-bottom"><a href="/2013/02/05/javascriptfunctionnames.html">JavaScript Functions - Names</a></h1>
+    <span>05 February 2013</span>
+    <br><br>
+    <ul class="inline margin-top">
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Functions</alert></li>
+    
+    </ul>
+  </header>
+  <section class="nomargin">
+    <p>Function names in JavaScript can be trick. Consider the following function:</p>
+
+<pre><code>function name(){
+    alert(&quot;Mariz Melo&quot;);
+}</code></pre>
+
+<p>There is nothing wrong with this function, in fact is a perfectly fine function in JavaScript. The problem is JavaScript has some rules for function names. You are not allowed to start the name with numbers or special characters (other than underscore and dollar sign).</p>
+
+<pre><code>function $() {
+    alert(&quot;dollar sign&quot;);
+}
+
+function _() {
+    alert (&quot;underscore&quot;);
+}</code></pre>
+
+<p>Recently I tried to attach some CSS classes as function names in JavaScript and got an error because some of my class names are using &#8220;-&#8221; to separate names. See an example:</p>
+
+<pre><code>// invalid
+function display-none(){
+    alert(&quot;display none don&#39;t work&quot;);
+}</code></pre>
+
+<p>Of course I could use something like <strong>replace</strong> and convert &#8220;-&#8221; into &#8220;_&#8221;, but I wanted to keep consistency across the system, so I come up with the following solution:</p>
+
+<pre><code>// valid
+var css = {
+    &quot;display-none&quot; : function(){
+        alert(&quot;display none&quot;);
+    }
+}</code></pre>
+
+<p>I just used an Object as wrapper to all my functions, and doing so I kept all functions more organized.</p>
+
+<p>Calling my function <strong>display-none</strong>:</p>
+
+<pre><code>css[&quot;display-none&quot;](); // valid call</code></pre>
+
+<p>Happy hacking!</p>
+    <br>
+  </section>
+</article>
+
+<article>
+  <header class="clear-both position-relative">
     <h1 class="nomargin-bottom"><a href="/2013/02/03/forloopobjectjavascript.html">JavaScript OOP - Objects attributes and values</a></h1>
     <span>03 February 2013</span>
     <br><br>
