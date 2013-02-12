@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html class="responsive">
+<head>
+  <title> JavaScript - check your properties | marizmelo.com</title>
+  <meta charset="utf-8">
+  <meta name="robots" content="all">
+  <meta name="citation_author" content="Mariz Melo">
+  <meta name="description" content="Personal website of Mariz Melo built with xtyle web framework.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+  <!-- <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad-precomposed.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4-precomposed.png"> -->
+  <!-- <link rel="alternate" type="application/rss+xml" title="" href=""> -->
+  <link href="/xtyle/img/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/xtyle/css/marizmelo.css">
+  <script data-main="/xtyle/js/main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.1/require.min.js"></script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!-- GOOGLE ANALYTICS -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37987984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <!-- GOOGLE ANALYTICS : END -->
+</head>
+<body>
+  
+  <div class="layout-fixed layout-center">
+
+    <aside class="position-fixed border-right" style="top: 0; padding: 50px; height: 100%; width: 180px;">
+
+      <div id="marizlogo" class="position-absolute border-radius-circle user-select-none">
+        <div class = "border-radius-circle">
+          <h1>M</h1>
+        </div>
+      </div>
+      <img id="marizimage" src="http://en.gravatar.com/userimage/35928919/86e0258aa458394c81e4e36cd6fe69f5.jpg?size=170" alt="" class="border-radius-circle user-select-none">
+
+      <h1>Mariz Melo</h1>
+      <h6>Designer & Developer</h6>
+
+      <blockquote>
+        <p>"Stay hungry, stay foolish."</p>
+        <cite>&#8211; Steve Jobs</cite>
+      </blockquote>
+
+      <ul class="reset">
+        <li><a href="http://xchema.com" class="btn border-radius2x">xchema</a></li>
+        <li><a href="http://github.com/marizmelo" class="btn border-radius2x">GitHub</a></li>
+      </ul>
+
+    </aside>
+
+    <div class="content">
+      
+      <article>
+  <header class="clear-both position-relative">
+    <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
+    <h1 class="nomargin-bottom">JavaScript - check your properties</h1>
+    <span>11 February 2013</span>
+    <br><br>
+    <ul class="inline margin-top">
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
+    
+    </ul>
+  </header>
+  <section class="nomargin">
+    <p>Sometimes you need to check if an Object has certain property. JavaScript provide two different methods for this. Let&#8217;s start by creating a new Object called <strong>Person</strong>.</p>
+
+<pre><code>var Person = {
+  name : &quot;Mariz&quot;,
+  age : 31
+}</code></pre>
+
+<p>Now let&#8217;s take a look on that methods which I mentioned before.</p>
+
+<p><strong>hasOwnProperty</strong></p>
+
+<pre><code>console.log( Person.hasOwnProperty (&quot;name&quot;) );
+&gt; true</code></pre>
+
+<p><strong>in</strong></p>
+
+<pre><code>console.log( &quot;name&quot; in Person );
+&gt; true</code></pre>
+
+<p>You can also list all properties of your Objects using the method <strong>keys</strong>.</p>
+
+<pre><code>console.log( Object.keys (Person) );
+&gt; [ &quot;name&quot;, &quot;age&quot; ]</code></pre>
+
+<p>That is it, simple and easy.</p>
+    <br>
+  </section>
+</article>
+
+    </div><!-- .content -->
+  </div><!-- .layout-fixed -->
+
+</body>
+</html>
