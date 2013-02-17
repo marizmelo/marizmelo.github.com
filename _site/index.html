@@ -65,6 +65,39 @@
       
 <article>
   <header class="clear-both position-relative">
+    <h1 class="nomargin-bottom"><a href="/2013/02/15/dontmisssudo.html">Are you missing "sudo" on commands in terminal? Don't worry.</a></h1>
+    <span>15 February 2013</span>
+    <br><br>
+    <ul class="inline margin-top">
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> UNIX</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Linux</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Terminal</alert></li>
+    
+    </ul>
+  </header>
+  <section class="nomargin">
+    <p>Sometimes you are in your terminal and need to type a command that requires you to have root powers. Well I don&#8217;t know you, but I sometimes forget to put sudo in front of those commands. Look at this example:</p>
+
+<pre><code>$ rm somefile
+rm: somenewfile: Permission denied</code></pre>
+
+<p>I have some options here. I could retype the entire command or use arrow up and go to the beginning of the line adding &#8220;sudo&#8221; to it. But a better way to fix my mistake is using the operator &#8220;!!&#8221;. Like this:</p>
+
+<pre><code>$ rm somefile
+rm: somenewfile: Permission denied
+$ sudo !!
+$ sudo rm newfile </code></pre>
+
+<p>Amazing, your file &#8220;newfile&#8221; is now removed. Enjoy.</p>
+    <br>
+  </section>
+</article>
+
+<article>
+  <header class="clear-both position-relative">
     <h1 class="nomargin-bottom"><a href="/2013/02/11/checkproperty.html">JavaScript - check your properties</a></h1>
     <span>11 February 2013</span>
     <br><br>
