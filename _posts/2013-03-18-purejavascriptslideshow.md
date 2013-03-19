@@ -6,7 +6,7 @@ tags: [ 'JavaScript' ]
 ---
 I have decided to go back in time and learn pure JavaScript again. I was becoming too dependent of libraries like jQuery and that is never good. Is a good practice and as a result I came up today with this simple SlideShow made completely in JavaScript. 
 
-Let's look at the commented code:
+Final result:
 
 **index.html**
 
@@ -37,21 +37,63 @@ Let's look at the commented code:
 
 **jslide.js**
 
-    // variables
-    var current = 0 // current slide position
-    var element = document.getElementById("jslide"); // cache slideShow div wrapper
-    var slides = element.getElementsByTagName("img"); // cache location for slide images
-    var size = slides.length; // count number of slides
-    var start = setInterval(function(){jslide();}, 3000); // loop over slideShow every 3 seconds
+    var current = 0;
+    var element = document.getElementById("jslide");
+    var slides = element.getElementsByTagName("img");
+    var size = slides.length;
+    var start = setInterval(function(){jslide();}, 3000);
 
-    // JSlide slideShow function
     function jslide(){
-      if ( current != size - 1 ) { // check if current is the last slide
+      if ( current != size - 1 ) { 
         slides[ current ].style.display = "none";
-      } else { // if is the last slide restart slideShow
-        current = 0; // set current to first slide
+      } else {
+        current = 0;
         for ( var i = 0; i < size; ++i ) {
-          slides[i].style.display = "block"; // reset display style
+          slides[i].style.display = "block"; 
         }
       }
-    }// jslide()
+    }
+
+
+Now let's take a look over the commented source code:
+
+**Variables**
+
+    // current slide position  
+    var current = 0; 
+
+    // cache slideShow div wrapper
+    var element = document.getElementById("jslide");
+
+    // cache location for slide images
+    var slides = element.getElementsByTagName("img");
+
+    // count number of slides
+    var size = slides.length;
+
+    // loop over slideShow every 3 seconds
+    var start = setInterval(function(){jslide();}, 3000);
+
+
+**JSlide slideShow function**
+
+    function jslide(){
+
+      if ( current != size - 1 ) { 
+        
+        // check if current is the last slide
+        slides[ current ].style.display = "none";
+
+      } else { 
+
+        // if is the last slide restart slideShow
+        current = 0; // set current to first slide
+
+        for ( var i = 0; i < size; ++i ) {
+
+          // reset display style
+          slides[i].style.display = "block"; 
+
+        }
+      }
+    }// jslide()    
