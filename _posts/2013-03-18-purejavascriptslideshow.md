@@ -4,7 +4,7 @@ title: "Pure JavaScript SlideShow"
 date: 2013-03-18 23:40:45
 tags: [ 'JavaScript' ]
 ---
-I have decided to go back in time and learn pure JavaScript again. I was becoming too dependent of libraries like jQuery and that is never good. Is a good practice and as a result I came up today with this simple SlideShow made completely in JavaScript. 
+I have decided to go back in time and learn pure JavaScript again. I was becoming too dependent of libraries like jQuery and that is never good. It is a good exercise and as a result I came up today with this simple SlideShow made completely in JavaScript. 
 
 Final result:
 
