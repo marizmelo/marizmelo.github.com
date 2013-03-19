@@ -59,19 +59,19 @@ Now let's take a look over the commented source code:
 
 **Variables**
 
-    **// current slide position**
+    // CURRENT SLIDE POSITION
     var current = 0; 
 
-    **// cache slideShow div wrapper**
+    // CACHE SLIDESHOW DIV WRAPPER
     var element = document.getElementById("jslide");
 
-    **// cache location for slide images**
+    // CACHE SLIDESHOW IMAGES
     var slides = element.getElementsByTagName("img");
 
-    **// count number of slides**
+    // COUNT NUMBER OF SLIDES
     var size = slides.length;
 
-    **// loop over slideShow every 3 seconds**
+    // LOOP OVER SLIDESHOW EVERY 3 SECONDS
     var start = setInterval(function(){jslide();}, 3000);
 
 
@@ -81,17 +81,18 @@ Now let's take a look over the commented source code:
 
       if ( current != size - 1 ) { 
         
-        **// check if current is the last slide**
+        // CHECK IF CURRENT SLIDE IS THE LAST SLIDE
         slides[ current ].style.display = "none";
 
       } else { 
 
-        **// if is the last slide restart slideShow**
-        current = 0; **// reset current variable**
+        // IF IS THE LAST SLIDE RESTART SLIDESHOW
+
+        current = 0; // RESET "CURRENT" VARIABLE
 
         for ( var i = 0; i < size; ++i ) {
 
-          **// reset display style**
+          // RESET DISPLAY STYLE
           slides[i].style.display = "block"; 
 
         }
