@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html class="responsive">
 <head>
-  <title> JavaScript Functions - Names | marizmelo.com</title>
+  <title> Pure JavaScript SlideShow | marizmelo.com</title>
   <meta charset="utf-8">
   <meta name="robots" content="all">
   <meta name="citation_author" content="Mariz Melo">
@@ -65,59 +65,107 @@
       <article>
   <header class="clear-both position-relative">
     <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
-    <h1 class="nomargin-bottom">JavaScript Functions - Names</h1>
-    <span>05 February 2013</span>
+    <h1 class="nomargin-bottom">Pure JavaScript SlideShow</h1>
+    <span>18 March 2013</span>
     <br><br>
     <ul class="inline margin-top">
     
     <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Functions</alert></li>
-    
     </ul>
   </header>
   <section class="nomargin">
-    <p>Function names in JavaScript can be trick. Consider the following function:</p>
+    <p>I have decided to go back in time and learn pure JavaScript again. I was becoming too dependent of libraries like jQuery and that is never good. It is a good exercise and as a result I came up today with this simple SlideShow made completely in JavaScript.</p>
 
-<pre><code>function name(){
-    alert(&quot;Mariz Melo&quot;);
-}</code></pre>
+<p>Final result:</p>
 
-<p>There is nothing wrong with this function, in fact is a perfectly fine function in JavaScript. The problem is JavaScript has some rules for function names. You are not allowed to start the name with numbers or special characters (other than underscore and dollar sign).</p>
+<p><strong>index.html</strong></p>
 
-<pre><code>function $() {
-    alert(&quot;dollar sign&quot;);
-}
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Pure JavaScript SlideShow&lt;/title&gt;
+    &lt;!-- STYLES --&gt;
+    &lt;style&gt;
+      .jslide { width: 350px; height: 350px; overflow: hidden; }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
 
-function _() {
-    alert (&quot;underscore&quot;);
-}</code></pre>
+    &lt;div id=&quot;jslide&quot;&gt;
+      &lt;img src=&quot;http://placehold.it/350&amp;text=01&quot;&gt;
+      &lt;img src=&quot;http://placehold.it/350&amp;text=02&quot;&gt;
+      &lt;img src=&quot;http://placehold.it/350&amp;text=03&quot;&gt;
+      &lt;img src=&quot;http://placehold.it/350&amp;text=04&quot;&gt;
+      &lt;img src=&quot;http://placehold.it/350&amp;text=05&quot;&gt;
+    &lt;/div&gt;
 
-<p>Recently I tried to attach some CSS classes as function names in JavaScript and got an error because some of my class names are using &#8220;-&#8221; to separate names. See an example:</p>
+    &lt;!-- SCRIPTS --&gt;
+    &lt;script src=&quot;JSlide.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
 
-<pre><code>// invalid
-function display-none(){
-    alert(&quot;display none don&#39;t work&quot;);
-}</code></pre>
+<p><strong>jslide.js</strong></p>
 
-<p>Of course I could use something like <strong>replace</strong> and convert &#8220;-&#8221; into &#8220;_&#8221;, but I wanted to keep consistency across the system, so I come up with the following solution:</p>
+<pre><code>var current = 0;
+var element = document.getElementById(&quot;jslide&quot;);
+var slides = element.getElementsByTagName(&quot;img&quot;);
+var size = slides.length;
+var start = setInterval(function(){jslide();}, 3000);
 
-<pre><code>// valid
-var css = {
-    &quot;display-none&quot; : function(){
-        alert(&quot;display none&quot;);
+function jslide(){
+  if ( current != size - 1 ) { 
+    slides[ current ].style.display = &quot;none&quot;;
+  } else {
+    current = 0;
+    for ( var i = 0; i &lt; size; ++i ) {
+      slides[i].style.display = &quot;block&quot;; 
     }
+  }
 }</code></pre>
 
-<p>I just used an Object as wrapper to all my functions, and doing so I kept all functions more organized.</p>
+<p>Now let&#8217;s take a look over the commented source code:</p>
 
-<p>Calling my function <strong>display-none</strong>:</p>
+<p><strong>Variables</strong></p>
 
-<pre><code>css[&quot;display-none&quot;](); // valid call</code></pre>
+<pre><code>// CURRENT SLIDE POSITION
+var current = 0; 
 
-<p>Happy hacking!</p>
+// CACHE SLIDESHOW DIV WRAPPER
+var element = document.getElementById(&quot;jslide&quot;);
+
+// CACHE SLIDESHOW IMAGES
+var slides = element.getElementsByTagName(&quot;img&quot;);
+
+// COUNT NUMBER OF SLIDES
+var size = slides.length;
+
+// LOOP OVER SLIDESHOW EVERY 3 SECONDS
+var start = setInterval(function(){jslide();}, 3000);</code></pre>
+
+<p><strong>JSlide slideShow function</strong></p>
+
+<pre><code>function jslide(){
+
+  if ( current != size - 1 ) { 
+    
+    // CHECK IF CURRENT SLIDE IS THE LAST SLIDE
+    slides[ current ].style.display = &quot;none&quot;;
+
+  } else { 
+
+    // IF IS THE LAST SLIDE RESTART SLIDESHOW
+
+    current = 0; // RESET &quot;CURRENT&quot; VARIABLE
+
+    for ( var i = 0; i &lt; size; ++i ) {
+
+      // RESET DISPLAY STYLE
+      slides[i].style.display = &quot;block&quot;; 
+
+    }
+  }
+}// jslide()    </code></pre>
     <br>
   </section>
 </article>
