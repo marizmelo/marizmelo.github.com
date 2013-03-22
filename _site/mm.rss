@@ -4,13 +4,47 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-03-19T18:38:18-07:00</updated>
+  <updated>2013-03-22T03:04:51-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
   </author>
   <rights>Copyright (c) 2013, Mariz Melo; all rights reserved.</rights>
   
+  
+  <entry>
+    <title>JavaScript - painless decimal multiplication</title>
+    <link href="http://marizmelo.com/2013/03/21/painlessjavascriptdecimalmultiplication.html"/>
+    <updated>2013-03-21T20:00:45-07:00</updated>
+    <id>http://marizmelo.com/2013/03/21/painlessjavascriptdecimalmultiplication</id>
+    <content type="html">&lt;p&gt;JavaScript has a problem when multiplying decimals, try yourself:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;0.1 * 0.2
+&amp;gt; 0.020000000000000004 // NodeJS 0.8&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The way to correct this is to multiply the decimals before multiple their values, try yourself:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;( 0.1 * 10 + 0.2 * 10 ) / 10
+&amp;gt; 0.3&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can create a function for this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function multdec ( val1, val2 ) {
+    return ( val1 * 10 + val2 * 10 ) / 10;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can extend the Math object:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Math.multdec = function ( val1, val2 ) {
+    return ( val1 * 10 + val2 * 10 ) / 10;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can call this operation in two ways:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;multdec( val1, val2 );  // 0.3
+// or
+Math.multdec ( val1, val2 );  // 0.3&lt;/code&gt;&lt;/pre&gt;</content>
+  </entry>
   
   <entry>
     <title>Pure JavaScript SlideShow</title>

@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html class="responsive">
+<head>
+  <title> JavaScript - painless decimal multiplication | marizmelo.com</title>
+  <meta charset="utf-8">
+  <meta name="robots" content="all">
+  <meta name="citation_author" content="Mariz Melo">
+  <meta name="description" content="Personal website of Mariz Melo built with xtyle web framework.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+  <!-- <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad-precomposed.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4-precomposed.png"> -->
+  <link rel="alternate" type="application/rss+xml" title="marizmelo.com" href="mm.rss">
+  <link href="/xtyle/img/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/xtyle/css/marizmelo.css">
+  <script data-main="/xtyle/js/main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.1/require.min.js"></script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!-- GOOGLE ANALYTICS -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37987984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <!-- GOOGLE ANALYTICS : END -->
+</head>
+<body>
+  
+  <div class="layout-fixed layout-center">
+
+    <aside class="position-fixed border-right" style="top: 0; padding: 50px; height: 100%; width: 180px;">
+
+      <div id="marizlogo" class="position-absolute border-radius-circle user-select-none">
+        <div class = "border-radius-circle">
+          <h1>M</h1>
+        </div>
+      </div>
+      <img id="marizimage" src="http://en.gravatar.com/userimage/35928919/86e0258aa458394c81e4e36cd6fe69f5.jpg?size=170" alt="" class="border-radius-circle user-select-none">
+
+      <h1>Mariz Melo</h1>
+      <h6>Designer & Developer</h6>
+
+      <blockquote>
+        <p>"Stay hungry, stay foolish."</p>
+        <cite>&#8211; Steve Jobs</cite>
+      </blockquote>
+
+      <ul class="reset">
+        <li><a href="http://xchema.com" class="btn border-radius2x">xchema</a></li>
+        <li><a href="http://github.com/marizmelo" class="btn border-radius2x">GitHub</a></li>
+        <li><a href="http://marizmelo.com/mm.rss" class="btn border-radius2x">RSS</a></li>
+      </ul>
+
+    </aside>
+
+    <div class="content">
+      
+      <article>
+  <header class="clear-both position-relative">
+    <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
+    <h1 class="nomargin-bottom">JavaScript - painless decimal multiplication</h1>
+    <span>21 March 2013</span>
+    <br><br>
+    <ul class="inline margin-top">
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Math</alert></li>
+    
+    </ul>
+  </header>
+  <section class="nomargin">
+    <p>JavaScript has a problem when multiplying decimals, try yourself:</p>
+
+<pre><code>0.1 * 0.2
+&gt; 0.020000000000000004 // NodeJS 0.8</code></pre>
+
+<p>The way to correct this is to multiply the decimals before multiple their values, try yourself:</p>
+
+<pre><code>( 0.1 * 10 + 0.2 * 10 ) / 10
+&gt; 0.3</code></pre>
+
+<p>You can create a function for this:</p>
+
+<pre><code>function multdec ( val1, val2 ) {
+    return ( val1 * 10 + val2 * 10 ) / 10;
+}</code></pre>
+
+<p>You can extend the Math object:</p>
+
+<pre><code>Math.multdec = function ( val1, val2 ) {
+    return ( val1 * 10 + val2 * 10 ) / 10;
+}</code></pre>
+
+<p>Now you can call this operation in two ways:</p>
+
+<pre><code>multdec( val1, val2 );  // 0.3
+// or
+Math.multdec ( val1, val2 );  // 0.3</code></pre>
+    <br>
+  </section>
+</article>
+
+    </div><!-- .content -->
+  </div><!-- .layout-fixed -->
+
+</body>
+</html>
