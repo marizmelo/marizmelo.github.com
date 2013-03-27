@@ -1,0 +1,27 @@
+<p>JavaScript has a problem when multiplying decimals, try yourself:</p>
+
+<pre><code>0.1 * 0.2
+&gt; 0.020000000000000004 // NodeJS 0.8</code></pre>
+
+<p>The way to correct this is to multiply the decimals before multiple their values, try yourself:</p>
+
+<pre><code>( 0.1 * 10 + 0.2 * 10 ) / 10
+&gt; 0.3</code></pre>
+
+<p>You can create a function for this:</p>
+
+<pre><code>function multdec ( val1, val2 ) {
+    return ( val1 * 10 + val2 * 10 ) / 10;
+}</code></pre>
+
+<p>You can extend the Math object:</p>
+
+<pre><code>Math.multdec = function ( val1, val2 ) {
+    return ( val1 * 10 + val2 * 10 ) / 10;
+}</code></pre>
+
+<p>Now you can call this operation in two ways:</p>
+
+<pre><code>multdec( val1, val2 );  // 0.3
+// or
+Math.multdec ( val1, val2 );  // 0.3</code></pre>

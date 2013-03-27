@@ -1,0 +1,52 @@
+<p>Let&#8217;s talk about JavaScript. Lately I&#8217;ve been working in a project for <a href='http://xchema.com'>xchema</a> that involves the use of JavaScript as primary language. So this will be a good exercise for me.</p>
+
+<h5 id='variables'>Variables</h5>
+
+<p>Basic structure to save values (in determined address memory).</p>
+
+<pre><code>var name = &quot;Mariz Melo&quot;;</code></pre>
+
+<h5 id='strings'>Strings</h5>
+
+<p>There is no difference between using single or double quotes when writing strings.</p>
+
+<pre><code>&quot;hello world&quot;
+&#39;hello world&#39;
+&quot;Let&#39;s learn \&quot;JavaScript\&quot;&quot; 
+// You need to scape (\) the quote-type that holds your string</code></pre>
+
+<h4 id='numbers'>Numbers</h4>
+
+<p>JavaScript hava only one type for numbers. Just type the number you want and JavaScript will understand its type (integer, decimal, etc).</p>
+
+<pre><code>var val1 = 10;
+var val2 = 0.1;</code></pre>
+
+<p>There is a notable bug while multiplying decimals in JavaScript. You need to multiply the decimals before multiply their values.</p>
+
+<pre><code>0.1 * 0.2
+&gt; 0.020000000000000004 // wrong
+
+( 0.1 * 10 + 0.2 * 10 ) / 10
+&gt; 0.3 // correct</code></pre>
+
+<h5 id='null_vs_undefined'>Null vs Undefined</h5>
+
+<p>Another major point of confusion on JavaScript. A <strong>undefined</strong> variable it means that the variable was declared but does not contain any value. A variable is <strong>null</strong> when the variable it was declared and had its value set to null.</p>
+
+<pre><code>var myvar;
+&gt; undefined
+typeof myvar
+&gt; undefined
+myvar = null
+typeof myvar
+&gt; object
+myvar == null
+&gt; true  
+myvar == undefined
+&gt; true // what just happen here?
+myvar === null // test value + type equality
+&gt; true 
+myvar === undefined 
+&gt; false // now seems right</code></pre>
+<alert class='info margin-bottom'><i class='icon-info'> </i> Prefer === over == for strict comparisons.</alert><alert><i class='icon-attention'> </i> You may get an Exception if you don't declare the variable before using it.</alert>

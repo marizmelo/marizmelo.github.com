@@ -1,0 +1,55 @@
+<p>Hi everyone, today we are going to take a look on a sleek technique to sort an <strong>Array of Objects</strong>.</p>
+
+<p>The <strong>sort()</strong> method of JavaScript provide an easy way for us to sort Arrays. Take a look:</p>
+
+<p>Numbers: <code>
+[3, 1, 4, 2].sort(); // [1, 2, 3, 4]
+</code></p>
+
+<p>Characters: <code>
+[&quot;a&quot;, &quot;d&quot;, &quot;c&quot;, &quot;b&quot;].sort(); // [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]
+</code></p>
+
+<p>Strings: <code>
+[&quot;Jose&quot;, &quot;Antonio&quot;, &quot;Ana&quot;, &quot;Michael&quot;].sort(); // [&quot;Ana&quot;, &quot;Antonio&quot;, &quot;Jose&quot;, &quot;Michael&quot;]
+</code></p>
+
+<p>Simple right? What about when you have an Array of Objects?</p>
+
+<p>You can still use the <strong>sort()</strong> method to sort your Array, you just need to inform which property in the object you want to sort.</p>
+
+<p>Let&#8217;s imagine a contact book for example. You will receive an unordered array of object that you want to sort:</p>
+
+<p>Array of objects <code>
+[{name:&quot;Mariz&quot;, age: 32}, {name: &quot;Samira&quot;, age: 25}, {name: &quot;Leticia&quot;, age: 9}]
+</code></p>
+
+<p>If you try to sort this array nothing will happen:</p>
+
+<p><code>
+[{name:&quot;Mariz&quot;, age: 32}, {name: &quot;Samira&quot;, age: 25}, {name: &quot;Leticia&quot;, age: 9}].sort();
+</code></p>
+
+<p>Now lets use a function expression (or callback function) to sort this array of objects:</p>
+
+<p><strong>compareName</strong> callback function: <code>
+function compareName(contact1, contact2) {
+  if (contact1.name &lt; contact2.name) {
+    return 0;
+  } else {
+    return 1;
+  }
+}
+</code></p>
+
+<p>Calling sort method with callback function <strong>compareName</strong> that we wrote on the last step: <code>
+[{name:&quot;Mariz&quot;, age: 32}, {name: &quot;Samira&quot;, age: 25}, {name: &quot;Leticia&quot;, age: 9}].sort(compareName);
+</code></p>
+
+<p>Sorting for age <code>
+[{name:&quot;Mariz&quot;, age: 32}, {name: &quot;Samira&quot;, age: 25}, {name: &quot;Leticia&quot;, age: 9}].sort(function(contact1, contact2) { 
+    return contact1.age - contact2.age; 
+});
+</code></p>
+
+<p>That is it for today!</p>
