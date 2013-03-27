@@ -55,6 +55,7 @@
       </blockquote>
 
       <ul class="reset">
+        <li><a href="/" class="btn border-radius2x">home</a></li>
         <li><a href="http://xchema.com" class="btn border-radius2x">xchema</a></li>
         <li><a href="http://github.com/marizmelo" class="btn border-radius2x">GitHub</a></li>
         <li><a href="http://marizmelo.com/mm.rss" class="btn border-radius2x">RSS</a></li>
@@ -69,721 +70,84 @@
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/03/27/javascript_array_of_objects_sorting.html">JavaScript - Easily Sorting an Array of Objects</a></h1>
     <span>27 March 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> javascript</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> oop</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> arrays</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>Hi everyone, today we are going to take a look on a sleek technique to sort an <strong>Array of Objects</strong>.</p>
-
-<p>The <strong>sort()</strong> method of JavaScript provide an easy way for us to sort Arrays. Take a look:</p>
-
-<p>Numbers:</p>
-
-<pre><code>[3, 1, 4, 2].sort(); // [1, 2, 3, 4]</code></pre>
-
-<p>Characters:</p>
-
-<pre><code>[&quot;a&quot;, &quot;d&quot;, &quot;c&quot;, &quot;b&quot;].sort(); // [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]</code></pre>
-
-<p>Strings:</p>
-
-<pre><code>[&quot;Jose&quot;, &quot;Antonio&quot;, &quot;Ana&quot;, &quot;Michael&quot;].sort(); // [&quot;Ana&quot;, &quot;Antonio&quot;, &quot;Jose&quot;, &quot;Michael&quot;]</code></pre>
-
-<p>Simple right? What about when you have an Array of Objects?</p>
-
-<p>You can still use the <strong>sort()</strong> method to sort your Array, you just need to inform which property in the object you want to sort.</p>
-
-<p>Let&#8217;s imagine a contact book for example. You will receive an unordered array of object that you want to sort:</p>
-
-<p>Array of objects</p>
-
-<pre><code>[{name:&quot;Mariz&quot;, age: 32}, {name: &quot;Samira&quot;, age: 25}, {name: &quot;Leticia&quot;, age: 9}]</code></pre>
-
-<p>If you try to sort this array nothing will happen:</p>
-
-<pre><code>[{name:&quot;Mariz&quot;, age: 32}, {name: &quot;Samira&quot;, age: 25}, {name: &quot;Leticia&quot;, age: 9}].sort();</code></pre>
-
-<p>Now lets use a function expression (or callback function) to sort this array of objects:</p>
-
-<p><strong>compareName</strong> callback function:</p>
-
-<pre><code>function compareName(contact1, contact2) {
-  if (contact1.name &lt; contact2.name) {
-    return 0;
-  } else {
-    return 1;
-  }
-}</code></pre>
-
-<p>Calling sort method with callback function <strong>compareName</strong> that we wrote on the last step:</p>
-
-<pre><code>[{name:&quot;Mariz&quot;, age: 32}, {name: &quot;Samira&quot;, age: 25}, {name: &quot;Leticia&quot;, age: 9}].sort(compareName);</code></pre>
-
-<p>Sorting for age</p>
-
-<pre><code>[{name:&quot;Mariz&quot;, age: 32}, {name: &quot;Samira&quot;, age: 25}, {name: &quot;Leticia&quot;, age: 9}].sort(function(contact1, contact2) { 
-    return contact1.age - contact2.age; 
-});</code></pre>
-
-<p>That is it for today!</p>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/03/21/painlessjavascriptdecimalmultiplication.html">JavaScript - painless decimal multiplication</a></h1>
     <span>21 March 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Math</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>JavaScript has a problem when multiplying decimals, try yourself:</p>
-
-<pre><code>0.1 * 0.2
-&gt; 0.020000000000000004 // NodeJS 0.8</code></pre>
-
-<p>The way to correct this is to multiply the decimals before multiple their values, try yourself:</p>
-
-<pre><code>( 0.1 * 10 + 0.2 * 10 ) / 10
-&gt; 0.3</code></pre>
-
-<p>You can create a function for this:</p>
-
-<pre><code>function multdec ( val1, val2 ) {
-    return ( val1 * 10 + val2 * 10 ) / 10;
-}</code></pre>
-
-<p>You can extend the Math object:</p>
-
-<pre><code>Math.multdec = function ( val1, val2 ) {
-    return ( val1 * 10 + val2 * 10 ) / 10;
-}</code></pre>
-
-<p>Now you can call this operation in two ways:</p>
-
-<pre><code>multdec( val1, val2 );  // 0.3
-// or
-Math.multdec ( val1, val2 );  // 0.3</code></pre>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/03/18/purejavascriptslideshow.html">Pure JavaScript SlideShow</a></h1>
     <span>18 March 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>I have decided to go back in time and learn pure JavaScript again. I was becoming too dependent of libraries like jQuery and that is never good. It is a good exercise and as a result I came up today with this simple SlideShow made completely in JavaScript.</p>
-
-<p>Final result:</p>
-
-<p><strong>index.html</strong></p>
-
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Pure JavaScript SlideShow&lt;/title&gt;
-    &lt;!-- STYLES --&gt;
-    &lt;style&gt;
-      .jslide { width: 350px; height: 350px; overflow: hidden; }
-    &lt;/style&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-
-    &lt;div id=&quot;jslide&quot;&gt;
-      &lt;img src=&quot;http://placehold.it/350&amp;text=01&quot;&gt;
-      &lt;img src=&quot;http://placehold.it/350&amp;text=02&quot;&gt;
-      &lt;img src=&quot;http://placehold.it/350&amp;text=03&quot;&gt;
-      &lt;img src=&quot;http://placehold.it/350&amp;text=04&quot;&gt;
-      &lt;img src=&quot;http://placehold.it/350&amp;text=05&quot;&gt;
-    &lt;/div&gt;
-
-    &lt;!-- SCRIPTS --&gt;
-    &lt;script src=&quot;JSlide.js&quot;&gt;&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</code></pre>
-
-<p><strong>jslide.js</strong></p>
-
-<pre><code>var current = 0;
-var element = document.getElementById(&quot;jslide&quot;);
-var slides = element.getElementsByTagName(&quot;img&quot;);
-var size = slides.length;
-var start = setInterval(function(){jslide();}, 3000);
-
-function jslide(){
-  if ( current != size - 1 ) { 
-    slides[ current ].style.display = &quot;none&quot;;
-  } else {
-    current = 0;
-    for ( var i = 0; i &lt; size; ++i ) {
-      slides[i].style.display = &quot;block&quot;; 
-    }
-  }
-}</code></pre>
-
-<p>Now let&#8217;s take a look over the commented source code:</p>
-
-<p><strong>Variables</strong></p>
-
-<pre><code>// CURRENT SLIDE POSITION
-var current = 0; 
-
-// CACHE SLIDESHOW DIV WRAPPER
-var element = document.getElementById(&quot;jslide&quot;);
-
-// CACHE SLIDESHOW IMAGES
-var slides = element.getElementsByTagName(&quot;img&quot;);
-
-// COUNT NUMBER OF SLIDES
-var size = slides.length;
-
-// LOOP OVER SLIDESHOW EVERY 3 SECONDS
-var start = setInterval(function(){jslide();}, 3000);</code></pre>
-
-<p><strong>JSlide slideShow function</strong></p>
-
-<pre><code>function jslide(){
-
-  if ( current != size - 1 ) { 
-    
-    // CHECK IF CURRENT SLIDE IS THE LAST SLIDE
-    slides[ current ].style.display = &quot;none&quot;;
-
-  } else { 
-
-    // IF IS THE LAST SLIDE RESTART SLIDESHOW
-
-    current = 0; // RESET &quot;CURRENT&quot; VARIABLE
-
-    for ( var i = 0; i &lt; size; ++i ) {
-
-      // RESET DISPLAY STYLE
-      slides[i].style.display = &quot;block&quot;; 
-
-    }
-  }
-}// jslide()    </code></pre>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/03/15/copypastecommandline.html">Copy and Paste from command line</a></h1>
     <span>15 March 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> commandline</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> unix</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> linux</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>Use <strong>&#8220;pbcopy&#8221;</strong> to copy content of file to your clipboard.</p>
-
-<p>For example:</p>
-
-<pre><code>$ pbcopy &lt; file.txt</code></pre>
-
-<p>the command will copy all content from &#8220;file.txt&#8221; directly on your clipboard.</p>
-
-<p>You can check if the content is there by using the <strong>&#8220;pbpaste&#8221;</strong> command:</p>
-
-<pre><code>$ pbpaste</code></pre>
-
-<p>The content of &#8220;file.txt&#8221; will appear on your terminal window.</p>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/02/15/dontmisssudo.html">Are you missing "sudo" on commands in terminal? Don't worry.</a></h1>
     <span>15 February 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> UNIX</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Linux</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Terminal</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>Sometimes you are in your terminal and need to type a command that requires you to have root powers. Well I don&#8217;t know you, but I sometimes forget to put sudo in front of those commands. Look at this example:</p>
-
-<pre><code>$ rm somefile
-rm: somenewfile: Permission denied</code></pre>
-
-<p>I have some options here. I could retype the entire command or use arrow up and go to the beginning of the line adding &#8220;sudo&#8221; to it. But a better way to fix my mistake is using the operator &#8220;!!&#8221;. Like this:</p>
-
-<pre><code>$ rm somefile
-rm: somenewfile: Permission denied
-$ sudo !!
-$ sudo rm newfile </code></pre>
-
-<p>Amazing, your file &#8220;newfile&#8221; is now removed. Enjoy.</p>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/02/11/checkproperty.html">JavaScript - check your properties</a></h1>
     <span>11 February 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>Sometimes you need to check if an Object has certain property. JavaScript provide two different methods for this. Let&#8217;s start by creating a new Object called <strong>Person</strong>.</p>
-
-<pre><code>var Person = {
-  name : &quot;Mariz&quot;,
-  age : 31
-}</code></pre>
-
-<p>Now let&#8217;s take a look on that methods which I mentioned before.</p>
-
-<p><strong>hasOwnProperty</strong></p>
-
-<pre><code>console.log( Person.hasOwnProperty (&quot;name&quot;) );
-&gt; true</code></pre>
-
-<p><strong>in</strong></p>
-
-<pre><code>console.log( &quot;name&quot; in Person );
-&gt; true</code></pre>
-
-<p>You can also list all properties of your Objects using the method <strong>keys</strong>.</p>
-
-<pre><code>console.log( Object.keys (Person) );
-&gt; [ &quot;name&quot;, &quot;age&quot; ]</code></pre>
-
-<p>That is it, simple and easy.</p>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/02/05/javascriptfunctionnames.html">JavaScript Functions - Names</a></h1>
     <span>05 February 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Functions</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>Function names in JavaScript can be trick. Consider the following function:</p>
-
-<pre><code>function name(){
-    alert(&quot;Mariz Melo&quot;);
-}</code></pre>
-
-<p>There is nothing wrong with this function, in fact is a perfectly fine function in JavaScript. The problem is JavaScript has some rules for function names. You are not allowed to start the name with numbers or special characters (other than underscore and dollar sign).</p>
-
-<pre><code>function $() {
-    alert(&quot;dollar sign&quot;);
-}
-
-function _() {
-    alert (&quot;underscore&quot;);
-}</code></pre>
-
-<p>Recently I tried to attach some CSS classes as function names in JavaScript and got an error because some of my class names are using &#8220;-&#8221; to separate names. See an example:</p>
-
-<pre><code>// invalid
-function display-none(){
-    alert(&quot;display none don&#39;t work&quot;);
-}</code></pre>
-
-<p>Of course I could use something like <strong>replace</strong> and convert &#8220;-&#8221; into &#8220;_&#8221;, but I wanted to keep consistency across the system, so I come up with the following solution:</p>
-
-<pre><code>// valid
-var css = {
-    &quot;display-none&quot; : function(){
-        alert(&quot;display none&quot;);
-    }
-}</code></pre>
-
-<p>I just used an Object as wrapper to all my functions, and doing so I kept all functions more organized.</p>
-
-<p>Calling my function <strong>display-none</strong>:</p>
-
-<pre><code>css[&quot;display-none&quot;](); // valid call</code></pre>
-
-<p>Happy hacking!</p>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/02/03/forloopobjectjavascript.html">JavaScript OOP - Objects attributes and values</a></h1>
     <span>03 February 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>Let&#8217;s create an Object called <strong>Person</strong> in JavaScript.</p>
-
-<pre><code>// Object Literals way
-var Person = { name : &quot;Anonymous&quot;, age : null };
-
-// Functions way
-function Person() {
-  this.name = &quot;Anonymous&quot;;
-  this.age = null;
-}</code></pre>
-<alert class='margin-bottom'><i class='icon-attention'> </i> Both ways are correct and valid</alert>
-<p>Let&#8217;s create one <strong>instance</strong> of our object Person. In this case I will create an instance called <strong>Mariz</strong> (my name).</p>
-
-<pre><code>// Object Literals way
-var Mariz = Person;
-
-// Functions way
-
-var Mariz = new Person();</code></pre>
-
-<p>Adding values to our new object instance:</p>
-
-<pre><code>// Object Literals and Functions
-Mariz.name = &quot;Mariz Melo&quot;;
-Mariz.age = 31;</code></pre>
-
-<p>Now here is how you loop over all attributes and return their values:</p>
-
-<pre><code>for( prop in Mariz ) {
-  console.log( prop + &quot; : &quot; + Mariz[ prop ] );
-}
-
-// Output
-&gt; name : Mariz Melo
-&gt; age : 31</code></pre>
-
-<p>That&#8217;s a wrap.</p>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/01/30/javascriptintro.html">JavaScript Basics - Primitive Types</a></h1>
     <span>30 January 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>Let&#8217;s talk about JavaScript. Lately I&#8217;ve been working in a project for <a href='http://xchema.com'>xchema</a> that involves the use of JavaScript as primary language. So this will be a good exercise for me.</p>
-
-<h5 id='variables'>Variables</h5>
-
-<p>Basic structure to save values (in determined address memory).</p>
-
-<pre><code>var name = &quot;Mariz Melo&quot;;</code></pre>
-
-<h5 id='strings'>Strings</h5>
-
-<p>There is no difference between using single or double quotes when writing strings.</p>
-
-<pre><code>&quot;hello world&quot;
-&#39;hello world&#39;
-&quot;Let&#39;s learn \&quot;JavaScript\&quot;&quot; 
-// You need to scape (\) the quote-type that holds your string</code></pre>
-
-<h4 id='numbers'>Numbers</h4>
-
-<p>JavaScript hava only one type for numbers. Just type the number you want and JavaScript will understand its type (integer, decimal, etc).</p>
-
-<pre><code>var val1 = 10;
-var val2 = 0.1;</code></pre>
-
-<p>There is a notable bug while multiplying decimals in JavaScript. You need to multiply the decimals before multiply their values.</p>
-
-<pre><code>0.1 * 0.2
-&gt; 0.020000000000000004 // wrong
-
-( 0.1 * 10 + 0.2 * 10 ) / 10
-&gt; 0.3 // correct</code></pre>
-
-<h5 id='null_vs_undefined'>Null vs Undefined</h5>
-
-<p>Another major point of confusion on JavaScript. A <strong>undefined</strong> variable it means that the variable was declared but does not contain any value. A variable is <strong>null</strong> when the variable it was declared and had its value set to null.</p>
-
-<pre><code>var myvar;
-&gt; undefined
-typeof myvar
-&gt; undefined
-myvar = null
-typeof myvar
-&gt; object
-myvar == null
-&gt; true  
-myvar == undefined
-&gt; true // what just happen here?
-myvar === null // test value + type equality
-&gt; true 
-myvar === undefined 
-&gt; false // now seems right</code></pre>
-<alert class='info margin-bottom'><i class='icon-info'> </i> Prefer === over == for strict comparisons.</alert><alert><i class='icon-attention'> </i> You may get an Exception if you don't declare the variable before using it.</alert>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/01/28/requirei18n.html">RequireJS - i18n (internationalization)</a></h1>
     <span>28 January 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> requirejs</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> i18n</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> internationalization</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <div class='float-right'><img src='http://requirejs.org/i/logo.png' width='200px' /></div>
-<p><a href='/2013/01/27/requirejs.html'>Last time</a> we talked about RequireJS and how it can load JavaScript files faster and in parallel. But there is much more that this little library can do. Today I will show you how to make your applications available in multiple languages. RequireJS provides an useful set of plug-ins (see complete list <a href='https://github.com/jrburke/requirejs/wiki/Plugins'>here</a>) that can help with different tasks.</p>
-
-<p>The plug-in which we are going to use today is called <a href='http://requirejs.org/docs/api.html#i18n'>i18n</a> and its used for <a href='http://en.wikipedia.org/wiki/Internationalization_and_localization'>internationalization</a> of content based on you browser main language. <a href='https://raw.github.com/requirejs/i18n/latest/i18n.js'>Download the plugin here</a> and place the file on your script directory defined on your <strong>data-main</strong> attribute (on your script tag).</p>
-
-<ol>
-<li>
-<p>Create an <code>index.html</code> file with RequireJS on your <code>HEAD</code> tag element:</p>
-
-<pre><code> &lt;!DOCTYPE HTML&gt;
- &lt;html&gt;
- &lt;head&gt;
-   &lt;title&gt;Hello World&lt;/title&gt;
-   &lt;script data-main=&quot;scripts/main.js&quot; src=&quot;scripts/require.js&quot;&gt;
- &lt;/script&gt;
- &lt;/head&gt;
- &lt;body&gt;
-   &lt;header&gt;&lt;/header&gt;
- &lt;/body&gt;
- &lt;/html&gt;</code></pre>
-</li>
-
-<li>
-<p>Place the <code>i18n.js</code> file into the <strong>scripts</strong> folder.</p>
-</li>
-
-<li>
-<p>Create a directory called <code>nls</code> inside of your <strong>scripts</strong> folder.</p>
-</li>
-
-<li>
-<p>Create another folder called <code>pt-br</code> (Brazilian Portuguese language) inside of <strong>scripts/nls</strong>.</p>
-</li>
-
-<li>
-<p>Create a file called <code>speak.js</code> inside of the <strong>scripts/nls</strong> directory. <h6>scripts/nls/speak.js</h6></p>
-
-<pre><code> define({
-   &quot;root&quot; : {
-   &quot;header&quot; : &quot;I speak English&quot;
-   },
-   &quot;pt-br&quot; : true // The system will accept Brazilian Portuguese
- });</code></pre>
-</li>
-
-<li>
-<p>Create another file with the name <code>speak.js</code> inside of <strong>scripts/nls/pt-br</strong>. <h6>scripts/nls/pt-br/speak.js</h6></p>
-
-<pre><code> define({
-   &quot;header&quot; : &quot;Eu falo Portugues do Brasil&quot;
- });</code></pre>
-</li>
-
-<li>
-<p>Download <a href='http://jquery.com'>JQuery</a> and place it inside your <strong>scripts</strong> folder</p>
-</li>
-
-<li>
-<p>Define your <code>main.js</code> in your <strong>scripts</strong> folder with the following content: <h6>scripts/jquery.js</h6></p>
-
-<pre><code> define([&#39;jquery&#39;, &quot;i18n!nls/speak&quot;], function($, speak) {
-   $(&quot;header h1&quot;).html(speak.header);
- });</code></pre>
-</li>
-</ol>
-
-<p>If you load this project on your browser you should see <strong>&#8220;I speak English&#8221;</strong>.</p>
-
-<p>Now what?</p>
-
-<p>Well <strong>i18n</strong> is smart and will change the language automatically for you if your browser accepts Brazilian Portuguese. You can set manually the language which you want to use (good to test if everything is working properly).</p>
-
-<p>Open <code>main.js</code> and include the following code on TOP of the file:</p>
-
-<pre><code>require.config({
-  locale: &quot;pt-br&quot;
-});
-...</code></pre>
-
-<p>Reload your browser (cleaning cache if necessary) and you should see the message <strong>&#8220;Eu falo Portugues do Brasil&#8221;</strong>.</p>
-
-<p>Get the source files: <a href='https://compilr.com/jmarizsf/requirejs-i18n'>https://compilr.com/jmarizsf/requirejs-i18n</a>.</p>
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/01/27/requirejs.html">Boosting your JavaScript loading time with RequireJS</a></h1>
     <span>27 January 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> requirejs</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> jquery</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>There are two common ways to load JavaScript on HTML pages.</p>
-
-<ol>
-<li>Scripts on the <code>head</code> tag element</li>
-
-<li>Scripts on the bottom of your <code>html</code> page (right before <code>/body</code>) <br /><br /></li>
-</ol>
-
-<p>The first technique has a serious problem, the browser will wait for all scripts to load before showing content to users.</p>
-
-<p>In the second (better) case the page will be presented to your users before loading any script. This is <strong>unobtrusive</strong>, the JavaScript is not in the way between users and content delivery. Do you want anyone waiting for your website to load?</p>
-
-<p>So what is the problem with the second technique? Well, the first problem is that using <code>script</code> tag your scripts will load <strong>sequentially</strong> increasing the total time for users to see your website.</p>
-
-<p>A better approach is to load your scripts in <strong>parallel</strong>, but there is one caveat. Scripts most of the time have dependencies and is complicated to manage them while loading them in parallel. You could come up with your own system to manage dependencies or you could use <strong>Asynchronous Module Definitio (AMD)</strong>.</p>
-
-<p>Using AMD you can load your scripts in parallel while managing their dependencies. So let&#8217;s take a look on how to use <strong>RequireJS</strong> a popular AMD solution (see the end of this article for other options).</p>
-
-<p>First, let&#8217;s insert RequireJS on the <code>head</code> of our HTML file:</p>
-
-<pre><code>&lt;script data-main=&quot;scripts/main.js&quot; src=&quot;scripts/require.js&quot;&gt;&lt;/script&gt;</code></pre>
-
-<p>You may have noticed the <strong>data-main</strong> attribute on the example above. That defines the location of your configuration file (main.js in this example) and automatically set the <strong>baseUrl</strong>, in this case <strong>scripts/</strong>.</p>
-<alert class='info margin-top margin-bottom'><i class='icon-info'> </i> The <strong>baseUrl</strong> can be changed on the configuration file.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> Dependencies shouldn't contain the trailing ".js" suffix on the config file.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> RequireJS load scripts asynchronously and out of order for speed.</alert>
-<p>Assuming all my scripts are inside the <code>scripts</code> folder, let&#8217;s load some files using RequireJS. The <strong>JQuery</strong> library will be loaded <strong>first</strong> followed by two plugins called <strong>slidejs</strong> and <strong>galleryjs</strong>.</p>
-
-<p>In you <code>main.js</code> write:</p>
-
-<pre><code>//loading jquery as dependency
-require([&quot;jquery&quot;], function($){
-  // JQuery is ready for use
-  //calling slidejs plugin
-  require([&quot;slidejs&quot;, &quot;galleryjs&quot;], function(){
-    $(&quot;#slideshow&quot;).slidejs();
-    $(&quot;#gallery&quot;).galleryjs();
-  });
-});</code></pre>
-
-<p>Because RequireJS load scripts out of order we have to make sure JQuery is ready before we load our plugins. The plugins are loaded in <strong>parallel</strong>.</p>
-
-<p>RequireJS is powerful and here I just touch the surface of its real power. Make sure you check the <a href='http://requirejs.org/'>RequireJS website</a> for a complete overview.</p>
-
-<p>Alternatives to RequireJS:</p>
-
-<ul>
-<li><a href='http://labjs.com/'>LABjs</a></li>
-
-<li><a href='http://headjs.com/'>HEADjs</a></li>
-</ul>
-<br />
-    <br>
-  </section> -->
 </article>
 
 <article>
   <header class="clear-both position-relative border-bottom">
     <h1 class="nomargin-bottom"><a href="/2013/01/24/hello.html">Hello World!</a></h1>
     <span>24 January 2013</span>
-    <!--<br><br>
-     <ul class="inline margin-top">
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> jekyll</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> xtyle</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> xchema</alert></li>
-    
-    </ul> -->
   </header>
-  <!-- <section class="nomargin">
-    <p>Hello, my name is <strong>Mariz Melo</strong>. I am from Brazil. Currently living in San Jose - California and working in Mountain View. I am trying to get <strong>xchema</strong> up and running for next summer. The name is the same as my previous start up company which I opened in Brazil with my dear friends <strong>Ricardo Amaral</strong> and <strong>Marcelo Vasconcelos</strong>.</p>
-
-<p>This blog is an attempt to keep a diary about projects, knowledge base, and a bookmark for useful discoveries around the web.</p>
-
-<p>Tools used to make this blog:</p>
-
-<ol>
-<li><a href='http://jekyllrb.com'>Jekyll</a> (on github pages)</li>
-
-<li><a href='http://xtyle.xchema.com'>xtyle</a> design framework made by <a href='http://xchema.com'>xchema</a></li>
-
-<li><strong>xmaker</strong> visual web applications builder (coming soon).</li>
-</ol>
-<br />
-<p>This website is open-source. <strong>Fork the github <a href='http://github.com/marizmelo/marizmelo.github.com'>repository</a>.</strong></p>
-    <br>
-  </section> -->
 </article>
 
 
