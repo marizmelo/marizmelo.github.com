@@ -4,7 +4,7 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-03-27T12:37:44-07:00</updated>
+  <updated>2013-03-27T12:40:15-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
@@ -13,7 +13,7 @@
   
   
   <entry>
-    <title>JavaScript - Easily Sorting an Array of Object</title>
+    <title>JavaScript - Easily Sorting an Array of Objects</title>
     <link href="http://marizmelo.com/2013/03/27/javascript_array_of_objects_sorting.html"/>
     <updated>2013-03-27T04:40:45-07:00</updated>
     <id>http://marizmelo.com/2013/03/27/javascript_array_of_objects_sorting</id>

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "JavaScript - Easily Sorting an Array of Object"
+title: "JavaScript - Easily Sorting an Array of Objects"
 date: 2013-03-27 11:40:45
 tags: [ 'javascript', 'oop', 'arrays' ]
 ---
