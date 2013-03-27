@@ -9,19 +9,19 @@ Hi everyone, today we are going to take a look on a sleek technique to sort an *
 The **sort()** method of JavaScript provide an easy way for us to sort Arrays. Take a look:
 
 Numbers:
-```
-[3, 1, 4, 2].sort(); // [1, 2, 3, 4]
-```
+  
+    [3, 1, 4, 2].sort(); // [1, 2, 3, 4]
+
 
 Characters:
-```
-["a", "d", "c", "b"].sort(); // ["a", "b", "c", "d"]
-```
+
+    ["a", "d", "c", "b"].sort(); // ["a", "b", "c", "d"]
+
 
 Strings:
-```
-["Jose", "Antonio", "Ana", "Michael"].sort(); // ["Ana", "Antonio", "Jose", "Michael"]
-```
+
+    ["Jose", "Antonio", "Ana", "Michael"].sort(); // ["Ana", "Antonio", "Jose", "Michael"]
+
 
 Simple right? What about when you have an Array of Objects?
 
