@@ -30,39 +30,39 @@ You can still use the **sort()** method to sort your Array, you just need to inf
 Let's imagine a contact book for example. You will receive an unordered array of object that you want to sort:
 
 Array of objects
-```
-[{name:"Mariz", age: 32}, {name: "Samira", age: 25}, {name: "Leticia", age: 9}]
-```
+    
+    [{name:"Mariz", age: 32}, {name: "Samira", age: 25}, {name: "Leticia", age: 9}]
+
 
 If you try to sort this array nothing will happen:
 
-```
-[{name:"Mariz", age: 32}, {name: "Samira", age: 25}, {name: "Leticia", age: 9}].sort();
-```
+
+    [{name:"Mariz", age: 32}, {name: "Samira", age: 25}, {name: "Leticia", age: 9}].sort();
+
 
 Now lets use a function expression (or callback function) to sort this array of objects:
 
 **compareName** callback function:
-```
-function compareName(contact1, contact2) {
-  if (contact1.name < contact2.name) {
-    return 0;
-  } else {
-    return 1;
-  }
-}
-```
+
+    function compareName(contact1, contact2) {
+      if (contact1.name < contact2.name) {
+        return 0;
+      } else {
+        return 1;
+      }
+    }
+
 
 Calling sort method with callback function **compareName** that we wrote on the last step:
-```
-[{name:"Mariz", age: 32}, {name: "Samira", age: 25}, {name: "Leticia", age: 9}].sort(compareName);
-```
+
+    [{name:"Mariz", age: 32}, {name: "Samira", age: 25}, {name: "Leticia", age: 9}].sort(compareName);
+
 
 Sorting for age
-```
-[{name:"Mariz", age: 32}, {name: "Samira", age: 25}, {name: "Leticia", age: 9}].sort(function(contact1, contact2) { 
-    return contact1.age - contact2.age; 
-});
-```
+
+    [{name:"Mariz", age: 32}, {name: "Samira", age: 25}, {name: "Leticia", age: 9}].sort(function(contact1, contact2) { 
+        return contact1.age - contact2.age; 
+    });
+
 
 That is it for today!
