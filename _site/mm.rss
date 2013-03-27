@@ -4,13 +4,73 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-03-22T03:04:51-07:00</updated>
+  <updated>2013-03-27T12:37:44-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
   </author>
   <rights>Copyright (c) 2013, Mariz Melo; all rights reserved.</rights>
   
+  
+  <entry>
+    <title>JavaScript - Easily Sorting an Array of Object</title>
+    <link href="http://marizmelo.com/2013/03/27/javascript_array_of_objects_sorting.html"/>
+    <updated>2013-03-27T04:40:45-07:00</updated>
+    <id>http://marizmelo.com/2013/03/27/javascript_array_of_objects_sorting</id>
+    <content type="html">&lt;p&gt;Hi everyone, today we are going to take a look on a sleek technique to sort an &lt;strong&gt;Array of Objects&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;sort()&lt;/strong&gt; method of JavaScript provide an easy way for us to sort Arrays. Take a look:&lt;/p&gt;
+
+&lt;p&gt;Numbers:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[3, 1, 4, 2].sort(); // [1, 2, 3, 4]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Characters:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[&amp;quot;a&amp;quot;, &amp;quot;d&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;b&amp;quot;].sort(); // [&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;d&amp;quot;]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Strings:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[&amp;quot;Jose&amp;quot;, &amp;quot;Antonio&amp;quot;, &amp;quot;Ana&amp;quot;, &amp;quot;Michael&amp;quot;].sort(); // [&amp;quot;Ana&amp;quot;, &amp;quot;Antonio&amp;quot;, &amp;quot;Jose&amp;quot;, &amp;quot;Michael&amp;quot;]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Simple right? What about when you have an Array of Objects?&lt;/p&gt;
+
+&lt;p&gt;You can still use the &lt;strong&gt;sort()&lt;/strong&gt; method to sort your Array, you just need to inform which property in the object you want to sort.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s imagine a contact book for example. You will receive an unordered array of object that you want to sort:&lt;/p&gt;
+
+&lt;p&gt;Array of objects&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{name:&amp;quot;Mariz&amp;quot;, age: 32}, {name: &amp;quot;Samira&amp;quot;, age: 25}, {name: &amp;quot;Leticia&amp;quot;, age: 9}]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you try to sort this array nothing will happen:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{name:&amp;quot;Mariz&amp;quot;, age: 32}, {name: &amp;quot;Samira&amp;quot;, age: 25}, {name: &amp;quot;Leticia&amp;quot;, age: 9}].sort();&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now lets use a function expression (or callback function) to sort this array of objects:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;compareName&lt;/strong&gt; callback function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function compareName(contact1, contact2) {
+  if (contact1.name &amp;lt; contact2.name) {
+    return 0;
+  } else {
+    return 1;
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Calling sort method with callback function &lt;strong&gt;compareName&lt;/strong&gt; that we wrote on the last step:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{name:&amp;quot;Mariz&amp;quot;, age: 32}, {name: &amp;quot;Samira&amp;quot;, age: 25}, {name: &amp;quot;Leticia&amp;quot;, age: 9}].sort(compareName);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sorting for age&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{name:&amp;quot;Mariz&amp;quot;, age: 32}, {name: &amp;quot;Samira&amp;quot;, age: 25}, {name: &amp;quot;Leticia&amp;quot;, age: 9}].sort(function(contact1, contact2) { 
+    return contact1.age - contact2.age; 
+});&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That is it for today!&lt;/p&gt;</content>
+  </entry>
   
   <entry>
     <title>JavaScript - painless decimal multiplication</title>
