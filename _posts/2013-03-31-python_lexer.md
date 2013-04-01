@@ -8,7 +8,7 @@ Interrupting our series on JavaScript I will talk about python and lexical analy
 
 Today we are going to create a small lexer in python to analyze a small piece of HTML code. 
 
-First we will need to import the python's lexical library called [ply](http://www.dabeaz.com/ply/). To install ply in ***nix** systems you can run the following command:
+First we will need to import the python's lexical library called [ply](http://www.dabeaz.com/ply/). To install ply in *nix systems you can run the following command:
 
     sudo easy_install ply
 
