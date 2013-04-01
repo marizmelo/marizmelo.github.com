@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "JavaScript Classes"
+title: "Python Lexical Analyzer "
 date: 2013-03-31 22:50:45
 tags: [ 'python', 'compilers', 'lexer' ]
 ---
@@ -11,6 +11,7 @@ Today we are going to create a small lexer in python to analyze a small piece of
 First we will need to import the python's lexical library called [ply](http://www.dabeaz.com/ply/). To install ply in ***nix** systems you can run the following command:
 
     sudo easy_install ply
+
 
 Create a file called **lexer.py** and write the following code:
 
