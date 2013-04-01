@@ -1,0 +1,23 @@
+<p>Hi everyone, today we are going to talk about <strong>classes</strong> in JavaScript. JS don&#8217;t implement classes as other languages because its prototypical way.</p>
+
+<p>Declare a class in JavaScript is as easy as create a <strong>Function</strong>. This is how you declare a <strong>function constructor</strong> in JavaScript:</p>
+
+<pre><code>function Person(name) { 
+  this.name = name; 
+}</code></pre>
+
+<p>Define a new method using the function <strong>prototype</strong> (more about prototypes in another post) of our class:</p>
+
+<pre><code>Person.prototype.getName = function() {
+  return this.name;
+};</code></pre>
+
+<p>Let&#8217;s now create an <strong>instance</strong> of our class <strong>Person</strong>:</p>
+
+<pre><code>var me = new Person(&quot;Mariz&quot;); // create instance of Person</code></pre>
+
+<p>I can use our method <strong>getName()</strong> to return my name:</p>
+
+<pre><code>me.getName(); // Mariz</code></pre>
+
+<p>Is that simple.</p>
