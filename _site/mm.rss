@@ -4,7 +4,7 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-03-31T23:06:46-07:00</updated>
+  <updated>2013-03-31T23:08:05-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
@@ -19,7 +19,7 @@
     <id>http://marizmelo.com/2013/03/30/javascript_classes</id>
     <content type="html">&lt;p&gt;Hi everyone, today we are going to talk about &lt;strong&gt;classes&lt;/strong&gt; in JavaScript. JS don&amp;#8217;t implement classes as other languages because its prototypical way.&lt;/p&gt;
 
-&lt;p&gt;Declare a class in JavaScript is as easy as create an &lt;strong&gt;Function&lt;/strong&gt;. This is how you declare a &lt;strong&gt;function constructor&lt;/strong&gt; in JavaScript:&lt;/p&gt;
+&lt;p&gt;Declare a class in JavaScript is as easy as create a &lt;strong&gt;Function&lt;/strong&gt;. This is how you declare a &lt;strong&gt;function constructor&lt;/strong&gt; in JavaScript:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;function Person(name) { 
   this.name = name; 

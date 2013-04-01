@@ -6,7 +6,7 @@ tags: [ 'javascript', 'oop' ]
 ---
 Hi everyone, today we are going to talk about **classes** in JavaScript. JS don't implement classes as other languages because its prototypical way.
 
-Declare a class in JavaScript is as easy as create an **Function**. This is how you declare a **function constructor** in JavaScript:
+Declare a class in JavaScript is as easy as create a **Function**. This is how you declare a **function constructor** in JavaScript:
 
     function Person(name) { 
       this.name = name; 
