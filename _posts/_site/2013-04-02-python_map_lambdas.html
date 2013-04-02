@@ -1,0 +1,20 @@
+<p>I have been studying more <strong>python</strong> these days and decide to share some of my findings. Python has a powerful method called <strong>map</strong> that can apply operations to all items of a list.</p>
+
+<p>Assume the following function definition For example:</p>
+
+<pre><code>def square(x):
+  return x * x</code></pre>
+
+<p>You can apply this function to a list of elements using python&#8217;s map method like this:</p>
+
+<pre><code>print map( square, [1, 2, 3, 4, 5]) // [1, 4, 9 , 16, 25]</code></pre>
+
+<p>But let&#8217;s take this power even further using a <strong>lambda</strong> expression. We could rewrite the expression above like this:</p>
+
+<pre><code>print map( lambda(x): x * x, [1, 2, 3, 4 , 5]) // [1, 4, 9 , 16, 25]</code></pre>
+
+<p>Now a third way you can use this using an <strong>expressive formula</strong>:</p>
+
+<pre><code>print [x * x for x in [1, 2, 3, 4 ,5]] // also [1, 4, 9 , 16, 25]</code></pre>
+
+<p>Have fun.</p>
