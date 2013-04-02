@@ -4,7 +4,7 @@ title: "Python map method and lambda expressions"
 date: 2013-04-02 01:40:45
 tags: [ 'python', 'lambda', 'mapReduce' ]
 ---
-I have been studying more **python** these days and decide to share some of my findings. Python has a powerful method called **map** that can apply operations to all items of a list.
+I have been studying more **python** these days and decided to share some of my findings. Python has a powerful method called **map** that can apply operations to all items of a list.
 
 Assume the following function definition For example:
 
