@@ -19,7 +19,7 @@ But let's take this power even further using a **lambda** expression. We could r
 
     print map( lambda(x): x * x, [1, 2, 3, 4 , 5]) // [1, 4, 9 , 16, 25]
 
-Now a third way you can use this using an **expressive formula**:
+Now a third way to do this using an **expressive formula**:
 
     print [x * x for x in [1, 2, 3, 4 ,5]] // also [1, 4, 9 , 16, 25]
 
