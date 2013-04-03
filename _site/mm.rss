@@ -4,13 +4,121 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-03-31T23:08:05-07:00</updated>
+  <updated>2013-04-02T17:07:08-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
   </author>
   <rights>Copyright (c) 2013, Mariz Melo; all rights reserved.</rights>
   
+  
+  <entry>
+    <title>Python map method and lambda expressions</title>
+    <link href="http://marizmelo.com/2013/04/01/python_map_lambdas.html"/>
+    <updated>2013-04-01T18:40:45-07:00</updated>
+    <id>http://marizmelo.com/2013/04/01/python_map_lambdas</id>
+    <content type="html">&lt;p&gt;I have been studying more &lt;strong&gt;python&lt;/strong&gt; these days and decided to share some of my findings. Python has a powerful method called &lt;strong&gt;map&lt;/strong&gt; that can apply operations to all items of a list.&lt;/p&gt;
+
+&lt;p&gt;Assume the following function definition For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def square(x):
+  return x * x&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can apply this function to a list of elements using python&amp;#8217;s map method like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print map( square, [1, 2, 3, 4, 5]) // [1, 4, 9 , 16, 25]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But let&amp;#8217;s take this power even further using a &lt;strong&gt;lambda&lt;/strong&gt; expression. We could rewrite the expression above like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print map( lambda(x): x * x, [1, 2, 3, 4 , 5]) // [1, 4, 9 , 16, 25]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now a third way to do this using an expressive formula in a &lt;strong&gt;list comprehension:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print [x * x for x in [1, 2, 3, 4 ,5]] // also [1, 4, 9 , 16, 25]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Have fun.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Python Lexical Analyzer </title>
+    <link href="http://marizmelo.com/2013/03/31/python_lexer.html"/>
+    <updated>2013-03-31T15:50:45-07:00</updated>
+    <id>http://marizmelo.com/2013/03/31/python_lexer</id>
+    <content type="html">&lt;p&gt;Interrupting our series on JavaScript I will talk about python and lexical analysis. &lt;strong&gt;Lexical analysis&lt;/strong&gt; (or lexer) is the process of breaking words into &lt;strong&gt;tokens&lt;/strong&gt; (small units).&lt;/p&gt;
+
+&lt;p&gt;Today we are going to create a small lexer in python to analyze a small piece of HTML code.&lt;/p&gt;
+
+&lt;p&gt;First we will need to import the python&amp;#8217;s lexical library called &lt;a href='http://www.dabeaz.com/ply/'&gt;ply&lt;/a&gt;. To install ply in &lt;em&gt;nix systems you can run the following command:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo easy_install ply&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create a file called &lt;strong&gt;lexer.py&lt;/strong&gt; and write the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import ply.lex as lex # import lexer library
+
+# token types that will be used by system
+tokens = (
+  &amp;#39;LANGLE&amp;#39;, # &amp;lt;
+  &amp;#39;LANGLESLASH&amp;#39;, # &amp;lt;/
+  &amp;#39;RANGLE&amp;#39;, # &amp;gt;
+  &amp;#39;EQUAL&amp;#39;, # = 
+  &amp;#39;NUMBER&amp;#39;, # 33
+  &amp;#39;STRING&amp;#39;, # &amp;quot;hello&amp;quot;
+  &amp;#39;WORD&amp;#39; # any other words
+)
+
+t_ignore = &amp;#39; &amp;#39; # ignore white-spaces
+
+# handles errors
+def t_error(token):
+  print(&amp;quot;Illegal character &amp;#39;%s&amp;#39;&amp;quot; % token.value[0])
+  token.lexer.skip(1)
+
+def t_LANGLESLASH(token):
+  r&amp;#39;&amp;lt;/&amp;#39; # regular expression
+  return token
+
+def t_LANGLE(token):
+  r&amp;#39;&amp;lt;&amp;#39;
+  return token
+
+def t_RANGLE(token):
+  r&amp;#39;&amp;gt;&amp;#39;
+  return token
+
+def t_EQUAL(token):
+  r&amp;#39;=&amp;#39;
+  return token
+
+# match numbers strings and convert them to int
+def t_NUMBER(token):
+  r&amp;quot;[0-9]+&amp;quot;
+  token.value = int(token.value)
+  return token
+
+# match double quoted string without a &amp;quot; inside
+def t_STRING(token):
+  r&amp;#39;&amp;quot;[^&amp;quot;]*&amp;quot;&amp;#39;
+  token.value = token.value[1:-1] # substring to strip double quotes
+  return token  
+
+# WORD is any word EXCEPT &amp;lt;&amp;gt; or space
+def t_WORD(token):
+  r&amp;quot;[^ &amp;lt;&amp;gt;]+&amp;quot;
+  return token
+
+webpage = &amp;#39;&amp;quot;This&amp;quot; is 33 &amp;lt;b&amp;gt;my&amp;lt;/b&amp;gt; webpage!&amp;#39; # string to be analyzed
+
+htmllexer = lex.lex() # tells lex to use all token def (functions) above
+htmllexer.input(webpage) # which string to break up
+
+while True:
+  tok = htmllexer.token() # return next token available
+  if not tok: break
+  print tok&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is a complex topic. Write a comment if you have any problems implementing this algorithm.&lt;/p&gt;</content>
+  </entry>
   
   <entry>
     <title>JavaScript Classes</title>
