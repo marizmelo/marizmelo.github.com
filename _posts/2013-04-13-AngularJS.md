@@ -49,7 +49,7 @@ I have replaced the word **Hello** with an **AngularJS template** syntax (betwee
 Let's replace that template value with the string **"Hello"** again, but this time using AngularJS.
 
     ...
-      <h1 ng-controller="Hello">{{ hello }} World!</h1>
+      <h1 ng-controller="Hello">{ { hello } } World!</h1>
       <h2>Getting started</h2>
     <!-- SCRIPTS -->
     <script>
@@ -74,7 +74,7 @@ The complete script:
       <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
     </head>
     <body>
-      <h1 ng-controller="Hello">{{ hello }} World!</h1>
+      <h1 ng-controller="Hello">{ { hello } } World!</h1>
       <h2>Getting started</h2>
       <!-- SCRIPTS -->
       <script>

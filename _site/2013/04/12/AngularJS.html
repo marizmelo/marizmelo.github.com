@@ -124,7 +124,7 @@
 <p>Let&#8217;s replace that template value with the string <strong>&#8220;Hello&#8221;</strong> again, but this time using AngularJS.</p>
 
 <pre><code>...
-  &lt;h1 ng-controller=&quot;Hello&quot;&gt; World!&lt;/h1&gt;
+  &lt;h1 ng-controller=&quot;Hello&quot;&gt;{ { hello } } World!&lt;/h1&gt;
   &lt;h2&gt;Getting started&lt;/h2&gt;
 &lt;!-- SCRIPTS --&gt;
 &lt;script&gt;
@@ -149,7 +149,7 @@
   &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-  &lt;h1 ng-controller=&quot;Hello&quot;&gt; World!&lt;/h1&gt;
+  &lt;h1 ng-controller=&quot;Hello&quot;&gt;{ { hello } } World!&lt;/h1&gt;
   &lt;h2&gt;Getting started&lt;/h2&gt;
   &lt;!-- SCRIPTS --&gt;
   &lt;script&gt;
