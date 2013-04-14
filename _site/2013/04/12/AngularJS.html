@@ -140,6 +140,26 @@
 
 <p>You should see the replaced value on your browser now.</p>
 
+<p>The complete script:</p>
+
+<pre><code>&lt;!DOCYTPE html&gt;
+&lt;html ng-app&gt;
+&lt;head&gt;
+  &lt;title&gt;Hello AngularJS&lt;/title&gt;
+  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1 ng-controller=&quot;Hello&quot;&gt; World!&lt;/h1&gt;
+  &lt;h2&gt;Getting started&lt;/h2&gt;
+  &lt;!-- SCRIPTS --&gt;
+  &lt;script&gt;
+    function Hello($scope) {
+      $scope.hello = &quot;Hello&quot;;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
 <p>This was a quick introduction to AngularJS, more is coming. AngularJS is very powerful framework suitable for small and large applications.</p>
     <br>
   </section>

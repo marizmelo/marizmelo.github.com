@@ -65,4 +65,24 @@ In our <code>script</code> tag we included a <code>function</code> that replace 
 
 You should see the replaced value on your browser now.
 
+The complete script:
+
+    <!DOCYTPE html>
+    <html ng-app>
+    <head>
+      <title>Hello AngularJS</title>
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
+    </head>
+    <body>
+      <h1 ng-controller="Hello">{{hello}} World!</h1>
+      <h2>Getting started</h2>
+      <!-- SCRIPTS -->
+      <script>
+        function Hello($scope) {
+          $scope.hello = "Hello";
+        }
+      </script>
+    </body>
+    </html>
+
 This was a quick introduction to AngularJS, more is coming. AngularJS is very powerful framework suitable for small and large applications.
