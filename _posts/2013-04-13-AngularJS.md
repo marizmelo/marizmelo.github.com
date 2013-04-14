@@ -85,4 +85,4 @@ The complete script:
     </body>
     </html>
 
-This was a quick introduction to AngularJS, more is coming. AngularJS is very powerful framework suitable for small and large applications.
+This was a quick introduction to AngularJS, more is coming. AngularJS is a powerful framework suitable for small and large applications.
