@@ -41,15 +41,15 @@ You are ready to use AngularJS. Let's start by using **templates** first:
 
     ...
     <body>
-      <h1>{{hello}} World!</h1>
+      <h1>{{ hello }} World!</h1>
     ...
 
-I have replaced the word **Hello** with an **AngularJS template** syntax (between double curly brackets).
+I have replaced the word **Hello** with an **AngularJS template** syntax (between double curly-braces).
 
 Let's replace that template value with the string **"Hello"** again, but this time using AngularJS.
 
     ...
-      <h1 ng-controller="Hello">{{hello}} World!</h1>
+      <h1 ng-controller="Hello">{{ hello }} World!</h1>
       <h2>Getting started</h2>
     <!-- SCRIPTS -->
     <script>
@@ -74,7 +74,7 @@ The complete script:
       <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
     </head>
     <body>
-      <h1 ng-controller="Hello">{{hello}} World!</h1>
+      <h1 ng-controller="Hello">{{ hello }} World!</h1>
       <h2>Getting started</h2>
       <!-- SCRIPTS -->
       <script>
