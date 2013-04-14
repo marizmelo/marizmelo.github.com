@@ -116,7 +116,7 @@
 
 <pre><code>...
 &lt;body&gt;
-  &lt;h1&gt; World!&lt;/h1&gt;
+  &lt;h1&gt;{ { hello } } World!&lt;/h1&gt;
 ...</code></pre>
 
 <p>I have replaced the word <strong>Hello</strong> with an <strong>AngularJS template</strong> syntax (between double curly-braces).</p>
@@ -136,7 +136,7 @@
 
 <p>Notice the newly created attribute <strong>ng-controller</strong> on our <code>H1</code> element. This attribute is responsible for <strong>controlling</strong> everything between the <code>h1</code> tag element. Another new element is <code>$scope</code>. With this variable you can access all template values in a given scope.</p>
 
-<p>In our <code>script</code> tag we included a <code>function</code> that replace the value of your template *<strong><em>.</em></strong></p>
+<p>In our <code>script</code> tag we included a <code>function</code> that replace the value of your template <strong>{ {hello} }</strong>.</p>
 
 <p>You should see the replaced value on your browser now.</p>
 

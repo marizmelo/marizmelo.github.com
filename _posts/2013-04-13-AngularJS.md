@@ -41,7 +41,7 @@ You are ready to use AngularJS. Let's start by using **templates** first:
 
     ...
     <body>
-      <h1>{{ hello }} World!</h1>
+      <h1>{ { hello } } World!</h1>
     ...
 
 I have replaced the word **Hello** with an **AngularJS template** syntax (between double curly-braces).
@@ -61,7 +61,7 @@ Let's replace that template value with the string **"Hello"** again, but this ti
 
 Notice the newly created attribute **ng-controller** on our <code>H1</code> element. This attribute is responsible for **controlling** everything between the <code>h1</code> tag element. Another new element is <code>$scope</code>. With this variable you can access all template values in a given scope.
 
-In our <code>script</code> tag we included a <code>function</code> that replace the value of your template **{{hello}}**.
+In our <code>script</code> tag we included a <code>function</code> that replace the value of your template **{ {hello} }**.
 
 You should see the replaced value on your browser now.
 
