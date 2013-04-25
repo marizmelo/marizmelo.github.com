@@ -8,7 +8,7 @@ tags: [ 'JavaScript' ]
 Today a simple way to reverse string in JavaScript.
 
     var reversed
-      ,	name = "Mariz Melo";
+      , name = "Mariz Melo";
 		
     reversed = name.slipt("").reverse().join("");
     alert(reversed);
