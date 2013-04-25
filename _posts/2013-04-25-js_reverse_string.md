@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Reverse strings in JavaScript"
+title: "Reversing strings in JavaScript"
 date: 2013-04-25 11:40:45
 tags: [ 'JavaScript' ]
 ---
