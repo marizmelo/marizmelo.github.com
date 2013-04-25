@@ -7,11 +7,11 @@ tags: [ 'JavaScript' ]
 
 Today a simple way to reverse string in JavaScript.
 
-		var reversed
-			,	name = "Mariz Melo";
+    var reversed
+      ,	name = "Mariz Melo";
 		
-		reversed = name.slipt("").reverse().join("");		
-		alert(reversed);
+    reversed = name.slipt("").reverse().join("");
+    alert(reversed);
 
 That is it. What just happened?
 
