@@ -10,7 +10,7 @@ Today a simple way to reverse string in JavaScript.
     var reversed
       , name = "Mariz Melo";
 		
-    reversed = name.slipt("").reverse().join("");
+    reversed = name.split("").reverse().join("");
     alert(reversed);
 
 That is it. What just happened?

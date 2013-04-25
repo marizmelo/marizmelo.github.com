@@ -4,7 +4,7 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-04-25T11:44:50-07:00</updated>
+  <updated>2013-04-25T11:47:10-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
@@ -22,7 +22,7 @@
 &lt;pre&gt;&lt;code&gt;var reversed
   , name = &amp;quot;Mariz Melo&amp;quot;;
 	
-reversed = name.slipt(&amp;quot;&amp;quot;).reverse().join(&amp;quot;&amp;quot;);
+reversed = name.split(&amp;quot;&amp;quot;).reverse().join(&amp;quot;&amp;quot;);
 alert(reversed);&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;That is it. What just happened?&lt;/p&gt;
