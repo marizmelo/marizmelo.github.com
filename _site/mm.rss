@@ -4,7 +4,7 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-04-25T12:00:21-07:00</updated>
+  <updated>2013-05-31T17:46:06-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
@@ -225,7 +225,9 @@ while True:
   if not tok: break
   print tok&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This is a complex topic. Write a comment if you have any problems implementing this algorithm.&lt;/p&gt;</content>
+&lt;p&gt;This is a complex topic. Write a comment if you have any problems implementing this algorithm.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: As pointed by Thiago Moura on the comments, this code and comments was written while following the Udacity programing language course at http://udacity.com. Thank you Thiago.&lt;/p&gt;</content>
   </entry>
   
   <entry>
