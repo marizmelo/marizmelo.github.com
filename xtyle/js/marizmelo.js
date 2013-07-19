@@ -7,12 +7,12 @@ define(["jquery"], function($){
   });
 
   // MOUSE OVER LOGO EFFECT
-  $("#marizimage").on("mouseenter", function () {
+  /*$("#marizimage").on("mouseenter", function () {
     $("#marizlogo").stop().animate( { "margin-left" : "80px", "margin-top" : "85px" }, function() {
       $(this).on("mouseleave", function(){ 
         $(this).stop().animate( { "margin-left" : "0", "margin-top" : "0" } ); 
       });
     });
-  });
+  });*/
 
 });
