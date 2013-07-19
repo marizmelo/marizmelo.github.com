@@ -4,7 +4,7 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-07-19T13:50:05-07:00</updated>
+  <updated>2013-07-19T14:01:48-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
@@ -21,63 +21,20 @@
 
 &lt;p&gt;The iOS operating system is on it&amp;#8217;s way and to celebrate this I have done some work on the new icons.&lt;/p&gt;
 
-&lt;p&gt;I really admire Jony Ive work and this is just a sum of my design observations. I have notice that the new icons lacks of consistency in their design. This is my attempt of correcting this.&lt;/p&gt;
+&lt;p&gt;I really admire &lt;strong&gt;Jony Ive&lt;/strong&gt; work and this is just a sum of my design observations. I have notice that the new icons have a lack of consistency in their design (sorry). This is my attempt of correcting this.&lt;/p&gt;
 
-&lt;p&gt;First let&amp;#8217;s take a look on the original icons:&lt;/p&gt;
-&lt;div class='center border-bottom'&gt;
-  &lt;img src='http://farm8.staticflickr.com/7370/9186575201_95299f2b88_z.jpg' width='80%' /&gt;
-&lt;/div&gt;&lt;br /&gt;
-&lt;p&gt;Here is the change I&amp;#8217;ve made:&lt;/p&gt;
+&lt;p&gt;&lt;a href='http://www.behance.net/gallery/iOS-7-Revisited/9609109'&gt;Behance page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are the change I&amp;#8217;ve made:&lt;/p&gt;
 &lt;div class='center border-bottom'&gt;
   &lt;img src='http://farm6.staticflickr.com/5485/9188875868_68a887f254_o.jpg' width='80%' /&gt;
 &lt;/div&gt;&lt;br /&gt;
-&lt;p&gt;First I&amp;#8217;ve changed all gradient directions for dark top to lighter bottom. This way we maintain consistency on all icons. Ive have used some transparency and I also kept that in this example.&lt;/p&gt;
+&lt;p&gt;First I change all gradient directions for dark top to lighter bottom. This way we maintain consistency on all icons. Ive have used some transparency and I also kept that in this example.&lt;/p&gt;
 
-&lt;p&gt;Let&amp;#8217;s see each icon separately:&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Messages&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3742/9189109114_7d30630319_s.jpg' /&gt;
-&lt;p&gt;Little changes here, the three dots are kinda well known by users of &lt;strong&gt;messages&lt;/strong&gt; nothing more fair than put this on the icon.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Calendar&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7431/9189102826_147233534b_s.jpg' /&gt;
-&lt;p&gt;I&amp;#8217;ve changed the font size and spaces on this one. I like the way Ive has done this one.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Photos&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7329/9189102562_c31d93b43c_s.jpg' /&gt;
-&lt;p&gt;Is funny how this icon change. I have maintain the original look and converting to the flat design. I wanted users to identify old icons, not being lost trying to figure out the new look.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Camera&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3755/9189102806_b4319dcedf_s.jpg' /&gt;
-&lt;p&gt;This is one icon that I did not liked at all on ios7. It just looks so different from the others. Here I tried to maintain the flat design and the older look adding the little red dot meaning that you can also record videos with the camera.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Weather&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7311/9186305005_245a365535_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Clock&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3729/9186305397_c8a340344f_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Maps&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm3.staticflickr.com/2869/9186305287_d02aaa3b15_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Videos&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5503/9186305011_62e107c830_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Notes&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm3.staticflickr.com/2823/9186305219_7bb3f09ff0_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Reminders&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm3.staticflickr.com/2888/9186305137_79ab29457f_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3767/9189148174_07c01323f2_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Stocks&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3727/9189102428_1e0bf420d6_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Game Center&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5350/9186305375_a01d4f6ef2_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7412/9186350475_5964a10b54_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3747/9186350453_db2877e9e8_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Newsstand&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5487/9189102628_f7792ac2b6_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;iTunes Store&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7354/9189102714_7fbb470094_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;App Store&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3718/9186305551_8d885eafc9_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Passbook&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm3.staticflickr.com/2893/9186305203_c18d484890_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Compass&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5530/9189102784_b29c2f047c_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Settings&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5333/9186305073_aa3603c815_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7460/9189148166_452f18f07d_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5324/9186350421_643de784cc_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Phone&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5321/9186305191_fa8926c601_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Mail&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5536/9189102678_f0a043ef2a_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Safari&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3746/9189102518_6b4681f837_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
-&lt;h3&gt;&lt;light&gt;Music&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7415/9189102718_709309eaf6_s.jpg' /&gt;
-&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;</content>
+&lt;p&gt;Now let&amp;#8217;s take a look on the original icons:&lt;/p&gt;
+&lt;div class='center border-bottom'&gt;
+  &lt;img src='http://farm8.staticflickr.com/7370/9186575201_95299f2b88_z.jpg' width='80%' /&gt;
+&lt;/div&gt;</content>
   </entry>
   
   <entry>
