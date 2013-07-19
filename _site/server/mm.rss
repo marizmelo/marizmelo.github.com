@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title type="text" xml:lang="en"></title>
+  <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
+  <link type="text" href="http://marizmelo.com" rel="alternate"/>
+  <updated>2013-07-19T13:49:15-07:00</updated>
+  <id>http://marizmelo.com</id>
+  <author>
+    <name>Mariz Melo</name>
+  </author>
+  <rights>Copyright (c) 2013, Mariz Melo; all rights reserved.</rights>
+  
+  
+  <entry>
+    <title>ios 7 Revisited</title>
+    <link href="http://marizmelo.com/2013/07/01/ios7icons.html"/>
+    <updated>2013-07-01T03:40:45-07:00</updated>
+    <id>http://marizmelo.com/2013/07/01/ios7icons</id>
+    <content type="html">&lt;p&gt;It has been a while since my last post. So this time I wanted to do something different than usual. Let&amp;#8217;s talk about design today.&lt;/p&gt;
+
+&lt;p&gt;The iOS operating system is on it&amp;#8217;s way and to celebrate this I have done some work on the new icons.&lt;/p&gt;
+
+&lt;p&gt;I really admire Jony Ive work and this is just a sum of my design observations. I have notice that the new icons lacks of consistency in their design. This is my attempt of correcting this.&lt;/p&gt;
+
+&lt;p&gt;First let&amp;#8217;s take a look on the original icons:&lt;/p&gt;
+&lt;div class='center border-bottom'&gt;
+  &lt;img src='http://farm8.staticflickr.com/7370/9186575201_95299f2b88_z.jpg' width='80%' /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;p&gt;Here is the change I&amp;#8217;ve made:&lt;/p&gt;
+&lt;div class='center border-bottom'&gt;
+  &lt;img src='http://farm6.staticflickr.com/5485/9188875868_68a887f254_o.jpg' width='80%' /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;p&gt;First I&amp;#8217;ve changed all gradient directions for dark top to lighter bottom. This way we maintain consistency on all icons. Ive have used some transparency and I also kept that in this example.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s see each icon separately:&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Messages&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3742/9189109114_7d30630319_s.jpg' /&gt;
+&lt;p&gt;Little changes here, the three dots are kinda well known by users of &lt;strong&gt;messages&lt;/strong&gt; nothing more fair than put this on the icon.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Calendar&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7431/9189102826_147233534b_s.jpg' /&gt;
+&lt;p&gt;I&amp;#8217;ve changed the font size and spaces on this one. I like the way Ive has done this one.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Photos&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7329/9189102562_c31d93b43c_s.jpg' /&gt;
+&lt;p&gt;Is funny how this icon change. I have maintain the original look and converting to the flat design. I wanted users to identify old icons, not being lost trying to figure out the new look.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Camera&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3755/9189102806_b4319dcedf_s.jpg' /&gt;
+&lt;p&gt;This is one icon that I did not liked at all on ios7. It just looks so different from the others. Here I tried to maintain the flat design and the older look adding the little red dot meaning that you can also record videos with the camera.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Weather&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7311/9186305005_245a365535_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Clock&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3729/9186305397_c8a340344f_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Maps&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm3.staticflickr.com/2869/9186305287_d02aaa3b15_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Videos&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5503/9186305011_62e107c830_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Notes&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm3.staticflickr.com/2823/9186305219_7bb3f09ff0_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Reminders&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm3.staticflickr.com/2888/9186305137_79ab29457f_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3767/9189148174_07c01323f2_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Stocks&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3727/9189102428_1e0bf420d6_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Game Center&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5350/9186305375_a01d4f6ef2_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7412/9186350475_5964a10b54_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3747/9186350453_db2877e9e8_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Newsstand&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5487/9189102628_f7792ac2b6_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;iTunes Store&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7354/9189102714_7fbb470094_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;App Store&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3718/9186305551_8d885eafc9_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Passbook&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm3.staticflickr.com/2893/9186305203_c18d484890_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Compass&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5530/9189102784_b29c2f047c_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Settings&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5333/9186305073_aa3603c815_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7460/9189148166_452f18f07d_s.jpg' /&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5324/9186350421_643de784cc_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Phone&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5321/9186305191_fa8926c601_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Mail&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm6.staticflickr.com/5536/9189102678_f0a043ef2a_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Safari&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm4.staticflickr.com/3746/9189102518_6b4681f837_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;
+&lt;h3&gt;&lt;light&gt;Music&lt;/light&gt;&lt;/h3&gt;&lt;img class='margin border border-radius2x' src='http://farm8.staticflickr.com/7415/9189102718_709309eaf6_s.jpg' /&gt;
+&lt;p&gt;Small changes on this one. I&amp;#8217;ve inverted the gradient direction and change the position of the cloud and sun a little.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Reversing strings in JavaScript</title>
+    <link href="http://marizmelo.com/2013/04/25/js_reverse_string.html"/>
+    <updated>2013-04-25T04:40:45-07:00</updated>
+    <id>http://marizmelo.com/2013/04/25/js_reverse_string</id>
+    <content type="html">&lt;p&gt;Today a simple way to reverse string in JavaScript.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var reversed
+  , name = &amp;quot;Mariz Melo&amp;quot;;
+	
+reversed = name.split(&amp;quot;&amp;quot;).reverse().join(&amp;quot;&amp;quot;);
+alert(reversed);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That is it. What just happened?&lt;/p&gt;
+
+&lt;p&gt;Well we used the JavaScript &lt;code&gt;split&lt;/code&gt; method to convert our string into an Array of words. After that we used the &lt;code&gt;reverse&lt;/code&gt; method to reverse the order of those words in our newly created Array. Finally, we used the method &lt;code&gt;join&lt;/code&gt; to convert the Array into a string again (now with the words in reverse order).&lt;/p&gt;
+
+&lt;p&gt;Simple like this.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>AngularJS an introduction</title>
+    <link href="http://marizmelo.com/2013/04/12/AngularJS.html"/>
+    <updated>2013-04-12T18:40:45-07:00</updated>
+    <id>http://marizmelo.com/2013/04/12/AngularJS</id>
+    <content type="html">&lt;p&gt;Hi again everyone today I will talk about &lt;strong&gt;Google&amp;#8217;s&lt;/strong&gt; client-side framework &lt;a href='http://angularjs.org/'&gt;AngularJS&lt;/a&gt;. I have been using AngularJS in my projects for a while now and just decided to share some information here.&lt;/p&gt;
+
+&lt;p&gt;AngularJS helps you to control the &lt;a href='http://en.wikipedia.org/wiki/Document_Object_Model'&gt;DOM&lt;/a&gt; and create amazing client-side applications. You don&amp;#8217;t need anything else to start using Angular, just download it (or use a &lt;a href='http://en.wikipedia.org/wiki/Content_delivery_network'&gt;CDN&lt;/a&gt;) to get started. Let&amp;#8217;s start with AngularJS.&lt;/p&gt;
+
+&lt;p&gt;Create a file called &lt;strong&gt;angular.html&lt;/strong&gt; with the following content:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;title&amp;gt;Hello AngularJS&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;h1&amp;gt;Hello World!&amp;lt;/h1&amp;gt;
+  &amp;lt;h2&amp;gt;Getting started&amp;lt;/h2&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Include AngularJS JavaScript file on the &lt;strong&gt;header&lt;/strong&gt; of your &lt;strong&gt;angular.html&lt;/strong&gt; file like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;title&amp;gt;Hello AngularJS&amp;lt;/title&amp;gt;
+  &amp;lt;script src=&amp;quot;//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You need to inform AngularJS which elements of the DOM you want to manage. You do this by including the attribute &lt;strong&gt;ng-app&lt;/strong&gt; to one of the DOM elements. In our case since I we want to manage the entire DOM tree (more about DOM in another post).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCYTYPE html&amp;gt;
+&amp;lt;html ng-app&amp;gt;
+  ...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You are ready to use AngularJS. Let&amp;#8217;s start by using &lt;strong&gt;templates&lt;/strong&gt; first:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;...
+&amp;lt;body&amp;gt;
+  &amp;lt;h1&amp;gt;{ { hello } } World!&amp;lt;/h1&amp;gt;
+...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have replaced the word &lt;strong&gt;Hello&lt;/strong&gt; with an &lt;strong&gt;AngularJS template&lt;/strong&gt; syntax (between double curly-braces).&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s replace that template value with the string &lt;strong&gt;&amp;#8220;Hello&amp;#8221;&lt;/strong&gt; again, but this time using AngularJS.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;...
+  &amp;lt;h1 ng-controller=&amp;quot;Hello&amp;quot;&amp;gt;{ { hello } } World!&amp;lt;/h1&amp;gt;
+  &amp;lt;h2&amp;gt;Getting started&amp;lt;/h2&amp;gt;
+&amp;lt;!-- SCRIPTS --&amp;gt;
+&amp;lt;script&amp;gt;
+  function Hello($scope) {
+    $scope.hello = &amp;quot;Hello&amp;quot;;
+  }
+&amp;lt;/script&amp;gt;
+...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice the newly created attribute &lt;strong&gt;ng-controller&lt;/strong&gt; on our &lt;code&gt;H1&lt;/code&gt; element. This attribute is responsible for &lt;strong&gt;controlling&lt;/strong&gt; everything between the &lt;code&gt;h1&lt;/code&gt; tag element. Another new element is &lt;code&gt;$scope&lt;/code&gt;. With this variable you can access all template values in a given scope.&lt;/p&gt;
+
+&lt;p&gt;In our &lt;code&gt;script&lt;/code&gt; tag we included a &lt;code&gt;function&lt;/code&gt; that replace the value of your template &lt;strong&gt;{ {hello} }&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You should see the replaced value on your browser now.&lt;/p&gt;
+
+&lt;p&gt;The complete script:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCYTPE html&amp;gt;
+&amp;lt;html ng-app&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;title&amp;gt;Hello AngularJS&amp;lt;/title&amp;gt;
+  &amp;lt;script src=&amp;quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;h1 ng-controller=&amp;quot;Hello&amp;quot;&amp;gt;{ { hello } } World!&amp;lt;/h1&amp;gt;
+  &amp;lt;h2&amp;gt;Getting started&amp;lt;/h2&amp;gt;
+  &amp;lt;!-- SCRIPTS --&amp;gt;
+  &amp;lt;script&amp;gt;
+    function Hello($scope) {
+      $scope.hello = &amp;quot;Hello&amp;quot;;
+    }
+  &amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This was a quick introduction to AngularJS, more is coming. AngularJS is a powerful framework suitable for small and large applications.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Python map method and lambda expressions</title>
+    <link href="http://marizmelo.com/2013/04/01/python_map_lambdas.html"/>
+    <updated>2013-04-01T18:40:45-07:00</updated>
+    <id>http://marizmelo.com/2013/04/01/python_map_lambdas</id>
+    <content type="html">&lt;p&gt;I have been studying more &lt;strong&gt;python&lt;/strong&gt; these days and decided to share some of my findings. Python has a powerful method called &lt;strong&gt;map&lt;/strong&gt; that can apply operations to all items of a list.&lt;/p&gt;
+
+&lt;p&gt;Assume the following function definition For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def square(x):
+  return x * x&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can apply this function to a list of elements using python&amp;#8217;s map method like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print map( square, [1, 2, 3, 4, 5]) // [1, 4, 9 , 16, 25]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But let&amp;#8217;s take this power even further using a &lt;strong&gt;lambda&lt;/strong&gt; expression. We could rewrite the expression above like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print map( lambda(x): x * x, [1, 2, 3, 4 , 5]) // [1, 4, 9 , 16, 25]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now a third way to do this using an expressive formula in a &lt;strong&gt;list comprehension:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print [x * x for x in [1, 2, 3, 4 ,5]] // also [1, 4, 9 , 16, 25]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Have fun.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Python Lexical Analyzer </title>
+    <link href="http://marizmelo.com/2013/03/31/python_lexer.html"/>
+    <updated>2013-03-31T15:50:45-07:00</updated>
+    <id>http://marizmelo.com/2013/03/31/python_lexer</id>
+    <content type="html">&lt;p&gt;Interrupting our series on JavaScript I will talk about python and lexical analysis. &lt;strong&gt;Lexical analysis&lt;/strong&gt; (or lexer) is the process of breaking words into &lt;strong&gt;tokens&lt;/strong&gt; (small units).&lt;/p&gt;
+
+&lt;p&gt;Today we are going to create a small lexer in python to analyze a small piece of HTML code.&lt;/p&gt;
+
+&lt;p&gt;First we will need to import the python&amp;#8217;s lexical library called &lt;a href='http://www.dabeaz.com/ply/'&gt;ply&lt;/a&gt;. To install ply in &lt;em&gt;nix systems you can run the following command:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo easy_install ply&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create a file called &lt;strong&gt;lexer.py&lt;/strong&gt; and write the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import ply.lex as lex # import lexer library
+
+# token types that will be used by system
+tokens = (
+  &amp;#39;LANGLE&amp;#39;, # &amp;lt;
+  &amp;#39;LANGLESLASH&amp;#39;, # &amp;lt;/
+  &amp;#39;RANGLE&amp;#39;, # &amp;gt;
+  &amp;#39;EQUAL&amp;#39;, # = 
+  &amp;#39;NUMBER&amp;#39;, # 33
+  &amp;#39;STRING&amp;#39;, # &amp;quot;hello&amp;quot;
+  &amp;#39;WORD&amp;#39; # any other words
+)
+
+t_ignore = &amp;#39; &amp;#39; # ignore white-spaces
+
+# handles errors
+def t_error(token):
+  print(&amp;quot;Illegal character &amp;#39;%s&amp;#39;&amp;quot; % token.value[0])
+  token.lexer.skip(1)
+
+def t_LANGLESLASH(token):
+  r&amp;#39;&amp;lt;/&amp;#39; # regular expression
+  return token
+
+def t_LANGLE(token):
+  r&amp;#39;&amp;lt;&amp;#39;
+  return token
+
+def t_RANGLE(token):
+  r&amp;#39;&amp;gt;&amp;#39;
+  return token
+
+def t_EQUAL(token):
+  r&amp;#39;=&amp;#39;
+  return token
+
+# match numbers strings and convert them to int
+def t_NUMBER(token):
+  r&amp;quot;[0-9]+&amp;quot;
+  token.value = int(token.value)
+  return token
+
+# match double quoted string without a &amp;quot; inside
+def t_STRING(token):
+  r&amp;#39;&amp;quot;[^&amp;quot;]*&amp;quot;&amp;#39;
+  token.value = token.value[1:-1] # substring to strip double quotes
+  return token  
+
+# WORD is any word EXCEPT &amp;lt;&amp;gt; or space
+def t_WORD(token):
+  r&amp;quot;[^ &amp;lt;&amp;gt;]+&amp;quot;
+  return token
+
+webpage = &amp;#39;&amp;quot;This&amp;quot; is 33 &amp;lt;b&amp;gt;my&amp;lt;/b&amp;gt; webpage!&amp;#39; # string to be analyzed
+
+htmllexer = lex.lex() # tells lex to use all token def (functions) above
+htmllexer.input(webpage) # which string to break up
+
+while True:
+  tok = htmllexer.token() # return next token available
+  if not tok: break
+  print tok&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is a complex topic. Write a comment if you have any problems implementing this algorithm.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: As pointed by Thiago Moura on the comments, this code and comments was written while following the Udacity programing language course at http://udacity.com. Thank you Thiago.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>JavaScript Classes</title>
+    <link href="http://marizmelo.com/2013/03/30/javascript_classes.html"/>
+    <updated>2013-03-30T18:20:45-07:00</updated>
+    <id>http://marizmelo.com/2013/03/30/javascript_classes</id>
+    <content type="html">&lt;p&gt;Hi everyone, today we are going to talk about &lt;strong&gt;classes&lt;/strong&gt; in JavaScript. JS don&amp;#8217;t implement classes as other languages because its prototypical way.&lt;/p&gt;
+
+&lt;p&gt;Declare a class in JavaScript is as easy as create a &lt;strong&gt;Function&lt;/strong&gt;. This is how you declare a &lt;strong&gt;function constructor&lt;/strong&gt; in JavaScript:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function Person(name) { 
+  this.name = name; 
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Define a new method using the function &lt;strong&gt;prototype&lt;/strong&gt; (more about prototypes in another post) of our class:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Person.prototype.getName = function() {
+  return this.name;
+};&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let&amp;#8217;s now create an &lt;strong&gt;instance&lt;/strong&gt; of our class &lt;strong&gt;Person&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var me = new Person(&amp;quot;Mariz&amp;quot;); // create instance of Person&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I can use our method &lt;strong&gt;getName()&lt;/strong&gt; to return my name:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;me.getName(); // Mariz&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is that simple.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>JavaScript - Easily Sorting an Array of Objects</title>
+    <link href="http://marizmelo.com/2013/03/27/javascript_array_of_objects_sorting.html"/>
+    <updated>2013-03-27T04:40:45-07:00</updated>
+    <id>http://marizmelo.com/2013/03/27/javascript_array_of_objects_sorting</id>
+    <content type="html">&lt;p&gt;Hi everyone, today we are going to take a look on a sleek technique to sort an &lt;strong&gt;Array of Objects&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;sort()&lt;/strong&gt; method of JavaScript provide an easy way for us to sort Arrays. Take a look:&lt;/p&gt;
+
+&lt;p&gt;Numbers:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[3, 1, 4, 2].sort(); // [1, 2, 3, 4]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Characters:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[&amp;quot;a&amp;quot;, &amp;quot;d&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;b&amp;quot;].sort(); // [&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;d&amp;quot;]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Strings:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[&amp;quot;Jose&amp;quot;, &amp;quot;Antonio&amp;quot;, &amp;quot;Ana&amp;quot;, &amp;quot;Michael&amp;quot;].sort(); // [&amp;quot;Ana&amp;quot;, &amp;quot;Antonio&amp;quot;, &amp;quot;Jose&amp;quot;, &amp;quot;Michael&amp;quot;]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Simple right? What about when you have an Array of Objects?&lt;/p&gt;
+
+&lt;p&gt;You can still use the &lt;strong&gt;sort()&lt;/strong&gt; method to sort your Array, you just need to inform which property in the object you want to sort.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s imagine a contact book for example. You will receive an unordered array of object that you want to sort:&lt;/p&gt;
+
+&lt;p&gt;Array of objects&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{name:&amp;quot;Mariz&amp;quot;, age: 32}, {name: &amp;quot;Samira&amp;quot;, age: 25}, {name: &amp;quot;Leticia&amp;quot;, age: 9}]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you try to sort this array nothing will happen:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{name:&amp;quot;Mariz&amp;quot;, age: 32}, {name: &amp;quot;Samira&amp;quot;, age: 25}, {name: &amp;quot;Leticia&amp;quot;, age: 9}].sort();&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now lets use a function expression (or callback function) to sort this array of objects:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;compareName&lt;/strong&gt; callback function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function compareName(contact1, contact2) {
+  if (contact1.name &amp;lt; contact2.name) {
+    return 0;
+  } else {
+    return 1;
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Calling sort method with callback function &lt;strong&gt;compareName&lt;/strong&gt; that we wrote on the last step:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{name:&amp;quot;Mariz&amp;quot;, age: 32}, {name: &amp;quot;Samira&amp;quot;, age: 25}, {name: &amp;quot;Leticia&amp;quot;, age: 9}].sort(compareName);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sorting for age&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{name:&amp;quot;Mariz&amp;quot;, age: 32}, {name: &amp;quot;Samira&amp;quot;, age: 25}, {name: &amp;quot;Leticia&amp;quot;, age: 9}].sort(function(contact1, contact2) { 
+    return contact1.age - contact2.age; 
+});&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That is it for today!&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>JavaScript - painless decimal multiplication</title>
+    <link href="http://marizmelo.com/2013/03/21/painlessjavascriptdecimalmultiplication.html"/>
+    <updated>2013-03-21T20:00:45-07:00</updated>
+    <id>http://marizmelo.com/2013/03/21/painlessjavascriptdecimalmultiplication</id>
+    <content type="html">&lt;p&gt;JavaScript has a problem when multiplying decimals, try yourself:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;0.1 * 0.2
+&amp;gt; 0.020000000000000004 // NodeJS 0.8&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The way to correct this is to multiply the decimals before multiple their values, try yourself:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;( 0.1 * 10 + 0.2 * 10 ) / 10
+&amp;gt; 0.3&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can create a function for this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function multdec ( val1, val2 ) {
+    return ( val1 * 10 + val2 * 10 ) / 10;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can extend the Math object:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Math.multdec = function ( val1, val2 ) {
+    return ( val1 * 10 + val2 * 10 ) / 10;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can call this operation in two ways:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;multdec( val1, val2 );  // 0.3
+// or
+Math.multdec ( val1, val2 );  // 0.3&lt;/code&gt;&lt;/pre&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Pure JavaScript SlideShow</title>
+    <link href="http://marizmelo.com/2013/03/18/purejavascriptslideshow.html"/>
+    <updated>2013-03-18T16:40:45-07:00</updated>
+    <id>http://marizmelo.com/2013/03/18/purejavascriptslideshow</id>
+    <content type="html">&lt;p&gt;I have decided to go back in time and learn pure JavaScript again. I was becoming too dependent of libraries like jQuery and that is never good. It is a good exercise and as a result I came up today with this simple SlideShow made completely in JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Final result:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;index.html&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Pure JavaScript SlideShow&amp;lt;/title&amp;gt;
+    &amp;lt;!-- STYLES --&amp;gt;
+    &amp;lt;style&amp;gt;
+      .jslide { width: 350px; height: 350px; overflow: hidden; }
+    &amp;lt;/style&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+
+    &amp;lt;div id=&amp;quot;jslide&amp;quot;&amp;gt;
+      &amp;lt;img src=&amp;quot;http://placehold.it/350&amp;amp;text=01&amp;quot;&amp;gt;
+      &amp;lt;img src=&amp;quot;http://placehold.it/350&amp;amp;text=02&amp;quot;&amp;gt;
+      &amp;lt;img src=&amp;quot;http://placehold.it/350&amp;amp;text=03&amp;quot;&amp;gt;
+      &amp;lt;img src=&amp;quot;http://placehold.it/350&amp;amp;text=04&amp;quot;&amp;gt;
+      &amp;lt;img src=&amp;quot;http://placehold.it/350&amp;amp;text=05&amp;quot;&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;!-- SCRIPTS --&amp;gt;
+    &amp;lt;script src=&amp;quot;JSlide.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;jslide.js&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var current = 0;
+var element = document.getElementById(&amp;quot;jslide&amp;quot;);
+var slides = element.getElementsByTagName(&amp;quot;img&amp;quot;);
+var size = slides.length;
+var start = setInterval(function(){jslide();}, 3000);
+
+function jslide(){
+  if ( current != size - 1 ) { 
+    slides[ current ].style.display = &amp;quot;none&amp;quot;;
+  } else {
+    current = 0;
+    for ( var i = 0; i &amp;lt; size; ++i ) {
+      slides[i].style.display = &amp;quot;block&amp;quot;; 
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now let&amp;#8217;s take a look over the commented source code:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Variables&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// CURRENT SLIDE POSITION
+var current = 0; 
+
+// CACHE SLIDESHOW DIV WRAPPER
+var element = document.getElementById(&amp;quot;jslide&amp;quot;);
+
+// CACHE SLIDESHOW IMAGES
+var slides = element.getElementsByTagName(&amp;quot;img&amp;quot;);
+
+// COUNT NUMBER OF SLIDES
+var size = slides.length;
+
+// LOOP OVER SLIDESHOW EVERY 3 SECONDS
+var start = setInterval(function(){jslide();}, 3000);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;JSlide slideShow function&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function jslide(){
+
+  if ( current != size - 1 ) { 
+    
+    // CHECK IF CURRENT SLIDE IS THE LAST SLIDE
+    slides[ current ].style.display = &amp;quot;none&amp;quot;;
+
+  } else { 
+
+    // IF IS THE LAST SLIDE RESTART SLIDESHOW
+
+    current = 0; // RESET &amp;quot;CURRENT&amp;quot; VARIABLE
+
+    for ( var i = 0; i &amp;lt; size; ++i ) {
+
+      // RESET DISPLAY STYLE
+      slides[i].style.display = &amp;quot;block&amp;quot;; 
+
+    }
+  }
+}// jslide()    &lt;/code&gt;&lt;/pre&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Copy and Paste from command line</title>
+    <link href="http://marizmelo.com/2013/03/15/copypastecommandline.html"/>
+    <updated>2013-03-15T04:00:00-07:00</updated>
+    <id>http://marizmelo.com/2013/03/15/copypastecommandline</id>
+    <content type="html">&lt;p&gt;Use &lt;strong&gt;&amp;#8220;pbcopy&amp;#8221;&lt;/strong&gt; to copy content of file to your clipboard.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ pbcopy &amp;lt; file.txt&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;the command will copy all content from &amp;#8220;file.txt&amp;#8221; directly on your clipboard.&lt;/p&gt;
+
+&lt;p&gt;You can check if the content is there by using the &lt;strong&gt;&amp;#8220;pbpaste&amp;#8221;&lt;/strong&gt; command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ pbpaste&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The content of &amp;#8220;file.txt&amp;#8221; will appear on your terminal window.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Are you missing "sudo" on commands in terminal? Don't worry.</title>
+    <link href="http://marizmelo.com/2013/02/15/dontmisssudo.html"/>
+    <updated>2013-02-15T17:40:45-08:00</updated>
+    <id>http://marizmelo.com/2013/02/15/dontmisssudo</id>
+    <content type="html">&lt;p&gt;Sometimes you are in your terminal and need to type a command that requires you to have root powers. Well I don&amp;#8217;t know you, but I sometimes forget to put sudo in front of those commands. Look at this example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ rm somefile
+rm: somenewfile: Permission denied&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have some options here. I could retype the entire command or use arrow up and go to the beginning of the line adding &amp;#8220;sudo&amp;#8221; to it. But a better way to fix my mistake is using the operator &amp;#8220;!!&amp;#8221;. Like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ rm somefile
+rm: somenewfile: Permission denied
+$ sudo !!
+$ sudo rm newfile &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Amazing, your file &amp;#8220;newfile&amp;#8221; is now removed. Enjoy.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>JavaScript - check your properties</title>
+    <link href="http://marizmelo.com/2013/02/11/checkproperty.html"/>
+    <updated>2013-02-11T16:40:45-08:00</updated>
+    <id>http://marizmelo.com/2013/02/11/checkproperty</id>
+    <content type="html">&lt;p&gt;Sometimes you need to check if an Object has certain property. JavaScript provide two different methods for this. Let&amp;#8217;s start by creating a new Object called &lt;strong&gt;Person&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var Person = {
+  name : &amp;quot;Mariz&amp;quot;,
+  age : 31
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now let&amp;#8217;s take a look on that methods which I mentioned before.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;hasOwnProperty&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;console.log( Person.hasOwnProperty (&amp;quot;name&amp;quot;) );
+&amp;gt; true&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;in&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;console.log( &amp;quot;name&amp;quot; in Person );
+&amp;gt; true&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also list all properties of your Objects using the method &lt;strong&gt;keys&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;console.log( Object.keys (Person) );
+&amp;gt; [ &amp;quot;name&amp;quot;, &amp;quot;age&amp;quot; ]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That is it, simple and easy.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>JavaScript Functions - Names</title>
+    <link href="http://marizmelo.com/2013/02/05/javascriptfunctionnames.html"/>
+    <updated>2013-02-05T16:40:00-08:00</updated>
+    <id>http://marizmelo.com/2013/02/05/javascriptfunctionnames</id>
+    <content type="html">&lt;p&gt;Function names in JavaScript can be trick. Consider the following function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function name(){
+    alert(&amp;quot;Mariz Melo&amp;quot;);
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There is nothing wrong with this function, in fact is a perfectly fine function in JavaScript. The problem is JavaScript has some rules for function names. You are not allowed to start the name with numbers or special characters (other than underscore and dollar sign).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function $() {
+    alert(&amp;quot;dollar sign&amp;quot;);
+}
+
+function _() {
+    alert (&amp;quot;underscore&amp;quot;);
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Recently I tried to attach some CSS classes as function names in JavaScript and got an error because some of my class names are using &amp;#8220;-&amp;#8221; to separate names. See an example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// invalid
+function display-none(){
+    alert(&amp;quot;display none don&amp;#39;t work&amp;quot;);
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course I could use something like &lt;strong&gt;replace&lt;/strong&gt; and convert &amp;#8220;-&amp;#8221; into &amp;#8220;_&amp;#8221;, but I wanted to keep consistency across the system, so I come up with the following solution:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// valid
+var css = {
+    &amp;quot;display-none&amp;quot; : function(){
+        alert(&amp;quot;display none&amp;quot;);
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I just used an Object as wrapper to all my functions, and doing so I kept all functions more organized.&lt;/p&gt;
+
+&lt;p&gt;Calling my function &lt;strong&gt;display-none&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;css[&amp;quot;display-none&amp;quot;](); // valid call&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Happy hacking!&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>JavaScript OOP - Objects attributes and values</title>
+    <link href="http://marizmelo.com/2013/02/03/forloopobjectjavascript.html"/>
+    <updated>2013-02-03T17:40:45-08:00</updated>
+    <id>http://marizmelo.com/2013/02/03/forloopobjectjavascript</id>
+    <content type="html">&lt;p&gt;Let&amp;#8217;s create an Object called &lt;strong&gt;Person&lt;/strong&gt; in JavaScript.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Object Literals way
+var Person = { name : &amp;quot;Anonymous&amp;quot;, age : null };
+
+// Functions way
+function Person() {
+  this.name = &amp;quot;Anonymous&amp;quot;;
+  this.age = null;
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;alert class='margin-bottom'&gt;&lt;i class='icon-attention'&gt; &lt;/i&gt; Both ways are correct and valid&lt;/alert&gt;
+&lt;p&gt;Let&amp;#8217;s create one &lt;strong&gt;instance&lt;/strong&gt; of our object Person. In this case I will create an instance called &lt;strong&gt;Mariz&lt;/strong&gt; (my name).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Object Literals way
+var Mariz = Person;
+
+// Functions way
+
+var Mariz = new Person();&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Adding values to our new object instance:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Object Literals and Functions
+Mariz.name = &amp;quot;Mariz Melo&amp;quot;;
+Mariz.age = 31;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now here is how you loop over all attributes and return their values:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for( prop in Mariz ) {
+  console.log( prop + &amp;quot; : &amp;quot; + Mariz[ prop ] );
+}
+
+// Output
+&amp;gt; name : Mariz Melo
+&amp;gt; age : 31&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;#8217;s a wrap.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>JavaScript Basics - Primitive Types</title>
+    <link href="http://marizmelo.com/2013/01/30/javascriptintro.html"/>
+    <updated>2013-01-30T18:00:00-08:00</updated>
+    <id>http://marizmelo.com/2013/01/30/javascriptintro</id>
+    <content type="html">&lt;p&gt;Let&amp;#8217;s talk about JavaScript. Lately I&amp;#8217;ve been working in a project for &lt;a href='http://xchema.com'&gt;xchema&lt;/a&gt; that involves the use of JavaScript as primary language. So this will be a good exercise for me.&lt;/p&gt;
+
+&lt;h5 id='variables'&gt;Variables&lt;/h5&gt;
+
+&lt;p&gt;Basic structure to save values (in determined address memory).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var name = &amp;quot;Mariz Melo&amp;quot;;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id='strings'&gt;Strings&lt;/h5&gt;
+
+&lt;p&gt;There is no difference between using single or double quotes when writing strings.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;hello world&amp;quot;
+&amp;#39;hello world&amp;#39;
+&amp;quot;Let&amp;#39;s learn \&amp;quot;JavaScript\&amp;quot;&amp;quot; 
+// You need to scape (\) the quote-type that holds your string&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='numbers'&gt;Numbers&lt;/h4&gt;
+
+&lt;p&gt;JavaScript hava only one type for numbers. Just type the number you want and JavaScript will understand its type (integer, decimal, etc).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var val1 = 10;
+var val2 = 0.1;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There is a notable bug while multiplying decimals in JavaScript. You need to multiply the decimals before multiply their values.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;0.1 * 0.2
+&amp;gt; 0.020000000000000004 // wrong
+
+( 0.1 * 10 + 0.2 * 10 ) / 10
+&amp;gt; 0.3 // correct&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id='null_vs_undefined'&gt;Null vs Undefined&lt;/h5&gt;
+
+&lt;p&gt;Another major point of confusion on JavaScript. A &lt;strong&gt;undefined&lt;/strong&gt; variable it means that the variable was declared but does not contain any value. A variable is &lt;strong&gt;null&lt;/strong&gt; when the variable it was declared and had its value set to null.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var myvar;
+&amp;gt; undefined
+typeof myvar
+&amp;gt; undefined
+myvar = null
+typeof myvar
+&amp;gt; object
+myvar == null
+&amp;gt; true  
+myvar == undefined
+&amp;gt; true // what just happen here?
+myvar === null // test value + type equality
+&amp;gt; true 
+myvar === undefined 
+&amp;gt; false // now seems right&lt;/code&gt;&lt;/pre&gt;
+&lt;alert class='info margin-bottom'&gt;&lt;i class='icon-info'&gt; &lt;/i&gt; Prefer === over == for strict comparisons.&lt;/alert&gt;&lt;alert&gt;&lt;i class='icon-attention'&gt; &lt;/i&gt; You may get an Exception if you don't declare the variable before using it.&lt;/alert&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>RequireJS - i18n (internationalization)</title>
+    <link href="http://marizmelo.com/2013/01/28/requirei18n.html"/>
+    <updated>2013-01-28T07:00:00-08:00</updated>
+    <id>http://marizmelo.com/2013/01/28/requirei18n</id>
+    <content type="html">&lt;div class='float-right'&gt;&lt;img src='http://requirejs.org/i/logo.png' width='200px' /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href='/2013/01/27/requirejs.html'&gt;Last time&lt;/a&gt; we talked about RequireJS and how it can load JavaScript files faster and in parallel. But there is much more that this little library can do. Today I will show you how to make your applications available in multiple languages. RequireJS provides an useful set of plug-ins (see complete list &lt;a href='https://github.com/jrburke/requirejs/wiki/Plugins'&gt;here&lt;/a&gt;) that can help with different tasks.&lt;/p&gt;
+
+&lt;p&gt;The plug-in which we are going to use today is called &lt;a href='http://requirejs.org/docs/api.html#i18n'&gt;i18n&lt;/a&gt; and its used for &lt;a href='http://en.wikipedia.org/wiki/Internationalization_and_localization'&gt;internationalization&lt;/a&gt; of content based on you browser main language. &lt;a href='https://raw.github.com/requirejs/i18n/latest/i18n.js'&gt;Download the plugin here&lt;/a&gt; and place the file on your script directory defined on your &lt;strong&gt;data-main&lt;/strong&gt; attribute (on your script tag).&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create an &lt;code&gt;index.html&lt;/code&gt; file with RequireJS on your &lt;code&gt;HEAD&lt;/code&gt; tag element:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; &amp;lt;!DOCTYPE HTML&amp;gt;
+ &amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+   &amp;lt;title&amp;gt;Hello World&amp;lt;/title&amp;gt;
+   &amp;lt;script data-main=&amp;quot;scripts/main.js&amp;quot; src=&amp;quot;scripts/require.js&amp;quot;&amp;gt;
+ &amp;lt;/script&amp;gt;
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body&amp;gt;
+   &amp;lt;header&amp;gt;&amp;lt;/header&amp;gt;
+ &amp;lt;/body&amp;gt;
+ &amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Place the &lt;code&gt;i18n.js&lt;/code&gt; file into the &lt;strong&gt;scripts&lt;/strong&gt; folder.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Create a directory called &lt;code&gt;nls&lt;/code&gt; inside of your &lt;strong&gt;scripts&lt;/strong&gt; folder.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Create another folder called &lt;code&gt;pt-br&lt;/code&gt; (Brazilian Portuguese language) inside of &lt;strong&gt;scripts/nls&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Create a file called &lt;code&gt;speak.js&lt;/code&gt; inside of the &lt;strong&gt;scripts/nls&lt;/strong&gt; directory. &lt;h6&gt;scripts/nls/speak.js&lt;/h6&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; define({
+   &amp;quot;root&amp;quot; : {
+   &amp;quot;header&amp;quot; : &amp;quot;I speak English&amp;quot;
+   },
+   &amp;quot;pt-br&amp;quot; : true // The system will accept Brazilian Portuguese
+ });&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Create another file with the name &lt;code&gt;speak.js&lt;/code&gt; inside of &lt;strong&gt;scripts/nls/pt-br&lt;/strong&gt;. &lt;h6&gt;scripts/nls/pt-br/speak.js&lt;/h6&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; define({
+   &amp;quot;header&amp;quot; : &amp;quot;Eu falo Portugues do Brasil&amp;quot;
+ });&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Download &lt;a href='http://jquery.com'&gt;JQuery&lt;/a&gt; and place it inside your &lt;strong&gt;scripts&lt;/strong&gt; folder&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Define your &lt;code&gt;main.js&lt;/code&gt; in your &lt;strong&gt;scripts&lt;/strong&gt; folder with the following content: &lt;h6&gt;scripts/jquery.js&lt;/h6&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; define([&amp;#39;jquery&amp;#39;, &amp;quot;i18n!nls/speak&amp;quot;], function($, speak) {
+   $(&amp;quot;header h1&amp;quot;).html(speak.header);
+ });&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you load this project on your browser you should see &lt;strong&gt;&amp;#8220;I speak English&amp;#8221;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now what?&lt;/p&gt;
+
+&lt;p&gt;Well &lt;strong&gt;i18n&lt;/strong&gt; is smart and will change the language automatically for you if your browser accepts Brazilian Portuguese. You can set manually the language which you want to use (good to test if everything is working properly).&lt;/p&gt;
+
+&lt;p&gt;Open &lt;code&gt;main.js&lt;/code&gt; and include the following code on TOP of the file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require.config({
+  locale: &amp;quot;pt-br&amp;quot;
+});
+...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Reload your browser (cleaning cache if necessary) and you should see the message &lt;strong&gt;&amp;#8220;Eu falo Portugues do Brasil&amp;#8221;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Get the source files: &lt;a href='https://compilr.com/jmarizsf/requirejs-i18n'&gt;https://compilr.com/jmarizsf/requirejs-i18n&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Boosting your JavaScript loading time with RequireJS</title>
+    <link href="http://marizmelo.com/2013/01/27/requirejs.html"/>
+    <updated>2013-01-27T14:23:00-08:00</updated>
+    <id>http://marizmelo.com/2013/01/27/requirejs</id>
+    <content type="html">&lt;p&gt;There are two common ways to load JavaScript on HTML pages.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Scripts on the &lt;code&gt;head&lt;/code&gt; tag element&lt;/li&gt;
+
+&lt;li&gt;Scripts on the bottom of your &lt;code&gt;html&lt;/code&gt; page (right before &lt;code&gt;/body&lt;/code&gt;) &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The first technique has a serious problem, the browser will wait for all scripts to load before showing content to users.&lt;/p&gt;
+
+&lt;p&gt;In the second (better) case the page will be presented to your users before loading any script. This is &lt;strong&gt;unobtrusive&lt;/strong&gt;, the JavaScript is not in the way between users and content delivery. Do you want anyone waiting for your website to load?&lt;/p&gt;
+
+&lt;p&gt;So what is the problem with the second technique? Well, the first problem is that using &lt;code&gt;script&lt;/code&gt; tag your scripts will load &lt;strong&gt;sequentially&lt;/strong&gt; increasing the total time for users to see your website.&lt;/p&gt;
+
+&lt;p&gt;A better approach is to load your scripts in &lt;strong&gt;parallel&lt;/strong&gt;, but there is one caveat. Scripts most of the time have dependencies and is complicated to manage them while loading them in parallel. You could come up with your own system to manage dependencies or you could use &lt;strong&gt;Asynchronous Module Definitio (AMD)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Using AMD you can load your scripts in parallel while managing their dependencies. So let&amp;#8217;s take a look on how to use &lt;strong&gt;RequireJS&lt;/strong&gt; a popular AMD solution (see the end of this article for other options).&lt;/p&gt;
+
+&lt;p&gt;First, let&amp;#8217;s insert RequireJS on the &lt;code&gt;head&lt;/code&gt; of our HTML file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script data-main=&amp;quot;scripts/main.js&amp;quot; src=&amp;quot;scripts/require.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You may have noticed the &lt;strong&gt;data-main&lt;/strong&gt; attribute on the example above. That defines the location of your configuration file (main.js in this example) and automatically set the &lt;strong&gt;baseUrl&lt;/strong&gt;, in this case &lt;strong&gt;scripts/&lt;/strong&gt;.&lt;/p&gt;
+&lt;alert class='info margin-top margin-bottom'&gt;&lt;i class='icon-info'&gt; &lt;/i&gt; The &lt;strong&gt;baseUrl&lt;/strong&gt; can be changed on the configuration file.&lt;/alert&gt;&lt;alert class='warning margin-top margin-bottom'&gt;&lt;i class='icon-attention'&gt; &lt;/i&gt; Dependencies shouldn't contain the trailing &quot;.js&quot; suffix on the config file.&lt;/alert&gt;&lt;alert class='warning margin-top margin-bottom'&gt;&lt;i class='icon-attention'&gt; &lt;/i&gt; RequireJS load scripts asynchronously and out of order for speed.&lt;/alert&gt;
+&lt;p&gt;Assuming all my scripts are inside the &lt;code&gt;scripts&lt;/code&gt; folder, let&amp;#8217;s load some files using RequireJS. The &lt;strong&gt;JQuery&lt;/strong&gt; library will be loaded &lt;strong&gt;first&lt;/strong&gt; followed by two plugins called &lt;strong&gt;slidejs&lt;/strong&gt; and &lt;strong&gt;galleryjs&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In you &lt;code&gt;main.js&lt;/code&gt; write:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;//loading jquery as dependency
+require([&amp;quot;jquery&amp;quot;], function($){
+  // JQuery is ready for use
+  //calling slidejs plugin
+  require([&amp;quot;slidejs&amp;quot;, &amp;quot;galleryjs&amp;quot;], function(){
+    $(&amp;quot;#slideshow&amp;quot;).slidejs();
+    $(&amp;quot;#gallery&amp;quot;).galleryjs();
+  });
+});&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Because RequireJS load scripts out of order we have to make sure JQuery is ready before we load our plugins. The plugins are loaded in &lt;strong&gt;parallel&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;RequireJS is powerful and here I just touch the surface of its real power. Make sure you check the &lt;a href='http://requirejs.org/'&gt;RequireJS website&lt;/a&gt; for a complete overview.&lt;/p&gt;
+
+&lt;p&gt;Alternatives to RequireJS:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://labjs.com/'&gt;LABjs&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://headjs.com/'&gt;HEADjs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Hello World!</title>
+    <link href="http://marizmelo.com/2013/01/24/hello.html"/>
+    <updated>2013-01-24T17:40:45-08:00</updated>
+    <id>http://marizmelo.com/2013/01/24/hello</id>
+    <content type="html">&lt;p&gt;Hello, my name is &lt;strong&gt;Mariz Melo&lt;/strong&gt;. I am from Brazil. Currently living in San Jose - California and working in Mountain View. I am trying to get &lt;strong&gt;xchema&lt;/strong&gt; up and running for next summer. The name is the same as my previous start up company which I opened in Brazil with my dear friends &lt;strong&gt;Ricardo Amaral&lt;/strong&gt; and &lt;strong&gt;Marcelo Vasconcelos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This blog is an attempt to keep a diary about projects, knowledge base, and a bookmark for useful discoveries around the web.&lt;/p&gt;
+
+&lt;p&gt;Tools used to make this blog:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href='http://jekyllrb.com'&gt;Jekyll&lt;/a&gt; (on github pages)&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://xtyle.xchema.com'&gt;xtyle&lt;/a&gt; design framework made by &lt;a href='http://xchema.com'&gt;xchema&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;xmaker&lt;/strong&gt; visual web applications builder (coming soon).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br /&gt;
+&lt;p&gt;This website is open-source. &lt;strong&gt;Fork the github &lt;a href='http://github.com/marizmelo/marizmelo.github.com'&gt;repository&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  
+</feed>

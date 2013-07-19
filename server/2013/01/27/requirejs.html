@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html class="responsive">
+<head>
+  <title> Boosting your JavaScript loading time with RequireJS | marizmelo.com</title>
+  <meta charset="utf-8">
+  <meta name="robots" content="all">
+  <meta name="citation_author" content="Mariz Melo">
+  <meta name="description" content="Personal website of Mariz Melo built with xtyle web framework.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+  <!-- <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad-precomposed.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4-precomposed.png"> -->
+  <!-- FB image -->
+  <link rel="image_src" href="/xtyle/img/marizmelo.png">
+  <meta property="og:image" content="/xtyle/img/marizmelo.png" />
+  <!-- FB image -->
+  <link rel="alternate" type="application/rss+xml" title="marizmelo.com" href="mm.rss">
+  <link href="/xtyle/img/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/xtyle/css/marizmelo.css">
+  <script data-main="/xtyle/js/main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.1/require.min.js"></script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!-- GOOGLE ANALYTICS -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37987984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <!-- GOOGLE ANALYTICS : END -->
+</head>
+<body>
+  
+  <div class="layout-fixed layout-center">
+
+    <aside class="position-fixed border-right" style="top: 0; padding: 50px; height: 100%; width: 180px;">
+
+      <img id="marizimage" src="http://en.gravatar.com/userimage/35928919/fc18f6659a3df86722f91d56ace9318a.jpg?size=160" alt="" class="border-radius-circle user-select-none">
+
+      <h1>Mariz Melo</h1>
+      <h6>Designer & Developer</h6>
+
+      <ul class="reset">
+        <li><a href="/" class="btn border-radius2x">home</a></li>
+        <li><a href="http://xchema.com" class="btn border-radius2x">xchema</a></li>
+        <li><a href="http://github.com/marizmelo" class="btn border-radius2x">GitHub</a></li>
+        <li><a href="http://marizmelo.com/mm.rss" class="btn border-radius2x">RSS</a></li>
+      </ul>
+
+      <blockquote>
+        <p>"Stay hungry, stay foolish."</p>
+        <cite>&#8211; Steve Jobs</cite>
+      </blockquote>
+
+    </aside>
+
+    <div class="content">
+      
+      <article>
+  <header class="clear-both position-relative">
+    <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
+    <h1 class="nomargin-bottom">Boosting your JavaScript loading time with RequireJS</h1>
+    <span>27 January 2013</span>
+    <br><br>
+    <ul class="inline margin-top">
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> requirejs</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> jquery</alert></li>
+    
+    </ul>
+  </header>
+  <section class="nomargin">
+    <p>There are two common ways to load JavaScript on HTML pages.</p>
+
+<ol>
+<li>Scripts on the <code>head</code> tag element</li>
+
+<li>Scripts on the bottom of your <code>html</code> page (right before <code>/body</code>) <br /><br /></li>
+</ol>
+
+<p>The first technique has a serious problem, the browser will wait for all scripts to load before showing content to users.</p>
+
+<p>In the second (better) case the page will be presented to your users before loading any script. This is <strong>unobtrusive</strong>, the JavaScript is not in the way between users and content delivery. Do you want anyone waiting for your website to load?</p>
+
+<p>So what is the problem with the second technique? Well, the first problem is that using <code>script</code> tag your scripts will load <strong>sequentially</strong> increasing the total time for users to see your website.</p>
+
+<p>A better approach is to load your scripts in <strong>parallel</strong>, but there is one caveat. Scripts most of the time have dependencies and is complicated to manage them while loading them in parallel. You could come up with your own system to manage dependencies or you could use <strong>Asynchronous Module Definitio (AMD)</strong>.</p>
+
+<p>Using AMD you can load your scripts in parallel while managing their dependencies. So let&#8217;s take a look on how to use <strong>RequireJS</strong> a popular AMD solution (see the end of this article for other options).</p>
+
+<p>First, let&#8217;s insert RequireJS on the <code>head</code> of our HTML file:</p>
+
+<pre><code>&lt;script data-main=&quot;scripts/main.js&quot; src=&quot;scripts/require.js&quot;&gt;&lt;/script&gt;</code></pre>
+
+<p>You may have noticed the <strong>data-main</strong> attribute on the example above. That defines the location of your configuration file (main.js in this example) and automatically set the <strong>baseUrl</strong>, in this case <strong>scripts/</strong>.</p>
+<alert class='info margin-top margin-bottom'><i class='icon-info'> </i> The <strong>baseUrl</strong> can be changed on the configuration file.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> Dependencies shouldn't contain the trailing ".js" suffix on the config file.</alert><alert class='warning margin-top margin-bottom'><i class='icon-attention'> </i> RequireJS load scripts asynchronously and out of order for speed.</alert>
+<p>Assuming all my scripts are inside the <code>scripts</code> folder, let&#8217;s load some files using RequireJS. The <strong>JQuery</strong> library will be loaded <strong>first</strong> followed by two plugins called <strong>slidejs</strong> and <strong>galleryjs</strong>.</p>
+
+<p>In you <code>main.js</code> write:</p>
+
+<pre><code>//loading jquery as dependency
+require([&quot;jquery&quot;], function($){
+  // JQuery is ready for use
+  //calling slidejs plugin
+  require([&quot;slidejs&quot;, &quot;galleryjs&quot;], function(){
+    $(&quot;#slideshow&quot;).slidejs();
+    $(&quot;#gallery&quot;).galleryjs();
+  });
+});</code></pre>
+
+<p>Because RequireJS load scripts out of order we have to make sure JQuery is ready before we load our plugins. The plugins are loaded in <strong>parallel</strong>.</p>
+
+<p>RequireJS is powerful and here I just touch the surface of its real power. Make sure you check the <a href='http://requirejs.org/'>RequireJS website</a> for a complete overview.</p>
+
+<p>Alternatives to RequireJS:</p>
+
+<ul>
+<li><a href='http://labjs.com/'>LABjs</a></li>
+
+<li><a href='http://headjs.com/'>HEADjs</a></li>
+</ul>
+<br />
+    <br>
+  </section>
+</article>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'marizmelo'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+    </div><!-- .content -->
+  </div><!-- .layout-fixed -->
+
+</body>
+</html>
