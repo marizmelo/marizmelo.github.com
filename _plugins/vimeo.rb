@@ -2,7 +2,6 @@ module Jekyll
   class Vimeo < Liquid::Tag
  
     def initialize(name, id, tokens)
-      super
       @id = id
     end
  
@@ -11,5 +10,5 @@ module Jekyll
     end
   end
 end
- 
+
 Liquid::Template.register_tag('vimeo', Jekyll::Vimeo)
