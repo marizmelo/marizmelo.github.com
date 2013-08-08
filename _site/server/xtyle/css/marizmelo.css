@@ -1,0 +1,66 @@
+@import "xtyle.css";
+
+.content{
+  margin-left: 280px;
+}
+
+article header{
+  padding: 30px 40px;
+}
+
+section{
+  margin-top: 0;
+  border-right: none;  
+  padding: 30px 40px;
+}
+
+blockquote{
+  border-left: none;
+  padding-left: 0;
+}
+
+a{
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+}
+a.btn, a.btn:active{
+  font-weight: bold;
+  text-decoration: none;
+  border: 3px solid black;
+  background: none;
+}
+a.btn:hover{
+  background: black;
+  color: white;
+}
+h1 a{
+  text-decoration: none !important;
+}
+
+#marizlogo{
+  padding: 10px; background: black; left: -40px; top: -45px;
+}
+#marizlogo div{
+  width: 160px; height: 160px; border: 4px solid white;
+}
+#marizlogo h1{
+  color: white; padding: 22px 31px; font-size: 800%
+}
+
+#marizimage{
+  margin-bottom: 30px;
+}
+
+aside blockquote{
+  margin-top: 30px;
+}
+
+aside ul{
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 540px) {
+  .content{
+    margin-left: 0;
+  }
