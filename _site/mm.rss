@@ -4,7 +4,7 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-08-08T11:04:08-07:00</updated>
+  <updated>2013-08-08T11:43:37-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
@@ -657,9 +657,9 @@ Mariz.age = 31;&lt;/code&gt;&lt;/pre&gt;
   
   <entry>
     <title>JavaScript Basics - Primitive Types</title>
-    <link href="http://marizmelo.com/2013/01/30/javascriptintro.html"/>
-    <updated>2013-01-30T18:00:00-08:00</updated>
-    <id>http://marizmelo.com/2013/01/30/javascriptintro</id>
+    <link href="http://marizmelo.com/2013/01/31/javascriptintro.html"/>
+    <updated>2013-01-31T02:00:00-08:00</updated>
+    <id>http://marizmelo.com/2013/01/31/javascriptintro</id>
     <content type="html">&lt;p&gt;Let&amp;#8217;s talk about JavaScript. Lately I&amp;#8217;ve been working in a project for &lt;a href='http://xchema.com'&gt;xchema&lt;/a&gt; that involves the use of JavaScript as primary language. So this will be a good exercise for me.&lt;/p&gt;
 
 &lt;h5 id='variables'&gt;Variables&lt;/h5&gt;
