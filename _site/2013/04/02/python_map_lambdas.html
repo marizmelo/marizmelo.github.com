@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html class="responsive">
 <head>
-  <title> JavaScript OOP - Objects attributes and values | marizmelo.com</title>
+  <title> Python map method and lambda expressions | marizmelo.com</title>
   <meta charset="utf-8">
   <meta name="robots" content="all">
   <meta name="citation_author" content="Mariz Melo">
@@ -66,55 +66,40 @@
       <article>
   <header class="clear-both position-relative">
     <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
-    <h1 class="nomargin-bottom">JavaScript OOP - Objects attributes and values</h1>
-    <span>03 February 2013</span>
+    <h1 class="nomargin-bottom">Python map method and lambda expressions</h1>
+    <span>02 April 2013</span>
     <br><br>
     <ul class="inline margin-top">
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> python</alert></li>
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> lambda</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> mapReduce</alert></li>
     
     </ul>
   </header>
   <section class="nomargin">
-    <p>Let&#8217;s create an Object called <strong>Person</strong> in JavaScript.</p>
+    <p>I have been studying more <strong>python</strong> these days and decided to share some of my findings. Python has a powerful method called <strong>map</strong> that can apply operations to all items of a list.</p>
 
-<pre><code>// Object Literals way
-var Person = { name : &quot;Anonymous&quot;, age : null };
+<p>Assume the following function definition For example:</p>
 
-// Functions way
-function Person() {
-  this.name = &quot;Anonymous&quot;;
-  this.age = null;
-}</code></pre>
-<alert class='margin-bottom'><i class='icon-attention'> </i> Both ways are correct and valid</alert>
-<p>Let&#8217;s create one <strong>instance</strong> of our object Person. In this case I will create an instance called <strong>Mariz</strong> (my name).</p>
+<pre><code>def square(x):
+  return x * x</code></pre>
 
-<pre><code>// Object Literals way
-var Mariz = Person;
+<p>You can apply this function to a list of elements using python’s map method like this:</p>
 
-// Functions way
+<pre><code>print map( square, [1, 2, 3, 4, 5]) // [1, 4, 9 , 16, 25]</code></pre>
 
-var Mariz = new Person();</code></pre>
+<p>But let’s take this power even further using a <strong>lambda</strong> expression. We could rewrite the expression above like this:</p>
 
-<p>Adding values to our new object instance:</p>
+<pre><code>print map( lambda(x): x * x, [1, 2, 3, 4 , 5]) // [1, 4, 9 , 16, 25]</code></pre>
 
-<pre><code>// Object Literals and Functions
-Mariz.name = &quot;Mariz Melo&quot;;
-Mariz.age = 31;</code></pre>
+<p>Now a third way to do this using an expressive formula in a <strong>list comprehension</strong>:</p>
 
-<p>Now here is how you loop over all attributes and return their values:</p>
+<pre><code>print [x * x for x in [1, 2, 3, 4 ,5]] // also [1, 4, 9 , 16, 25]</code></pre>
 
-<pre><code>for( prop in Mariz ) {
-  console.log( prop + &quot; : &quot; + Mariz[ prop ] );
-}
-
-// Output
-&gt; name : Mariz Melo
-&gt; age : 31</code></pre>
-
-<p>That&#8217;s a wrap.</p>
+<p>Have fun.</p>
     <br>
   </section>
 </article>

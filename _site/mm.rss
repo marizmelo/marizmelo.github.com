@@ -4,7 +4,7 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-08-08T16:31:00-07:00</updated>
+  <updated>2013-12-18T14:58:16-08:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
@@ -15,15 +15,15 @@
   <entry>
     <title>Newschalk an effortless newsreader!</title>
     <link href="http://marizmelo.com/2013/08/08/newschalk.html"/>
-    <updated>2013-08-08T03:40:45-07:00</updated>
+    <updated>2013-08-08T10:40:45Z</updated>
     <id>http://marizmelo.com/2013/08/08/newschalk</id>
-    <content type="html">&lt;p&gt;Hello everyone, today I am going to talk about &lt;a href='http://www.newschalk.com'&gt;Newschalk&lt;/a&gt; an effortless newsreader that I have been working on it with my friend Garindra Prahandono. Me and Gary started this project back in 2010 and stop the development because of work. Since Google announced the &lt;strong&gt;Google Reader shutdown&lt;/strong&gt; we became again interested in bringing this project to life.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Hello everyone, today I am going to talk about &lt;a href=&quot;http://www.newschalk.com&quot;&gt;Newschalk&lt;/a&gt; an effortless newsreader that I have been working on it with my friend Garindra Prahandono. Me and Gary started this project back in 2010 and stop the development because of work. Since Google announced the &lt;strong&gt;Google Reader shutdown&lt;/strong&gt; we became again interested in bringing this project to life.&lt;/p&gt;
 
-&lt;p&gt;The first version uses &lt;a href='http://en.wikipedia.org/wiki/RSS'&gt;RSS&lt;/a&gt; to aggregate your favorite news. The next step is transform the application into a &lt;strong&gt;social news hub&lt;/strong&gt; where you can be followed and follow interesting people and know what are they reading.&lt;/p&gt;
+&lt;p&gt;The first version uses &lt;a href=&quot;http://en.wikipedia.org/wiki/RSS&quot;&gt;RSS&lt;/a&gt; to aggregate your favorite news. The next step is transform the application into a &lt;strong&gt;social news hub&lt;/strong&gt; where you can be followed and follow interesting people and know what are they reading.&lt;/p&gt;
 
-&lt;p&gt;Here a small video preview: &lt;div class='video-container'&gt;&lt;iframe class='vimeo-iframe' frameborder='0' src='http://player.vimeo.com/video/71554424 ' style='width: 100%; height: 400px'&gt;   &lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;I am happy to announce that &lt;strong&gt;Newschalk&lt;/strong&gt; is &lt;a href='http://www.newschalk.com'&gt;live&lt;/a&gt; and almost ready for use. Right now we are working on invitation basis. &lt;a href='http://www.newschalk.com'&gt;Request your invitation&lt;/a&gt; today and change the way you read news.&lt;/p&gt;
+&lt;p&gt;Here a small video preview:&lt;/p&gt;
+&lt;div class=&#39;video-container&#39;&gt;&lt;iframe class=&#39;vimeo-iframe&#39; frameborder=&#39;0&#39; src=&#39;http://player.vimeo.com/video/71554424 &#39; style=&#39;width: 100%; height: 400px&#39;&gt;   &lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;I am happy to announce that &lt;strong&gt;Newschalk&lt;/strong&gt; is &lt;a href=&quot;http://www.newschalk.com&quot;&gt;live&lt;/a&gt; and almost ready for use. Right now we are working on invitation basis. &lt;a href=&quot;http://www.newschalk.com&quot;&gt;Request your invitation&lt;/a&gt; today and change the way you read news.&lt;/p&gt;
 
 &lt;p&gt;We have huge plans for this project and hope everyone enjoys using it.&lt;/p&gt;</content>
   </entry>
@@ -31,32 +31,34 @@
   <entry>
     <title>iOS 7 Revisited</title>
     <link href="http://marizmelo.com/2013/07/01/ios7icons.html"/>
-    <updated>2013-07-01T03:40:45-07:00</updated>
+    <updated>2013-07-01T10:40:45Z</updated>
     <id>http://marizmelo.com/2013/07/01/ios7icons</id>
-    <content type="html">&lt;p&gt;It has been a while since my last post. So this time I wanted to do something different than usual. Let&amp;#8217;s talk about design today.&lt;/p&gt;
+    <content type="html">&lt;p&gt;It has been a while since my last post. So this time I wanted to do something different than usual. Let’s talk about design today.&lt;/p&gt;
 
-&lt;p&gt;The iOS operating system is on it&amp;#8217;s way and to celebrate this I have done some work on the new icons.&lt;/p&gt;
+&lt;p&gt;The iOS operating system is on it’s way and to celebrate this I have done some work on the new icons.&lt;/p&gt;
 
 &lt;p&gt;I really admire &lt;strong&gt;Jony Ive&lt;/strong&gt; work and this is just a sum of my design observations. I have notice that the new icons have a lack of consistency in their design (sorry). This is my attempt of correcting this.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://www.behance.net/gallery/iOS-7-Revisited/9609109'&gt;Behance page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.behance.net/gallery/iOS-7-Revisited/9609109&quot;&gt;Behance page&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Here are the change I&amp;#8217;ve made:&lt;/p&gt;
-&lt;div class='center border-bottom'&gt;
-  &lt;img src='http://farm6.staticflickr.com/5485/9188875868_68a887f254_o.jpg' width='80%' /&gt;
-&lt;/div&gt;&lt;br /&gt;
+&lt;p&gt;Here are the change I’ve made:&lt;/p&gt;
+&lt;div class=&#39;center border-bottom&#39;&gt;
+  &lt;img src=&#39;http://farm6.staticflickr.com/5485/9188875868_68a887f254_o.jpg&#39; width=&#39;80%&#39; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;First I change all gradient directions for dark top to lighter bottom. This way we maintain consistency on all icons. Ive have used some transparency and I also kept that in this example.&lt;/p&gt;
 
-&lt;p&gt;Now let&amp;#8217;s take a look on the original icons:&lt;/p&gt;
-&lt;div class='center border-bottom'&gt;
-  &lt;img src='http://farm8.staticflickr.com/7370/9186575201_95299f2b88_z.jpg' width='80%' /&gt;
+&lt;p&gt;Now let’s take a look on the original icons:&lt;/p&gt;
+&lt;div class=&#39;center border-bottom&#39;&gt;
+  &lt;img src=&#39;http://farm8.staticflickr.com/7370/9186575201_95299f2b88_z.jpg&#39; width=&#39;80%&#39; /&gt;
 &lt;/div&gt;</content>
   </entry>
   
   <entry>
     <title>Reversing strings in JavaScript</title>
     <link href="http://marizmelo.com/2013/04/25/js_reverse_string.html"/>
-    <updated>2013-04-25T04:40:45-07:00</updated>
+    <updated>2013-04-25T11:40:45Z</updated>
     <id>http://marizmelo.com/2013/04/25/js_reverse_string</id>
     <content type="html">&lt;p&gt;Today a simple way to reverse string in JavaScript.&lt;/p&gt;
 
@@ -75,12 +77,12 @@ alert(reversed);&lt;/code&gt;&lt;/pre&gt;
   
   <entry>
     <title>AngularJS an introduction</title>
-    <link href="http://marizmelo.com/2013/04/12/AngularJS.html"/>
-    <updated>2013-04-12T18:40:45-07:00</updated>
-    <id>http://marizmelo.com/2013/04/12/AngularJS</id>
-    <content type="html">&lt;p&gt;Hi again everyone today I will talk about &lt;strong&gt;Google&amp;#8217;s&lt;/strong&gt; client-side framework &lt;a href='http://angularjs.org/'&gt;AngularJS&lt;/a&gt;. I have been using AngularJS in my projects for a while now and just decided to share some information here.&lt;/p&gt;
+    <link href="http://marizmelo.com/2013/04/13/AngularJS.html"/>
+    <updated>2013-04-13T01:40:45Z</updated>
+    <id>http://marizmelo.com/2013/04/13/AngularJS</id>
+    <content type="html">&lt;p&gt;Hi again everyone today I will talk about &lt;strong&gt;Google’s&lt;/strong&gt; client-side framework &lt;a href=&quot;http://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt;. I have been using AngularJS in my projects for a while now and just decided to share some information here.&lt;/p&gt;
 
-&lt;p&gt;AngularJS helps you to control the &lt;a href='http://en.wikipedia.org/wiki/Document_Object_Model'&gt;DOM&lt;/a&gt; and create amazing client-side applications. You don&amp;#8217;t need anything else to start using Angular, just download it (or use a &lt;a href='http://en.wikipedia.org/wiki/Content_delivery_network'&gt;CDN&lt;/a&gt;) to get started. Let&amp;#8217;s start with AngularJS.&lt;/p&gt;
+&lt;p&gt;AngularJS helps you to control the &lt;a href=&quot;http://en.wikipedia.org/wiki/Document_Object_Model&quot;&gt;DOM&lt;/a&gt; and create amazing client-side applications. You don’t need anything else to start using Angular, just download it (or use a &lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;CDN&lt;/a&gt;) to get started. Let’s start with AngularJS.&lt;/p&gt;
 
 &lt;p&gt;Create a file called &lt;strong&gt;angular.html&lt;/strong&gt; with the following content:&lt;/p&gt;
 
@@ -110,7 +112,7 @@ alert(reversed);&lt;/code&gt;&lt;/pre&gt;
 &amp;lt;html ng-app&amp;gt;
   ...&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;You are ready to use AngularJS. Let&amp;#8217;s start by using &lt;strong&gt;templates&lt;/strong&gt; first:&lt;/p&gt;
+&lt;p&gt;You are ready to use AngularJS. Let’s start by using &lt;strong&gt;templates&lt;/strong&gt; first:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;...
 &amp;lt;body&amp;gt;
@@ -119,7 +121,7 @@ alert(reversed);&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I have replaced the word &lt;strong&gt;Hello&lt;/strong&gt; with an &lt;strong&gt;AngularJS template&lt;/strong&gt; syntax (between double curly-braces).&lt;/p&gt;
 
-&lt;p&gt;Let&amp;#8217;s replace that template value with the string &lt;strong&gt;&amp;#8220;Hello&amp;#8221;&lt;/strong&gt; again, but this time using AngularJS.&lt;/p&gt;
+&lt;p&gt;Let’s replace that template value with the string &lt;strong&gt;“Hello”&lt;/strong&gt; again, but this time using AngularJS.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;...
   &amp;lt;h1 ng-controller=&amp;quot;Hello&amp;quot;&amp;gt;{ { hello } } World!&amp;lt;/h1&amp;gt;
@@ -163,9 +165,9 @@ alert(reversed);&lt;/code&gt;&lt;/pre&gt;
   
   <entry>
     <title>Python map method and lambda expressions</title>
-    <link href="http://marizmelo.com/2013/04/01/python_map_lambdas.html"/>
-    <updated>2013-04-01T18:40:45-07:00</updated>
-    <id>http://marizmelo.com/2013/04/01/python_map_lambdas</id>
+    <link href="http://marizmelo.com/2013/04/02/python_map_lambdas.html"/>
+    <updated>2013-04-02T01:40:45Z</updated>
+    <id>http://marizmelo.com/2013/04/02/python_map_lambdas</id>
     <content type="html">&lt;p&gt;I have been studying more &lt;strong&gt;python&lt;/strong&gt; these days and decided to share some of my findings. Python has a powerful method called &lt;strong&gt;map&lt;/strong&gt; that can apply operations to all items of a list.&lt;/p&gt;
 
 &lt;p&gt;Assume the following function definition For example:&lt;/p&gt;
@@ -173,11 +175,11 @@ alert(reversed);&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;def square(x):
   return x * x&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;You can apply this function to a list of elements using python&amp;#8217;s map method like this:&lt;/p&gt;
+&lt;p&gt;You can apply this function to a list of elements using python’s map method like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;print map( square, [1, 2, 3, 4, 5]) // [1, 4, 9 , 16, 25]&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;But let&amp;#8217;s take this power even further using a &lt;strong&gt;lambda&lt;/strong&gt; expression. We could rewrite the expression above like this:&lt;/p&gt;
+&lt;p&gt;But let’s take this power even further using a &lt;strong&gt;lambda&lt;/strong&gt; expression. We could rewrite the expression above like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;print map( lambda(x): x * x, [1, 2, 3, 4 , 5]) // [1, 4, 9 , 16, 25]&lt;/code&gt;&lt;/pre&gt;
 
@@ -191,13 +193,13 @@ alert(reversed);&lt;/code&gt;&lt;/pre&gt;
   <entry>
     <title>Python Lexical Analyzer </title>
     <link href="http://marizmelo.com/2013/03/31/python_lexer.html"/>
-    <updated>2013-03-31T15:50:45-07:00</updated>
+    <updated>2013-03-31T22:50:45Z</updated>
     <id>http://marizmelo.com/2013/03/31/python_lexer</id>
     <content type="html">&lt;p&gt;Interrupting our series on JavaScript I will talk about python and lexical analysis. &lt;strong&gt;Lexical analysis&lt;/strong&gt; (or lexer) is the process of breaking words into &lt;strong&gt;tokens&lt;/strong&gt; (small units).&lt;/p&gt;
 
 &lt;p&gt;Today we are going to create a small lexer in python to analyze a small piece of HTML code.&lt;/p&gt;
 
-&lt;p&gt;First we will need to import the python&amp;#8217;s lexical library called &lt;a href='http://www.dabeaz.com/ply/'&gt;ply&lt;/a&gt;. To install ply in unix systems you can run the following command:&lt;/p&gt;
+&lt;p&gt;First we will need to import the python’s lexical library called &lt;a href=&quot;http://www.dabeaz.com/ply/&quot;&gt;ply&lt;/a&gt;. To install ply in unix systems you can run the following command:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;sudo easy_install ply&lt;/code&gt;&lt;/pre&gt;
 
@@ -273,10 +275,10 @@ while True:
   
   <entry>
     <title>JavaScript Classes</title>
-    <link href="http://marizmelo.com/2013/03/30/javascript_classes.html"/>
-    <updated>2013-03-30T18:20:45-07:00</updated>
-    <id>http://marizmelo.com/2013/03/30/javascript_classes</id>
-    <content type="html">&lt;p&gt;Hi everyone, today we are going to talk about &lt;strong&gt;classes&lt;/strong&gt; in JavaScript. JS don&amp;#8217;t implement classes as other languages because its prototypical way.&lt;/p&gt;
+    <link href="http://marizmelo.com/2013/03/31/javascript_classes.html"/>
+    <updated>2013-03-31T01:20:45Z</updated>
+    <id>http://marizmelo.com/2013/03/31/javascript_classes</id>
+    <content type="html">&lt;p&gt;Hi everyone, today we are going to talk about &lt;strong&gt;classes&lt;/strong&gt; in JavaScript. JS don’t implement classes as other languages because its prototypical way.&lt;/p&gt;
 
 &lt;p&gt;Declare a class in JavaScript is as easy as create a &lt;strong&gt;Function&lt;/strong&gt;. This is how you declare a &lt;strong&gt;function constructor&lt;/strong&gt; in JavaScript:&lt;/p&gt;
 
@@ -290,7 +292,7 @@ while True:
   return this.name;
 };&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Let&amp;#8217;s now create an &lt;strong&gt;instance&lt;/strong&gt; of our class &lt;strong&gt;Person&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Let’s now create an &lt;strong&gt;instance&lt;/strong&gt; of our class &lt;strong&gt;Person&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;var me = new Person(&amp;quot;Mariz&amp;quot;); // create instance of Person&lt;/code&gt;&lt;/pre&gt;
 
@@ -304,7 +306,7 @@ while True:
   <entry>
     <title>JavaScript - Easily Sorting an Array of Objects</title>
     <link href="http://marizmelo.com/2013/03/27/javascript_array_of_objects_sorting.html"/>
-    <updated>2013-03-27T04:40:45-07:00</updated>
+    <updated>2013-03-27T11:40:45Z</updated>
     <id>http://marizmelo.com/2013/03/27/javascript_array_of_objects_sorting</id>
     <content type="html">&lt;p&gt;Hi everyone, today we are going to take a look on a sleek technique to sort an &lt;strong&gt;Array of Objects&lt;/strong&gt;.&lt;/p&gt;
 
@@ -326,7 +328,7 @@ while True:
 
 &lt;p&gt;You can still use the &lt;strong&gt;sort()&lt;/strong&gt; method to sort your Array, you just need to inform which property in the object you want to sort.&lt;/p&gt;
 
-&lt;p&gt;Let&amp;#8217;s imagine a contact book for example. You will receive an unordered array of object that you want to sort:&lt;/p&gt;
+&lt;p&gt;Let’s imagine a contact book for example. You will receive an unordered array of object that you want to sort:&lt;/p&gt;
 
 &lt;p&gt;Array of objects&lt;/p&gt;
 
@@ -363,9 +365,9 @@ while True:
   
   <entry>
     <title>JavaScript - painless decimal multiplication</title>
-    <link href="http://marizmelo.com/2013/03/21/painlessjavascriptdecimalmultiplication.html"/>
-    <updated>2013-03-21T20:00:45-07:00</updated>
-    <id>http://marizmelo.com/2013/03/21/painlessjavascriptdecimalmultiplication</id>
+    <link href="http://marizmelo.com/2013/03/22/painlessjavascriptdecimalmultiplication.html"/>
+    <updated>2013-03-22T03:00:45Z</updated>
+    <id>http://marizmelo.com/2013/03/22/painlessjavascriptdecimalmultiplication</id>
     <content type="html">&lt;p&gt;JavaScript has a problem when multiplying decimals, try yourself:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;0.1 * 0.2
@@ -398,7 +400,7 @@ Math.multdec ( val1, val2 );  // 0.3&lt;/code&gt;&lt;/pre&gt;</content>
   <entry>
     <title>Pure JavaScript SlideShow</title>
     <link href="http://marizmelo.com/2013/03/18/purejavascriptslideshow.html"/>
-    <updated>2013-03-18T16:40:45-07:00</updated>
+    <updated>2013-03-18T23:40:45Z</updated>
     <id>http://marizmelo.com/2013/03/18/purejavascriptslideshow</id>
     <content type="html">&lt;p&gt;I have decided to go back in time and learn pure JavaScript again. I was becoming too dependent of libraries like jQuery and that is never good. It is a good exercise and as a result I came up today with this simple SlideShow made completely in JavaScript.&lt;/p&gt;
 
@@ -449,7 +451,7 @@ function jslide(){
   }
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Now let&amp;#8217;s take a look over the commented source code:&lt;/p&gt;
+&lt;p&gt;Now let’s take a look over the commented source code:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Variables&lt;/strong&gt;&lt;/p&gt;
 
@@ -496,56 +498,56 @@ var start = setInterval(function(){jslide();}, 3000);&lt;/code&gt;&lt;/pre&gt;
   <entry>
     <title>Copy and Paste from command line</title>
     <link href="http://marizmelo.com/2013/03/15/copypastecommandline.html"/>
-    <updated>2013-03-15T04:00:00-07:00</updated>
+    <updated>2013-03-15T11:00:00Z</updated>
     <id>http://marizmelo.com/2013/03/15/copypastecommandline</id>
-    <content type="html">&lt;p&gt;Use &lt;strong&gt;&amp;#8220;pbcopy&amp;#8221;&lt;/strong&gt; to copy content of file to your clipboard.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Use &lt;strong&gt;“pbcopy”&lt;/strong&gt; to copy content of file to your clipboard.&lt;/p&gt;
 
 &lt;p&gt;For example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ pbcopy &amp;lt; file.txt&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;the command will copy all content from &amp;#8220;file.txt&amp;#8221; directly on your clipboard.&lt;/p&gt;
+&lt;p&gt;the command will copy all content from “file.txt” directly on your clipboard.&lt;/p&gt;
 
-&lt;p&gt;You can check if the content is there by using the &lt;strong&gt;&amp;#8220;pbpaste&amp;#8221;&lt;/strong&gt; command:&lt;/p&gt;
+&lt;p&gt;You can check if the content is there by using the &lt;strong&gt;“pbpaste”&lt;/strong&gt; command:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ pbpaste&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The content of &amp;#8220;file.txt&amp;#8221; will appear on your terminal window.&lt;/p&gt;</content>
+&lt;p&gt;The content of “file.txt” will appear on your terminal window.&lt;/p&gt;</content>
   </entry>
   
   <entry>
     <title>Are you missing "sudo" on commands in terminal? Don't worry.</title>
-    <link href="http://marizmelo.com/2013/02/15/dontmisssudo.html"/>
-    <updated>2013-02-15T17:40:45-08:00</updated>
-    <id>http://marizmelo.com/2013/02/15/dontmisssudo</id>
-    <content type="html">&lt;p&gt;Sometimes you are in your terminal and need to type a command that requires you to have root powers. Well I don&amp;#8217;t know you, but I sometimes forget to put sudo in front of those commands. Look at this example:&lt;/p&gt;
+    <link href="http://marizmelo.com/2013/02/16/dontmisssudo.html"/>
+    <updated>2013-02-16T01:40:45Z</updated>
+    <id>http://marizmelo.com/2013/02/16/dontmisssudo</id>
+    <content type="html">&lt;p&gt;Sometimes you are in your terminal and need to type a command that requires you to have root powers. Well I don’t know you, but I sometimes forget to put sudo in front of those commands. Look at this example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ rm somefile
 rm: somenewfile: Permission denied&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;I have some options here. I could retype the entire command or use arrow up and go to the beginning of the line adding &amp;#8220;sudo&amp;#8221; to it. But a better way to fix my mistake is using the operator &amp;#8220;!!&amp;#8221;. Like this:&lt;/p&gt;
+&lt;p&gt;I have some options here. I could retype the entire command or use arrow up and go to the beginning of the line adding “sudo” to it. But a better way to fix my mistake is using the operator “!!”. Like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ rm somefile
 rm: somenewfile: Permission denied
 $ sudo !!
 $ sudo rm newfile &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Amazing, your file &amp;#8220;newfile&amp;#8221; is now removed. Enjoy.&lt;/p&gt;</content>
+&lt;p&gt;Amazing, your file “newfile” is now removed. Enjoy.&lt;/p&gt;</content>
   </entry>
   
   <entry>
     <title>JavaScript - check your properties</title>
-    <link href="http://marizmelo.com/2013/02/11/checkproperty.html"/>
-    <updated>2013-02-11T16:40:45-08:00</updated>
-    <id>http://marizmelo.com/2013/02/11/checkproperty</id>
-    <content type="html">&lt;p&gt;Sometimes you need to check if an Object has certain property. JavaScript provide two different methods for this. Let&amp;#8217;s start by creating a new Object called &lt;strong&gt;Person&lt;/strong&gt;.&lt;/p&gt;
+    <link href="http://marizmelo.com/2013/02/12/checkproperty.html"/>
+    <updated>2013-02-12T00:40:45Z</updated>
+    <id>http://marizmelo.com/2013/02/12/checkproperty</id>
+    <content type="html">&lt;p&gt;Sometimes you need to check if an Object has certain property. JavaScript provide two different methods for this. Let’s start by creating a new Object called &lt;strong&gt;Person&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;var Person = {
   name : &amp;quot;Mariz&amp;quot;,
   age : 31
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Now let&amp;#8217;s take a look on that methods which I mentioned before.&lt;/p&gt;
+&lt;p&gt;Now let’s take a look on that methods which I mentioned before.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;hasOwnProperty&lt;/strong&gt;&lt;/p&gt;
 
@@ -567,9 +569,9 @@ $ sudo rm newfile &lt;/code&gt;&lt;/pre&gt;
   
   <entry>
     <title>JavaScript Functions - Names</title>
-    <link href="http://marizmelo.com/2013/02/05/javascriptfunctionnames.html"/>
-    <updated>2013-02-05T16:40:00-08:00</updated>
-    <id>http://marizmelo.com/2013/02/05/javascriptfunctionnames</id>
+    <link href="http://marizmelo.com/2013/02/06/javascriptfunctionnames.html"/>
+    <updated>2013-02-06T00:40:00Z</updated>
+    <id>http://marizmelo.com/2013/02/06/javascriptfunctionnames</id>
     <content type="html">&lt;p&gt;Function names in JavaScript can be trick. Consider the following function:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;function name(){
@@ -586,14 +588,14 @@ function _() {
     alert (&amp;quot;underscore&amp;quot;);
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Recently I tried to attach some CSS classes as function names in JavaScript and got an error because some of my class names are using &amp;#8220;-&amp;#8221; to separate names. See an example:&lt;/p&gt;
+&lt;p&gt;Recently I tried to attach some CSS classes as function names in JavaScript and got an error because some of my class names are using “-” to separate names. See an example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// invalid
 function display-none(){
     alert(&amp;quot;display none don&amp;#39;t work&amp;quot;);
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Of course I could use something like &lt;strong&gt;replace&lt;/strong&gt; and convert &amp;#8220;-&amp;#8221; into &amp;#8220;_&amp;#8221;, but I wanted to keep consistency across the system, so I come up with the following solution:&lt;/p&gt;
+&lt;p&gt;Of course I could use something like &lt;strong&gt;replace&lt;/strong&gt; and convert “-” into “_”, but I wanted to keep consistency across the system, so I come up with the following solution:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// valid
 var css = {
@@ -613,10 +615,10 @@ var css = {
   
   <entry>
     <title>JavaScript OOP - Objects attributes and values</title>
-    <link href="http://marizmelo.com/2013/02/03/forloopobjectjavascript.html"/>
-    <updated>2013-02-03T17:40:45-08:00</updated>
-    <id>http://marizmelo.com/2013/02/03/forloopobjectjavascript</id>
-    <content type="html">&lt;p&gt;Let&amp;#8217;s create an Object called &lt;strong&gt;Person&lt;/strong&gt; in JavaScript.&lt;/p&gt;
+    <link href="http://marizmelo.com/2013/02/04/forloopobjectjavascript.html"/>
+    <updated>2013-02-04T01:40:45Z</updated>
+    <id>http://marizmelo.com/2013/02/04/forloopobjectjavascript</id>
+    <content type="html">&lt;p&gt;Let’s create an Object called &lt;strong&gt;Person&lt;/strong&gt; in JavaScript.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// Object Literals way
 var Person = { name : &amp;quot;Anonymous&amp;quot;, age : null };
@@ -626,8 +628,8 @@ function Person() {
   this.name = &amp;quot;Anonymous&amp;quot;;
   this.age = null;
 }&lt;/code&gt;&lt;/pre&gt;
-&lt;alert class='margin-bottom'&gt;&lt;i class='icon-attention'&gt; &lt;/i&gt; Both ways are correct and valid&lt;/alert&gt;
-&lt;p&gt;Let&amp;#8217;s create one &lt;strong&gt;instance&lt;/strong&gt; of our object Person. In this case I will create an instance called &lt;strong&gt;Mariz&lt;/strong&gt; (my name).&lt;/p&gt;
+&lt;alert class=&#39;margin-bottom&#39;&gt;&lt;i class=&#39;icon-attention&#39;&gt; &lt;/i&gt; Both ways are correct and valid&lt;/alert&gt;
+&lt;p&gt;Let’s create one &lt;strong&gt;instance&lt;/strong&gt; of our object Person. In this case I will create an instance called &lt;strong&gt;Mariz&lt;/strong&gt; (my name).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// Object Literals way
 var Mariz = Person;
@@ -652,23 +654,23 @@ Mariz.age = 31;&lt;/code&gt;&lt;/pre&gt;
 &amp;gt; name : Mariz Melo
 &amp;gt; age : 31&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;That&amp;#8217;s a wrap.&lt;/p&gt;</content>
+&lt;p&gt;That’s a wrap.&lt;/p&gt;</content>
   </entry>
   
   <entry>
     <title>JavaScript Basics - Primitive Types</title>
     <link href="http://marizmelo.com/2013/01/31/javascriptintro.html"/>
-    <updated>2013-01-31T02:00:00-08:00</updated>
+    <updated>2013-01-31T02:00:00Z</updated>
     <id>http://marizmelo.com/2013/01/31/javascriptintro</id>
-    <content type="html">&lt;p&gt;Let&amp;#8217;s talk about JavaScript. Lately I&amp;#8217;ve been working in a project for &lt;a href='http://xchema.com'&gt;xchema&lt;/a&gt; that involves the use of JavaScript as primary language. So this will be a good exercise for me.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Let’s talk about JavaScript. Lately I’ve been working in a project for &lt;a href=&quot;http://xchema.com&quot;&gt;xchema&lt;/a&gt; that involves the use of JavaScript as primary language. So this will be a good exercise for me.&lt;/p&gt;
 
-&lt;h5 id='variables'&gt;Variables&lt;/h5&gt;
+&lt;h5 id=&quot;variables&quot;&gt;Variables&lt;/h5&gt;
 
 &lt;p&gt;Basic structure to save values (in determined address memory).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;var name = &amp;quot;Mariz Melo&amp;quot;;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h5 id='strings'&gt;Strings&lt;/h5&gt;
+&lt;h5 id=&quot;strings&quot;&gt;Strings&lt;/h5&gt;
 
 &lt;p&gt;There is no difference between using single or double quotes when writing strings.&lt;/p&gt;
 
@@ -677,7 +679,7 @@ Mariz.age = 31;&lt;/code&gt;&lt;/pre&gt;
 &amp;quot;Let&amp;#39;s learn \&amp;quot;JavaScript\&amp;quot;&amp;quot; 
 // You need to scape (\) the quote-type that holds your string&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id='numbers'&gt;Numbers&lt;/h4&gt;
+&lt;h4 id=&quot;numbers&quot;&gt;Numbers&lt;/h4&gt;
 
 &lt;p&gt;JavaScript hava only one type for numbers. Just type the number you want and JavaScript will understand its type (integer, decimal, etc).&lt;/p&gt;
 
@@ -692,7 +694,7 @@ var val2 = 0.1;&lt;/code&gt;&lt;/pre&gt;
 ( 0.1 * 10 + 0.2 * 10 ) / 10
 &amp;gt; 0.3 // correct&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h5 id='null_vs_undefined'&gt;Null vs Undefined&lt;/h5&gt;
+&lt;h5 id=&quot;null_vs_undefined&quot;&gt;Null vs Undefined&lt;/h5&gt;
 
 &lt;p&gt;Another major point of confusion on JavaScript. A &lt;strong&gt;undefined&lt;/strong&gt; variable it means that the variable was declared but does not contain any value. A variable is &lt;strong&gt;null&lt;/strong&gt; when the variable it was declared and had its value set to null.&lt;/p&gt;
 
@@ -711,18 +713,18 @@ myvar === null // test value + type equality
 &amp;gt; true 
 myvar === undefined 
 &amp;gt; false // now seems right&lt;/code&gt;&lt;/pre&gt;
-&lt;alert class='info margin-bottom'&gt;&lt;i class='icon-info'&gt; &lt;/i&gt; Prefer === over == for strict comparisons.&lt;/alert&gt;&lt;alert&gt;&lt;i class='icon-attention'&gt; &lt;/i&gt; You may get an Exception if you don't declare the variable before using it.&lt;/alert&gt;</content>
+&lt;alert class=&#39;info margin-bottom&#39;&gt;&lt;i class=&#39;icon-info&#39;&gt; &lt;/i&gt; Prefer === over == for strict comparisons.&lt;/alert&gt;&lt;alert&gt;&lt;i class=&#39;icon-attention&#39;&gt; &lt;/i&gt; You may get an Exception if you don&#39;t declare the variable before using it.&lt;/alert&gt;</content>
   </entry>
   
   <entry>
     <title>RequireJS - i18n (internationalization)</title>
     <link href="http://marizmelo.com/2013/01/28/requirei18n.html"/>
-    <updated>2013-01-28T07:00:00-08:00</updated>
+    <updated>2013-01-28T15:00:00Z</updated>
     <id>http://marizmelo.com/2013/01/28/requirei18n</id>
-    <content type="html">&lt;div class='float-right'&gt;&lt;img src='http://requirejs.org/i/logo.png' width='200px' /&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href='/2013/01/27/requirejs.html'&gt;Last time&lt;/a&gt; we talked about RequireJS and how it can load JavaScript files faster and in parallel. But there is much more that this little library can do. Today I will show you how to make your applications available in multiple languages. RequireJS provides an useful set of plug-ins (see complete list &lt;a href='https://github.com/jrburke/requirejs/wiki/Plugins'&gt;here&lt;/a&gt;) that can help with different tasks.&lt;/p&gt;
+    <content type="html">&lt;div class=&#39;float-right&#39;&gt;&lt;img src=&#39;http://requirejs.org/i/logo.png&#39; width=&#39;200px&#39; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;/2013/01/27/requirejs.html&quot;&gt;Last time&lt;/a&gt; we talked about RequireJS and how it can load JavaScript files faster and in parallel. But there is much more that this little library can do. Today I will show you how to make your applications available in multiple languages. RequireJS provides an useful set of plug-ins (see complete list &lt;a href=&quot;https://github.com/jrburke/requirejs/wiki/Plugins&quot;&gt;here&lt;/a&gt;) that can help with different tasks.&lt;/p&gt;
 
-&lt;p&gt;The plug-in which we are going to use today is called &lt;a href='http://requirejs.org/docs/api.html#i18n'&gt;i18n&lt;/a&gt; and its used for &lt;a href='http://en.wikipedia.org/wiki/Internationalization_and_localization'&gt;internationalization&lt;/a&gt; of content based on you browser main language. &lt;a href='https://raw.github.com/requirejs/i18n/latest/i18n.js'&gt;Download the plugin here&lt;/a&gt; and place the file on your script directory defined on your &lt;strong&gt;data-main&lt;/strong&gt; attribute (on your script tag).&lt;/p&gt;
+&lt;p&gt;The plug-in which we are going to use today is called &lt;a href=&quot;http://requirejs.org/docs/api.html#i18n&quot;&gt;i18n&lt;/a&gt; and its used for &lt;a href=&quot;http://en.wikipedia.org/wiki/Internationalization_and_localization&quot;&gt;internationalization&lt;/a&gt; of content based on you browser main language. &lt;a href=&quot;https://raw.github.com/requirejs/i18n/latest/i18n.js&quot;&gt;Download the plugin here&lt;/a&gt; and place the file on your script directory defined on your &lt;strong&gt;data-main&lt;/strong&gt; attribute (on your script tag).&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;
@@ -754,38 +756,36 @@ myvar === undefined
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;Create a file called &lt;code&gt;speak.js&lt;/code&gt; inside of the &lt;strong&gt;scripts/nls&lt;/strong&gt; directory. &lt;h6&gt;scripts/nls/speak.js&lt;/h6&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; define({
-   &amp;quot;root&amp;quot; : {
-   &amp;quot;header&amp;quot; : &amp;quot;I speak English&amp;quot;
-   },
-   &amp;quot;pt-br&amp;quot; : true // The system will accept Brazilian Portuguese
- });&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Create another file with the name &lt;code&gt;speak.js&lt;/code&gt; inside of &lt;strong&gt;scripts/nls/pt-br&lt;/strong&gt;. &lt;h6&gt;scripts/nls/pt-br/speak.js&lt;/h6&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; define({
-   &amp;quot;header&amp;quot; : &amp;quot;Eu falo Portugues do Brasil&amp;quot;
- });&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Download &lt;a href='http://jquery.com'&gt;JQuery&lt;/a&gt; and place it inside your &lt;strong&gt;scripts&lt;/strong&gt; folder&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Define your &lt;code&gt;main.js&lt;/code&gt; in your &lt;strong&gt;scripts&lt;/strong&gt; folder with the following content: &lt;h6&gt;scripts/jquery.js&lt;/h6&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; define([&amp;#39;jquery&amp;#39;, &amp;quot;i18n!nls/speak&amp;quot;], function($, speak) {
-   $(&amp;quot;header h1&amp;quot;).html(speak.header);
- });&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Create a file called &lt;code&gt;speak.js&lt;/code&gt; inside of the &lt;strong&gt;scripts/nls&lt;/strong&gt; directory.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h6&gt;scripts/nls/speak.js&lt;/h6&gt;
+&lt;pre&gt;&lt;code&gt;    define({
+      &amp;quot;root&amp;quot; : {
+      &amp;quot;header&amp;quot; : &amp;quot;I speak English&amp;quot;
+      },
+      &amp;quot;pt-br&amp;quot; : true // The system will accept Brazilian Portuguese
+    });&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you load this project on your browser you should see &lt;strong&gt;&amp;#8220;I speak English&amp;#8221;&lt;/strong&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create another file with the name &lt;code&gt;speak.js&lt;/code&gt; inside of &lt;strong&gt;scripts/nls/pt-br&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6&gt;scripts/nls/pt-br/speak.js&lt;/h6&gt;
+&lt;pre&gt;&lt;code&gt;    define({
+      &amp;quot;header&amp;quot; : &amp;quot;Eu falo Portugues do Brasil&amp;quot;
+    });&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download &lt;a href=&quot;http://jquery.com&quot;&gt;JQuery&lt;/a&gt; and place it inside your &lt;strong&gt;scripts&lt;/strong&gt; folder&lt;/li&gt;
+
+&lt;li&gt;Define your &lt;code&gt;main.js&lt;/code&gt; in your &lt;strong&gt;scripts&lt;/strong&gt; folder with the following content:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6&gt;scripts/jquery.js&lt;/h6&gt;
+&lt;pre&gt;&lt;code&gt;    define([&amp;#39;jquery&amp;#39;, &amp;quot;i18n!nls/speak&amp;quot;], function($, speak) {
+      $(&amp;quot;header h1&amp;quot;).html(speak.header);
+    });&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you load this project on your browser you should see &lt;strong&gt;“I speak English”&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Now what?&lt;/p&gt;
 
@@ -798,23 +798,25 @@ myvar === undefined
 });
 ...&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Reload your browser (cleaning cache if necessary) and you should see the message &lt;strong&gt;&amp;#8220;Eu falo Portugues do Brasil&amp;#8221;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Reload your browser (cleaning cache if necessary) and you should see the message &lt;strong&gt;“Eu falo Portugues do Brasil”&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Get the source files: &lt;a href='https://compilr.com/jmarizsf/requirejs-i18n'&gt;https://compilr.com/jmarizsf/requirejs-i18n&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;Get the source files: &lt;a href=&quot;https://compilr.com/jmarizsf/requirejs-i18n&quot;&gt;https://compilr.com/jmarizsf/requirejs-i18n&lt;/a&gt;.&lt;/p&gt;</content>
   </entry>
   
   <entry>
     <title>Boosting your JavaScript loading time with RequireJS</title>
     <link href="http://marizmelo.com/2013/01/27/requirejs.html"/>
-    <updated>2013-01-27T14:23:00-08:00</updated>
+    <updated>2013-01-27T22:23:00Z</updated>
     <id>http://marizmelo.com/2013/01/27/requirejs</id>
     <content type="html">&lt;p&gt;There are two common ways to load JavaScript on HTML pages.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Scripts on the &lt;code&gt;head&lt;/code&gt; tag element&lt;/li&gt;
 
-&lt;li&gt;Scripts on the bottom of your &lt;code&gt;html&lt;/code&gt; page (right before &lt;code&gt;/body&lt;/code&gt;) &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Scripts on the bottom of your &lt;code&gt;html&lt;/code&gt; page (right before &lt;code&gt;/body&lt;/code&gt;)&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first technique has a serious problem, the browser will wait for all scripts to load before showing content to users.&lt;/p&gt;
 
@@ -824,15 +826,15 @@ myvar === undefined
 
 &lt;p&gt;A better approach is to load your scripts in &lt;strong&gt;parallel&lt;/strong&gt;, but there is one caveat. Scripts most of the time have dependencies and is complicated to manage them while loading them in parallel. You could come up with your own system to manage dependencies or you could use &lt;strong&gt;Asynchronous Module Definitio (AMD)&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Using AMD you can load your scripts in parallel while managing their dependencies. So let&amp;#8217;s take a look on how to use &lt;strong&gt;RequireJS&lt;/strong&gt; a popular AMD solution (see the end of this article for other options).&lt;/p&gt;
+&lt;p&gt;Using AMD you can load your scripts in parallel while managing their dependencies. So let’s take a look on how to use &lt;strong&gt;RequireJS&lt;/strong&gt; a popular AMD solution (see the end of this article for other options).&lt;/p&gt;
 
-&lt;p&gt;First, let&amp;#8217;s insert RequireJS on the &lt;code&gt;head&lt;/code&gt; of our HTML file:&lt;/p&gt;
+&lt;p&gt;First, let’s insert RequireJS on the &lt;code&gt;head&lt;/code&gt; of our HTML file:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;script data-main=&amp;quot;scripts/main.js&amp;quot; src=&amp;quot;scripts/require.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;You may have noticed the &lt;strong&gt;data-main&lt;/strong&gt; attribute on the example above. That defines the location of your configuration file (main.js in this example) and automatically set the &lt;strong&gt;baseUrl&lt;/strong&gt;, in this case &lt;strong&gt;scripts/&lt;/strong&gt;.&lt;/p&gt;
-&lt;alert class='info margin-top margin-bottom'&gt;&lt;i class='icon-info'&gt; &lt;/i&gt; The &lt;strong&gt;baseUrl&lt;/strong&gt; can be changed on the configuration file.&lt;/alert&gt;&lt;alert class='warning margin-top margin-bottom'&gt;&lt;i class='icon-attention'&gt; &lt;/i&gt; Dependencies shouldn't contain the trailing &quot;.js&quot; suffix on the config file.&lt;/alert&gt;&lt;alert class='warning margin-top margin-bottom'&gt;&lt;i class='icon-attention'&gt; &lt;/i&gt; RequireJS load scripts asynchronously and out of order for speed.&lt;/alert&gt;
-&lt;p&gt;Assuming all my scripts are inside the &lt;code&gt;scripts&lt;/code&gt; folder, let&amp;#8217;s load some files using RequireJS. The &lt;strong&gt;JQuery&lt;/strong&gt; library will be loaded &lt;strong&gt;first&lt;/strong&gt; followed by two plugins called &lt;strong&gt;slidejs&lt;/strong&gt; and &lt;strong&gt;galleryjs&lt;/strong&gt;.&lt;/p&gt;
+&lt;alert class=&#39;info margin-top margin-bottom&#39;&gt;&lt;i class=&#39;icon-info&#39;&gt; &lt;/i&gt; The &lt;strong&gt;baseUrl&lt;/strong&gt; can be changed on the configuration file.&lt;/alert&gt;&lt;alert class=&#39;warning margin-top margin-bottom&#39;&gt;&lt;i class=&#39;icon-attention&#39;&gt; &lt;/i&gt; Dependencies shouldn&#39;t contain the trailing &quot;.js&quot; suffix on the config file.&lt;/alert&gt;&lt;alert class=&#39;warning margin-top margin-bottom&#39;&gt;&lt;i class=&#39;icon-attention&#39;&gt; &lt;/i&gt; RequireJS load scripts asynchronously and out of order for speed.&lt;/alert&gt;
+&lt;p&gt;Assuming all my scripts are inside the &lt;code&gt;scripts&lt;/code&gt; folder, let’s load some files using RequireJS. The &lt;strong&gt;JQuery&lt;/strong&gt; library will be loaded &lt;strong&gt;first&lt;/strong&gt; followed by two plugins called &lt;strong&gt;slidejs&lt;/strong&gt; and &lt;strong&gt;galleryjs&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;In you &lt;code&gt;main.js&lt;/code&gt; write:&lt;/p&gt;
 
@@ -848,23 +850,24 @@ require([&amp;quot;jquery&amp;quot;], function($){
 
 &lt;p&gt;Because RequireJS load scripts out of order we have to make sure JQuery is ready before we load our plugins. The plugins are loaded in &lt;strong&gt;parallel&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;RequireJS is powerful and here I just touch the surface of its real power. Make sure you check the &lt;a href='http://requirejs.org/'&gt;RequireJS website&lt;/a&gt; for a complete overview.&lt;/p&gt;
+&lt;p&gt;RequireJS is powerful and here I just touch the surface of its real power. Make sure you check the &lt;a href=&quot;http://requirejs.org/&quot;&gt;RequireJS website&lt;/a&gt; for a complete overview.&lt;/p&gt;
 
 &lt;p&gt;Alternatives to RequireJS:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://labjs.com/'&gt;LABjs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://labjs.com/&quot;&gt;LABjs&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href='http://headjs.com/'&gt;HEADjs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://headjs.com/&quot;&gt;HEADjs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br /&gt;</content>
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content>
   </entry>
   
   <entry>
     <title>Hello World!</title>
-    <link href="http://marizmelo.com/2013/01/24/hello.html"/>
-    <updated>2013-01-24T17:40:45-08:00</updated>
-    <id>http://marizmelo.com/2013/01/24/hello</id>
+    <link href="http://marizmelo.com/2013/01/25/hello.html"/>
+    <updated>2013-01-25T01:40:45Z</updated>
+    <id>http://marizmelo.com/2013/01/25/hello</id>
     <content type="html">&lt;p&gt;Hello, my name is &lt;strong&gt;Mariz Melo&lt;/strong&gt;. I am from Brazil. Currently living in San Jose - California and working in Mountain View. I am trying to get &lt;strong&gt;xchema&lt;/strong&gt; up and running for next summer. The name is the same as my previous start up company which I opened in Brazil with my dear friends &lt;strong&gt;Ricardo Amaral&lt;/strong&gt; and &lt;strong&gt;Marcelo Vasconcelos&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;This blog is an attempt to keep a diary about projects, knowledge base, and a bookmark for useful discoveries around the web.&lt;/p&gt;
@@ -872,14 +875,14 @@ require([&amp;quot;jquery&amp;quot;], function($){
 &lt;p&gt;Tools used to make this blog:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href='http://jekyllrb.com'&gt;Jekyll&lt;/a&gt; (on github pages)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; (on github pages)&lt;/li&gt;
 
-&lt;li&gt;&lt;a href='http://xtyle.xchema.com'&gt;xtyle&lt;/a&gt; design framework made by &lt;a href='http://xchema.com'&gt;xchema&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xtyle.xchema.com&quot;&gt;xtyle&lt;/a&gt; design framework made by &lt;a href=&quot;http://xchema.com&quot;&gt;xchema&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;strong&gt;xmaker&lt;/strong&gt; visual web applications builder (coming soon).&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This website is open-source. &lt;strong&gt;Fork the github &lt;a href='http://github.com/marizmelo/marizmelo.github.com'&gt;repository&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;p&gt;This website is open-source. &lt;strong&gt;Fork the github &lt;a href=&quot;http://github.com/marizmelo/marizmelo.github.com&quot;&gt;repository&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content>
   </entry>
   
 </feed>

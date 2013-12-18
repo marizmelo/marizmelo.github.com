@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html class="responsive">
 <head>
-  <title> AngularJS an introduction | marizmelo.com</title>
+  <title> JavaScript - check your properties | marizmelo.com</title>
   <meta charset="utf-8">
   <meta name="robots" content="all">
   <meta name="citation_author" content="Mariz Melo">
@@ -66,99 +66,43 @@
       <article>
   <header class="clear-both position-relative">
     <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
-    <h1 class="nomargin-bottom">AngularJS an introduction</h1>
-    <span>12 April 2013</span>
+    <h1 class="nomargin-bottom">JavaScript - check your properties</h1>
+    <span>12 February 2013</span>
     <br><br>
     <ul class="inline margin-top">
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> AngularJS</alert></li>
-    
     <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
+    
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
     
     </ul>
   </header>
   <section class="nomargin">
-    <p>Hi again everyone today I will talk about <strong>Google&#8217;s</strong> client-side framework <a href='http://angularjs.org/'>AngularJS</a>. I have been using AngularJS in my projects for a while now and just decided to share some information here.</p>
+    <p>Sometimes you need to check if an Object has certain property. JavaScript provide two different methods for this. Let’s start by creating a new Object called <strong>Person</strong>.</p>
 
-<p>AngularJS helps you to control the <a href='http://en.wikipedia.org/wiki/Document_Object_Model'>DOM</a> and create amazing client-side applications. You don&#8217;t need anything else to start using Angular, just download it (or use a <a href='http://en.wikipedia.org/wiki/Content_delivery_network'>CDN</a>) to get started. Let&#8217;s start with AngularJS.</p>
+<pre><code>var Person = {
+  name : &quot;Mariz&quot;,
+  age : 31
+}</code></pre>
 
-<p>Create a file called <strong>angular.html</strong> with the following content:</p>
+<p>Now let’s take a look on that methods which I mentioned before.</p>
 
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;Hello AngularJS&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello World!&lt;/h1&gt;
-  &lt;h2&gt;Getting started&lt;/h2&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+<p><strong>hasOwnProperty</strong></p>
 
-<p>Include AngularJS JavaScript file on the <strong>header</strong> of your <strong>angular.html</strong> file like this:</p>
+<pre><code>console.log( Person.hasOwnProperty (&quot;name&quot;) );
+&gt; true</code></pre>
 
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;Hello AngularJS&lt;/title&gt;
-  &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js&quot;&gt;&lt;/script&gt;
-...</code></pre>
+<p><strong>in</strong></p>
 
-<p>You need to inform AngularJS which elements of the DOM you want to manage. You do this by including the attribute <strong>ng-app</strong> to one of the DOM elements. In our case since I we want to manage the entire DOM tree (more about DOM in another post).</p>
+<pre><code>console.log( &quot;name&quot; in Person );
+&gt; true</code></pre>
 
-<pre><code>&lt;!DOCYTYPE html&gt;
-&lt;html ng-app&gt;
-  ...</code></pre>
+<p>You can also list all properties of your Objects using the method <strong>keys</strong>.</p>
 
-<p>You are ready to use AngularJS. Let&#8217;s start by using <strong>templates</strong> first:</p>
+<pre><code>console.log( Object.keys (Person) );
+&gt; [ &quot;name&quot;, &quot;age&quot; ]</code></pre>
 
-<pre><code>...
-&lt;body&gt;
-  &lt;h1&gt;{ { hello } } World!&lt;/h1&gt;
-...</code></pre>
-
-<p>I have replaced the word <strong>Hello</strong> with an <strong>AngularJS template</strong> syntax (between double curly-braces).</p>
-
-<p>Let&#8217;s replace that template value with the string <strong>&#8220;Hello&#8221;</strong> again, but this time using AngularJS.</p>
-
-<pre><code>...
-  &lt;h1 ng-controller=&quot;Hello&quot;&gt;{ { hello } } World!&lt;/h1&gt;
-  &lt;h2&gt;Getting started&lt;/h2&gt;
-&lt;!-- SCRIPTS --&gt;
-&lt;script&gt;
-  function Hello($scope) {
-    $scope.hello = &quot;Hello&quot;;
-  }
-&lt;/script&gt;
-...</code></pre>
-
-<p>Notice the newly created attribute <strong>ng-controller</strong> on our <code>H1</code> element. This attribute is responsible for <strong>controlling</strong> everything between the <code>h1</code> tag element. Another new element is <code>$scope</code>. With this variable you can access all template values in a given scope.</p>
-
-<p>In our <code>script</code> tag we included a <code>function</code> that replace the value of your template <strong>{ {hello} }</strong>.</p>
-
-<p>You should see the replaced value on your browser now.</p>
-
-<p>The complete script:</p>
-
-<pre><code>&lt;!DOCYTPE html&gt;
-&lt;html ng-app&gt;
-&lt;head&gt;
-  &lt;title&gt;Hello AngularJS&lt;/title&gt;
-  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1 ng-controller=&quot;Hello&quot;&gt;{ { hello } } World!&lt;/h1&gt;
-  &lt;h2&gt;Getting started&lt;/h2&gt;
-  &lt;!-- SCRIPTS --&gt;
-  &lt;script&gt;
-    function Hello($scope) {
-      $scope.hello = &quot;Hello&quot;;
-    }
-  &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-
-<p>This was a quick introduction to AngularJS, more is coming. AngularJS is a powerful framework suitable for small and large applications.</p>
+<p>That is it, simple and easy.</p>
     <br>
   </section>
 </article>

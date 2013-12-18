@@ -81,9 +81,9 @@
   </header>
   <section class="nomargin">
     <div class='float-right'><img src='http://requirejs.org/i/logo.png' width='200px' /></div>
-<p><a href='/2013/01/27/requirejs.html'>Last time</a> we talked about RequireJS and how it can load JavaScript files faster and in parallel. But there is much more that this little library can do. Today I will show you how to make your applications available in multiple languages. RequireJS provides an useful set of plug-ins (see complete list <a href='https://github.com/jrburke/requirejs/wiki/Plugins'>here</a>) that can help with different tasks.</p>
+<p><a href="/2013/01/27/requirejs.html">Last time</a> we talked about RequireJS and how it can load JavaScript files faster and in parallel. But there is much more that this little library can do. Today I will show you how to make your applications available in multiple languages. RequireJS provides an useful set of plug-ins (see complete list <a href="https://github.com/jrburke/requirejs/wiki/Plugins">here</a>) that can help with different tasks.</p>
 
-<p>The plug-in which we are going to use today is called <a href='http://requirejs.org/docs/api.html#i18n'>i18n</a> and its used for <a href='http://en.wikipedia.org/wiki/Internationalization_and_localization'>internationalization</a> of content based on you browser main language. <a href='https://raw.github.com/requirejs/i18n/latest/i18n.js'>Download the plugin here</a> and place the file on your script directory defined on your <strong>data-main</strong> attribute (on your script tag).</p>
+<p>The plug-in which we are going to use today is called <a href="http://requirejs.org/docs/api.html#i18n">i18n</a> and its used for <a href="http://en.wikipedia.org/wiki/Internationalization_and_localization">internationalization</a> of content based on you browser main language. <a href="https://raw.github.com/requirejs/i18n/latest/i18n.js">Download the plugin here</a> and place the file on your script directory defined on your <strong>data-main</strong> attribute (on your script tag).</p>
 
 <ol>
 <li>
@@ -115,38 +115,36 @@
 </li>
 
 <li>
-<p>Create a file called <code>speak.js</code> inside of the <strong>scripts/nls</strong> directory. <h6>scripts/nls/speak.js</h6></p>
-
-<pre><code> define({
-   &quot;root&quot; : {
-   &quot;header&quot; : &quot;I speak English&quot;
-   },
-   &quot;pt-br&quot; : true // The system will accept Brazilian Portuguese
- });</code></pre>
-</li>
-
-<li>
-<p>Create another file with the name <code>speak.js</code> inside of <strong>scripts/nls/pt-br</strong>. <h6>scripts/nls/pt-br/speak.js</h6></p>
-
-<pre><code> define({
-   &quot;header&quot; : &quot;Eu falo Portugues do Brasil&quot;
- });</code></pre>
-</li>
-
-<li>
-<p>Download <a href='http://jquery.com'>JQuery</a> and place it inside your <strong>scripts</strong> folder</p>
-</li>
-
-<li>
-<p>Define your <code>main.js</code> in your <strong>scripts</strong> folder with the following content: <h6>scripts/jquery.js</h6></p>
-
-<pre><code> define([&#39;jquery&#39;, &quot;i18n!nls/speak&quot;], function($, speak) {
-   $(&quot;header h1&quot;).html(speak.header);
- });</code></pre>
+<p>Create a file called <code>speak.js</code> inside of the <strong>scripts/nls</strong> directory.</p>
 </li>
 </ol>
+<h6>scripts/nls/speak.js</h6>
+<pre><code>    define({
+      &quot;root&quot; : {
+      &quot;header&quot; : &quot;I speak English&quot;
+      },
+      &quot;pt-br&quot; : true // The system will accept Brazilian Portuguese
+    });</code></pre>
 
-<p>If you load this project on your browser you should see <strong>&#8220;I speak English&#8221;</strong>.</p>
+<ol>
+<li>Create another file with the name <code>speak.js</code> inside of <strong>scripts/nls/pt-br</strong>.</li>
+</ol>
+<h6>scripts/nls/pt-br/speak.js</h6>
+<pre><code>    define({
+      &quot;header&quot; : &quot;Eu falo Portugues do Brasil&quot;
+    });</code></pre>
+
+<ol>
+<li>Download <a href="http://jquery.com">JQuery</a> and place it inside your <strong>scripts</strong> folder</li>
+
+<li>Define your <code>main.js</code> in your <strong>scripts</strong> folder with the following content:</li>
+</ol>
+<h6>scripts/jquery.js</h6>
+<pre><code>    define([&#39;jquery&#39;, &quot;i18n!nls/speak&quot;], function($, speak) {
+      $(&quot;header h1&quot;).html(speak.header);
+    });</code></pre>
+
+<p>If you load this project on your browser you should see <strong>“I speak English”</strong>.</p>
 
 <p>Now what?</p>
 
@@ -159,9 +157,9 @@
 });
 ...</code></pre>
 
-<p>Reload your browser (cleaning cache if necessary) and you should see the message <strong>&#8220;Eu falo Portugues do Brasil&#8221;</strong>.</p>
+<p>Reload your browser (cleaning cache if necessary) and you should see the message <strong>“Eu falo Portugues do Brasil”</strong>.</p>
 
-<p>Get the source files: <a href='https://compilr.com/jmarizsf/requirejs-i18n'>https://compilr.com/jmarizsf/requirejs-i18n</a>.</p>
+<p>Get the source files: <a href="https://compilr.com/jmarizsf/requirejs-i18n">https://compilr.com/jmarizsf/requirejs-i18n</a>.</p>
     <br>
   </section>
 </article>

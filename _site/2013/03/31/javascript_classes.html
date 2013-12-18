@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html class="responsive">
 <head>
-  <title> Python map method and lambda expressions | marizmelo.com</title>
+  <title> JavaScript Classes | marizmelo.com</title>
   <meta charset="utf-8">
   <meta name="robots" content="all">
   <meta name="citation_author" content="Mariz Melo">
@@ -66,40 +66,41 @@
       <article>
   <header class="clear-both position-relative">
     <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
-    <h1 class="nomargin-bottom">Python map method and lambda expressions</h1>
-    <span>01 April 2013</span>
+    <h1 class="nomargin-bottom">JavaScript Classes</h1>
+    <span>31 March 2013</span>
     <br><br>
     <ul class="inline margin-top">
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> python</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> javascript</alert></li>
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> lambda</alert></li>
-    
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> mapReduce</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> oop</alert></li>
     
     </ul>
   </header>
   <section class="nomargin">
-    <p>I have been studying more <strong>python</strong> these days and decided to share some of my findings. Python has a powerful method called <strong>map</strong> that can apply operations to all items of a list.</p>
+    <p>Hi everyone, today we are going to talk about <strong>classes</strong> in JavaScript. JS don’t implement classes as other languages because its prototypical way.</p>
 
-<p>Assume the following function definition For example:</p>
+<p>Declare a class in JavaScript is as easy as create a <strong>Function</strong>. This is how you declare a <strong>function constructor</strong> in JavaScript:</p>
 
-<pre><code>def square(x):
-  return x * x</code></pre>
+<pre><code>function Person(name) { 
+  this.name = name; 
+}</code></pre>
 
-<p>You can apply this function to a list of elements using python&#8217;s map method like this:</p>
+<p>Define a new method using the function <strong>prototype</strong> (more about prototypes in another post) of our class:</p>
 
-<pre><code>print map( square, [1, 2, 3, 4, 5]) // [1, 4, 9 , 16, 25]</code></pre>
+<pre><code>Person.prototype.getName = function() {
+  return this.name;
+};</code></pre>
 
-<p>But let&#8217;s take this power even further using a <strong>lambda</strong> expression. We could rewrite the expression above like this:</p>
+<p>Let’s now create an <strong>instance</strong> of our class <strong>Person</strong>:</p>
 
-<pre><code>print map( lambda(x): x * x, [1, 2, 3, 4 , 5]) // [1, 4, 9 , 16, 25]</code></pre>
+<pre><code>var me = new Person(&quot;Mariz&quot;); // create instance of Person</code></pre>
 
-<p>Now a third way to do this using an expressive formula in a <strong>list comprehension</strong>:</p>
+<p>I can use our method <strong>getName()</strong> to return my name:</p>
 
-<pre><code>print [x * x for x in [1, 2, 3, 4 ,5]] // also [1, 4, 9 , 16, 25]</code></pre>
+<pre><code>me.getName(); // Mariz</code></pre>
 
-<p>Have fun.</p>
+<p>Is that simple.</p>
     <br>
   </section>
 </article>

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html class="responsive">
 <head>
-  <title> JavaScript Classes | marizmelo.com</title>
+  <title> JavaScript OOP - Objects attributes and values | marizmelo.com</title>
   <meta charset="utf-8">
   <meta name="robots" content="all">
   <meta name="citation_author" content="Mariz Melo">
@@ -66,41 +66,55 @@
       <article>
   <header class="clear-both position-relative">
     <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
-    <h1 class="nomargin-bottom">JavaScript Classes</h1>
-    <span>30 March 2013</span>
+    <h1 class="nomargin-bottom">JavaScript OOP - Objects attributes and values</h1>
+    <span>04 February 2013</span>
     <br><br>
     <ul class="inline margin-top">
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> javascript</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> oop</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
     
     </ul>
   </header>
   <section class="nomargin">
-    <p>Hi everyone, today we are going to talk about <strong>classes</strong> in JavaScript. JS don&#8217;t implement classes as other languages because its prototypical way.</p>
+    <p>Let’s create an Object called <strong>Person</strong> in JavaScript.</p>
 
-<p>Declare a class in JavaScript is as easy as create a <strong>Function</strong>. This is how you declare a <strong>function constructor</strong> in JavaScript:</p>
+<pre><code>// Object Literals way
+var Person = { name : &quot;Anonymous&quot;, age : null };
 
-<pre><code>function Person(name) { 
-  this.name = name; 
+// Functions way
+function Person() {
+  this.name = &quot;Anonymous&quot;;
+  this.age = null;
 }</code></pre>
+<alert class='margin-bottom'><i class='icon-attention'> </i> Both ways are correct and valid</alert>
+<p>Let’s create one <strong>instance</strong> of our object Person. In this case I will create an instance called <strong>Mariz</strong> (my name).</p>
 
-<p>Define a new method using the function <strong>prototype</strong> (more about prototypes in another post) of our class:</p>
+<pre><code>// Object Literals way
+var Mariz = Person;
 
-<pre><code>Person.prototype.getName = function() {
-  return this.name;
-};</code></pre>
+// Functions way
 
-<p>Let&#8217;s now create an <strong>instance</strong> of our class <strong>Person</strong>:</p>
+var Mariz = new Person();</code></pre>
 
-<pre><code>var me = new Person(&quot;Mariz&quot;); // create instance of Person</code></pre>
+<p>Adding values to our new object instance:</p>
 
-<p>I can use our method <strong>getName()</strong> to return my name:</p>
+<pre><code>// Object Literals and Functions
+Mariz.name = &quot;Mariz Melo&quot;;
+Mariz.age = 31;</code></pre>
 
-<pre><code>me.getName(); // Mariz</code></pre>
+<p>Now here is how you loop over all attributes and return their values:</p>
 
-<p>Is that simple.</p>
+<pre><code>for( prop in Mariz ) {
+  console.log( prop + &quot; : &quot; + Mariz[ prop ] );
+}
+
+// Output
+&gt; name : Mariz Melo
+&gt; age : 31</code></pre>
+
+<p>That’s a wrap.</p>
     <br>
   </section>
 </article>

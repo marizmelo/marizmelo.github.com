@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html class="responsive">
 <head>
-  <title> JavaScript Functions - Names | marizmelo.com</title>
+  <title> Hello World! | marizmelo.com</title>
   <meta charset="utf-8">
   <meta name="robots" content="all">
   <meta name="citation_author" content="Mariz Melo">
@@ -66,59 +66,35 @@
       <article>
   <header class="clear-both position-relative">
     <a href="/"><i class="icon-home position-absolute" style="right: 0; font-size: 200%; padding: 2px 20px 0 0;"></i></a>
-    <h1 class="nomargin-bottom">JavaScript Functions - Names</h1>
-    <span>05 February 2013</span>
+    <h1 class="nomargin-bottom">Hello World!</h1>
+    <span>25 January 2013</span>
     <br><br>
     <ul class="inline margin-top">
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> JavaScript</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> jekyll</alert></li>
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> OOP</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> xtyle</alert></li>
     
-    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> Functions</alert></li>
+    <li><alert class="info" style="display:inline; font-size: 80%;"><i class="icon-tag"> </i> xchema</alert></li>
     
     </ul>
   </header>
   <section class="nomargin">
-    <p>Function names in JavaScript can be trick. Consider the following function:</p>
+    <p>Hello, my name is <strong>Mariz Melo</strong>. I am from Brazil. Currently living in San Jose - California and working in Mountain View. I am trying to get <strong>xchema</strong> up and running for next summer. The name is the same as my previous start up company which I opened in Brazil with my dear friends <strong>Ricardo Amaral</strong> and <strong>Marcelo Vasconcelos</strong>.</p>
 
-<pre><code>function name(){
-    alert(&quot;Mariz Melo&quot;);
-}</code></pre>
+<p>This blog is an attempt to keep a diary about projects, knowledge base, and a bookmark for useful discoveries around the web.</p>
 
-<p>There is nothing wrong with this function, in fact is a perfectly fine function in JavaScript. The problem is JavaScript has some rules for function names. You are not allowed to start the name with numbers or special characters (other than underscore and dollar sign).</p>
+<p>Tools used to make this blog:</p>
 
-<pre><code>function $() {
-    alert(&quot;dollar sign&quot;);
-}
+<ol>
+<li><a href="http://jekyllrb.com">Jekyll</a> (on github pages)</li>
 
-function _() {
-    alert (&quot;underscore&quot;);
-}</code></pre>
+<li><a href="http://xtyle.xchema.com">xtyle</a> design framework made by <a href="http://xchema.com">xchema</a></li>
 
-<p>Recently I tried to attach some CSS classes as function names in JavaScript and got an error because some of my class names are using &#8220;-&#8221; to separate names. See an example:</p>
+<li><strong>xmaker</strong> visual web applications builder (coming soon).</li>
+</ol>
 
-<pre><code>// invalid
-function display-none(){
-    alert(&quot;display none don&#39;t work&quot;);
-}</code></pre>
-
-<p>Of course I could use something like <strong>replace</strong> and convert &#8220;-&#8221; into &#8220;_&#8221;, but I wanted to keep consistency across the system, so I come up with the following solution:</p>
-
-<pre><code>// valid
-var css = {
-    &quot;display-none&quot; : function(){
-        alert(&quot;display none&quot;);
-    }
-}</code></pre>
-
-<p>I just used an Object as wrapper to all my functions, and doing so I kept all functions more organized.</p>
-
-<p>Calling my function <strong>display-none</strong>:</p>
-
-<pre><code>css[&quot;display-none&quot;](); // valid call</code></pre>
-
-<p>Happy hacking!</p>
+<p>This website is open-source. <strong>Fork the github <a href="http://github.com/marizmelo/marizmelo.github.com">repository</a>.</strong></p>
     <br>
   </section>
 </article>
