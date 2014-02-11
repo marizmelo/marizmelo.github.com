@@ -4,13 +4,41 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2013-12-18T15:03:32-08:00</updated>
+  <updated>2014-02-11T13:31:58-08:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
   </author>
   <rights>Copyright (c) 2013, Mariz Melo; all rights reserved.</rights>
   
+  
+  <entry>
+    <title>Set iTerm2 folder colors</title>
+    <link href="http://marizmelo.com/2014/02/11/iterm2-folder-color.html"/>
+    <updated>2014-02-11T01:40:45Z</updated>
+    <id>http://marizmelo.com/2014/02/11/iterm2-folder-color</id>
+    <content type="html">&lt;p&gt;I am working on &lt;a href=&quot;http://aws.amazon.com&quot;&gt;AWS&lt;/a&gt; a lot lately. I had notice that before, but on my &lt;a href=&quot;http://www.iterm2.com/&quot;&gt;iTerm2&lt;/a&gt; or Terminal on OSX I could not see colors on my &lt;a href=&quot;http://en.wikipedia.org/wiki/Ls&quot;&gt;ls&lt;/a&gt; command.&lt;/p&gt;
+
+&lt;p&gt;The solution was simple. Just follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Insert the following command on your ~/.bashrc file (if you don’t have this file, just create it on your home directory)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alias ls=&amp;quot;ls -G&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Reload the bashrc file using the following command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ source ~/.bashrc&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Try to list your files now. You will see that folders are highlighted on a different color.&lt;/p&gt;
+
+&lt;p&gt;That is it.&lt;/p&gt;</content>
+  </entry>
   
   <entry>
     <title>Newschalk an effortless newsreader!</title>
