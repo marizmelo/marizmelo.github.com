@@ -81,5 +81,5 @@ Create a file called **lexer.py** and write the following code:
 
 This is a complex topic. Write a comment if you have any problems implementing this algorithm.
 
-UPDATE: 
-As pointed by Thiago Moura on the comments, this code and comments was written while following the Udacity programing language course at http://udacity.com. Thank you Thiago.
+**UPDATE:**
+As pointed by Thiago Moura on the comments, this code and comments were written while following the Udacity programing language course at [http://udacity.com](http://udacity.com). Thank you Thiago.
