@@ -1,2 +1,5 @@
 .todo_tmp
-_*
+_layouts/
+_plugins/
+_posts/
+_site/
