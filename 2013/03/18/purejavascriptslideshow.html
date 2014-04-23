@@ -140,7 +140,7 @@ var element = document.getElementById(&quot;jslide&quot;);
 var slides = element.getElementsByTagName(&quot;img&quot;);
 
 // COUNT NUMBER OF SLIDES
-var size = slides.length;
+var size = slides.length - 1;
 
 // LOOP OVER SLIDESHOW EVERY 3 SECONDS
 var start = setInterval(function(){jslide();}, 3000);</code></pre>
@@ -149,10 +149,13 @@ var start = setInterval(function(){jslide();}, 3000);</code></pre>
 
 <pre><code>function jslide(){
 
-  if ( current != size - 1 ) { 
+  if ( current != size ) { 
     
     // CHECK IF CURRENT SLIDE IS THE LAST SLIDE
     slides[ current ].style.display = &quot;none&quot;;
+
+    //GO TO NEXT SLIDE
+    current++;
 
   } else { 
 
