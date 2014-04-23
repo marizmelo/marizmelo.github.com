@@ -4,7 +4,7 @@
   <title type="text" xml:lang="en"></title>
   <link type="application/atom+xml" href="http://marizmelo.com/feed/" rel="self"/>
   <link type="text" href="http://marizmelo.com" rel="alternate"/>
-  <updated>2014-03-10T22:02:56-07:00</updated>
+  <updated>2014-04-23T11:39:33-07:00</updated>
   <id>http://marizmelo.com</id>
   <author>
     <name>Mariz Melo</name>
@@ -446,7 +446,7 @@ Math.multdec ( val1, val2 );  // 0.3&lt;/code&gt;&lt;/pre&gt;</content>
     &amp;lt;title&amp;gt;Pure JavaScript SlideShow&amp;lt;/title&amp;gt;
     &amp;lt;!-- STYLES --&amp;gt;
     &amp;lt;style&amp;gt;
-      .jslide { width: 350px; height: 350px; overflow: hidden; }
+      #jslide { width: 350px; height: 350px; overflow: hidden; }
     &amp;lt;/style&amp;gt;
   &amp;lt;/head&amp;gt;
   &amp;lt;body&amp;gt;
@@ -469,12 +469,13 @@ Math.multdec ( val1, val2 );  // 0.3&lt;/code&gt;&lt;/pre&gt;</content>
 &lt;pre&gt;&lt;code&gt;var current = 0;
 var element = document.getElementById(&amp;quot;jslide&amp;quot;);
 var slides = element.getElementsByTagName(&amp;quot;img&amp;quot;);
-var size = slides.length;
+var size = slides.length-1;
 var start = setInterval(function(){jslide();}, 3000);
 
 function jslide(){
-  if ( current != size - 1 ) { 
+  if ( current != size ) { 
     slides[ current ].style.display = &amp;quot;none&amp;quot;;
+    current++;
   } else {
     current = 0;
     for ( var i = 0; i &amp;lt; size; ++i ) {

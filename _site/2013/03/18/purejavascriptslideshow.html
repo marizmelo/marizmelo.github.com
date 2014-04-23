@@ -88,7 +88,7 @@
     &lt;title&gt;Pure JavaScript SlideShow&lt;/title&gt;
     &lt;!-- STYLES --&gt;
     &lt;style&gt;
-      .jslide { width: 350px; height: 350px; overflow: hidden; }
+      #jslide { width: 350px; height: 350px; overflow: hidden; }
     &lt;/style&gt;
   &lt;/head&gt;
   &lt;body&gt;
@@ -111,12 +111,13 @@
 <pre><code>var current = 0;
 var element = document.getElementById(&quot;jslide&quot;);
 var slides = element.getElementsByTagName(&quot;img&quot;);
-var size = slides.length;
+var size = slides.length-1;
 var start = setInterval(function(){jslide();}, 3000);
 
 function jslide(){
-  if ( current != size - 1 ) { 
+  if ( current != size ) { 
     slides[ current ].style.display = &quot;none&quot;;
+    current++;
   } else {
     current = 0;
     for ( var i = 0; i &lt; size; ++i ) {
